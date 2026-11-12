@@ -8,6 +8,7 @@ These Rust files accompany the linked case studies. The reports describe the fix
 | [gabriel_adonisredos_v1.rs](gabriel_adonisredos_v1.rs) | [CVE-2026-104150](../CVE_2026_104150.md) | `0cbf3e64021be2ee9d0d50878b8a5378d0b32fcf71ea7a0acbfb0f169f9cfdba` |
 | [gabriel_adonisxss_v1.rs](gabriel_adonisxss_v1.rs) | [CVE-2026-61526](../CVE_2026_61526.md) | `de7c1e0da876ed4b6f5e7e1601f176c2fc3a4ddc324c8a3572766ece3f3880c3` |
 | [gabriel_apdirwalk_v1.rs](gabriel_apdirwalk_v1.rs) | [CVE-2026-59685](../CVE_2026_59685.md) | `9ae4bde5ec3c18a388b52b9b5c9c3b9bc3ce3c546efc7a202fb14628570f23be` |
+| [gabriel_appflowyxss_v1.rs](gabriel_appflowyxss_v1.rs) | [CVE-2026-127203](../CVE_2026_127203.md) | `87c02f6326bc8ee161b51b5ccce3f858e3d7c5719fb031e3391124efd5426590` |
 | [gabriel_authdigestdos_v1.rs](gabriel_authdigestdos_v1.rs) | [CVE-2026-73637](../CVE_2026_73637.md) | `14402be7a63ec64afe26b8544bcaf9f0e15608837e809c1b890c29f9964ba5cb` |
 | [gabriel_avideo_v1.rs](gabriel_avideo_v1.rs) | [CVE-2026-126806](../CVE_2026_126806.md) | `80569e2ce4d381afa3d1f5b438814ea48ef76e9f082990e7392a0556d05aa526` |
 | [gabriel_avideotrav_v1.rs](gabriel_avideotrav_v1.rs) | [CVE-2026-126804](../CVE_2026_126804.md) | `8e4a97d45e31baf38e5e947328afaeaa1442e9e03a16073e52e65afb23741da0` |
@@ -21,6 +22,12 @@ These Rust files accompany the linked case studies. The reports describe the fix
 | [gabriel_ideon_v1.rs](gabriel_ideon_v1.rs) | [CVE-2026-103980](../CVE_2026_103980.md) | `e905e9ee089a55dbf9f031fdf867d37164b469696153067a0acdadccadd83b0e` |
 | [gabriel_jeecgauth_v1.rs](gabriel_jeecgauth_v1.rs) | [CVE-2026-126998](../CVE_2026_126998.md) | `cf5746b932895abeff11d95883dbeb042b7b8cb0e22884917b792bb58436219f` |
 | [gabriel_jeecgssrf_v1.rs](gabriel_jeecgssrf_v1.rs) | [CVE-2026-126997](../CVE_2026_126997.md) | `ca443a1c963b60dee4aa0986084c02c1eb82f744d6b5304c9ea5acc3f3591a44` |
+| [gabriel_kendochart2_v1.rs](gabriel_kendochart2_v1.rs) | [CVE-2026-124698](../CVE_2026_124698.md) | `49846cc0bb5fdce88a8792b09d1be14ff93c1541c683b783d6aef8388b6ccdd1` |
+| [gabriel_kendochart_v1.rs](gabriel_kendochart_v1.rs) | [CVE-2026-124697](../CVE_2026_124697.md) | `260f50e18d7ef13890c13f3c0ad45488dcb050308f0a4c06efa8246bb8d02922` |
+| [gabriel_kendoform_v1.rs](gabriel_kendoform_v1.rs) | [CVE-2026-124695](../CVE_2026_124695.md) | `40473801a0f77fe4d5482f629342a95491f5b5a9486a1c0b920f9db1902a32ae` |
+| [gabriel_kendogantt_v1.rs](gabriel_kendogantt_v1.rs) | [CVE-2026-124691](../CVE_2026_124691.md) | `bdadf1d9aec2ac7e5dc1fa0d2cc515d6a0614b6d2866d1a1f938cd273d43f2a3` |
+| [gabriel_kendospread_v1.rs](gabriel_kendospread_v1.rs) | [CVE-2026-124696](../CVE_2026_124696.md) | `0bf7c3f1a5ca5a8a3e3ac6cbd8ca3b0408722de1953942af1b9f7b126eceb594` |
+| [gabriel_mlflowtrav_v1.rs](gabriel_mlflowtrav_v1.rs) | [CVE-2026-127202](../CVE_2026_127202.md) | `726866334c147cbd6a822e673211012110b94ac19e6dd5ab96fffa3028e40ed4` |
 | [gabriel_moddavfsns_v1.rs](gabriel_moddavfsns_v1.rs) | [CVE-2026-93546](../CVE_2026_93546.md) | `c5781df4ac6c2fda2c52cdb0aea635cc05ed59defd3db831cb9cde087ac23a98` |
 | [gabriel_modh2reent_v1.rs](gabriel_modh2reent_v1.rs) | [CVE-2026-57941](../CVE_2026_57941.md) | `03fbeccb39751557c164c9c5a8e6f764c0084dd2b7bcf76896cfc19ffba2ac9e` |
 | [gabriel_modrewritelau_v1.rs](gabriel_modrewritelau_v1.rs) | [CVE-2026-56154](../CVE_2026_56154.md) | `8f5b347eeae4f1b0b71e03236cb9bb55334f606b12bc754ca3402892246c8b78` |
@@ -30,6 +37,7 @@ These Rust files accompany the linked case studies. The reports describe the fix
 | [gabriel_modxml2encheap_v1.rs](gabriel_modxml2encheap_v1.rs) | [CVE-2026-42536](../CVE_2026_42536.md) | `9c4c66a33dd641181b0aaf4c4e18b8af9a736a3887937e3dc50020b8a7e3c00d` |
 | [gabriel_ocspurl_v1.rs](gabriel_ocspurl_v1.rs) | [CVE-2026-44185](../CVE_2026_44185.md) | `30356dad432f4f70df260ecedfd8b84060fe694ee21d4b92a29f0dd2de35bbd1` |
 | [gabriel_pappl_v1.rs](gabriel_pappl_v1.rs) | [CVE-2026-123747](../CVE_2026_123747.md) | `2b6f29b8dd7e1e331493a558e5a46b6c9b99886fd4e9d5f26fcc3866890dda51` |
+| [gabriel_pleskstat_v1.rs](gabriel_pleskstat_v1.rs) | [CVE-2026-82977](../CVE_2026_82977.md) | `f2a0d634f945ecee9408c8cc7a38780519fb768ea7c225a1314651a1bf0c7ceb` |
 | [gabriel_portabase_v1.rs](gabriel_portabase_v1.rs) | [CVE-2026-67449](../CVE_2026_67449.md) | `5375c3dca12a28cd6cf594a7c5278eb5e47316ecb18ade822047d11e3a98b039` |
 | [gabriel_proxyftppasv_v1.rs](gabriel_proxyftppasv_v1.rs) | [CVE-2026-63045](../CVE_2026_63045.md) | `c717cf75823fcf71466a03330f0b7f58f7e5cdddd38fd21930751571a74eeee2` |
 | [gabriel_proxyhtmldump_v1.rs](gabriel_proxyhtmldump_v1.rs) | [CVE-2026-56449](../CVE_2026_56449.md) | `fbc0d6e484ab027fa399853b1185ec485dcbbd8604f0200ebd8eb230c223bc0a` |
