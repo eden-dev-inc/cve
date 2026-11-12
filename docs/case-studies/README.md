@@ -23,6 +23,7 @@ The reports record the application or fixture tested, the observed behavior, and
 - [CVE-2024-5273](CVE_2024_5273.md) — Report-Info path traversal file read (CVE-2024-5273)
 - [CVE-2025-24813](CVE_2025_24813.md) — Tomcat partial-PUT path traversal (CVE-2025-24813) through Eden's API
 - [CVE-2025-29927](CVE_2025_29927.md) — Next.js middleware authentication bypass (CVE-2025-29927) through Eden's API
+- [CVE-2025-3248](CVE_2025_3248.md) — Langflow: unauthenticated code execution in the validation API (CVE-2025-3248)
 - [CVE-2025-49844](CVE_2025_49844.md) — Redis Lua-script sandbox escape (CVE-2025-49844) through Eden's API
 - [CVE-2025-55182](CVE_2025_55182.md) — React Server Components decoder (CVE-2025-55182) through Eden's API
 - [CVE-2025-8110](CVE_2025_8110.md) — Gogs contents API symlink following (CVE-2025-8110)
@@ -102,6 +103,7 @@ The reports record the application or fixture tested, the observed behavior, and
 - [CVE-2026-19868](CVE_2026_19868.md) — SonicOS SSLVPN SAML enforcement bypass via alternate authentication (CVE-2026-19868)
 - [CVE-2026-20320](CVE_2026_20320.md) — Cisco BroadWorks OCI XML parser file disclosure (CVE-2026-20320)
 - [CVE-2026-21589](CVE_2026_21589.md) — Atlassian Data Center unauthenticated root-directory file access (CVE-2026-21589)
+- [CVE-2026-21643](CVE_2026_21643.md) — FortiClientEMS 7.4.4: SQL injection (CVE-2026-21643)
 - [CVE-2026-21858](CVE_2026_21858.md) — n8n public-form file-provenance bypass (CVE-2026-21858) through Eden's API
 - [CVE-2026-33017](CVE_2026_33017.md) — Langflow stored-flow replacement (CVE-2026-33017) through Eden's API
 - [CVE-2026-33439](CVE_2026_33439.md) — OpenAM jato.clientSession pre-auth deserialization RCE (CVE-2026-33439)
@@ -137,15 +139,20 @@ The reports record the application or fixture tested, the observed behavior, and
 - [CVE-2026-67449](CVE_2026_67449.md) — Portabase unauthenticated path traversal in TUS web endpoint (CVE-2026-67449)
 - [CVE-2026-70642](CVE_2026_70642.md) — ToolJet: authorization bypass via app-environments init (CVE-2026-70642)
 - [CVE-2026-71395](CVE_2026_71395.md) — Apache FOP: unsafe deserialization in hyphenation loading (CVE-2026-71395)
+- [CVE-2026-72898](CVE_2026_72898.md) — Metabase: SQL injection through password reset (CVE-2026-72898)
 - [CVE-2026-73636](CVE_2026_73636.md) — Apache mod_auth_digest: one-time-nonce replay attack (CVE-2026-73636)
 - [CVE-2026-73637](CVE_2026_73637.md) — Apache mod_auth_digest: DoS attack (CVE-2026-73637)
 - [CVE-2026-75650](CVE_2026_75650.md) — Adobe Commerce template engine RCE (CVE-2026-75650)
+- [CVE-2026-76461](CVE_2026_76461.md) — Cisco Secure Email Gateway: SQL injection during email parsing (CVE-2026-76461)
 - [CVE-2026-76981](CVE_2026_76981.md) — ADAudit Plus second-order SQLi (CVE-2026-76981)
 - [CVE-2026-77604](CVE_2026_77604.md) — code-graph-rag MCP read_file pagination traversal (CVE-2026-77604)
 - [CVE-2026-77690](CVE_2026_77690.md) — Zoho ManageEngine Key Manager Plus command injection (CVE-2026-77690)
 - [CVE-2026-79768](CVE_2026_79768.md) — Apache mod_userdir: information disclosure (CVE-2026-79768)
 - [CVE-2026-82977](CVE_2026_82977.md) — Plesk Obsidian: cross-subscription disclosure in GoAccess statistics (CVE-2026-82977)
 - [CVE-2026-85632](CVE_2026_85632.md) — Unauthenticated Payment Status Manipulation in Sipay's WooCommerce module (CVE-2026-85632)
+- [CVE-2026-87902](CVE_2026_87902.md) — WordPress: path traversal in page-template resolution (CVE-2026-87902)
+- [CVE-2026-9082](CVE_2026_9082.md) — Drupal core: SQL injection on PostgreSQL sites (CVE-2026-9082)
+- [CVE-2026-9198](CVE_2026_9198.md) — IBM Langflow OSS: auto-login and code-validation chain (CVE-2026-9198)
 - [CVE-2026-93546](CVE_2026_93546.md) — Apache mod_dav_fs: namespace overflow (CVE-2026-93546)
 - [CVE-2026-95814](CVE_2026_95814.md) — Vaultwarden cross-org group binding (CVE-2026-95814)
 - [CVE-2026-96443](CVE_2026_96443.md) — Apache Doris JDBC URL RCE (CVE-2026-96443)
