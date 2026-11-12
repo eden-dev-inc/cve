@@ -1,0 +1,94 @@
+//! Gabriel module: refuse script payloads in video upload fields
+//! (CVE-2026-126806 shape)
+//!
+//! CVE-2026-126806: WWBN AVideo 14.3-29.7.1 stores a video field
+//! unescaped, persisting script payloads. This module refuses video
+//! upload bodies carrying script/event-handler markers; ordinary
+//! uploads pass unchanged.
+//! no_std; no allocator, storage, background work or state.
+
+#![no_std]
+
+use core::mem::size_of;
+use core::panic::PanicInfo;
+use eden_gateway_remediation::message::{Availability, MessageInput};
+use eden_gateway_remediation::module::{
+    ApiHeader, CONTINUE, Decision, EDIT, EditSink, Edits, Failure, ModuleOutput, NEED_MORE,
+    REFUSE, RemediationModule,
+};
+use eden_gateway_remediation::native_http_v3::{self as http, Api, Input, Request};
+
+const ROUTE: &[u8] = b"/video";
+static NEEDLES: [&[u8]; 2] = [b"<script", b"onerror="];
+
+fn find(haystack: &[u8], needle: &[u8]) -> Option<usize> {
+    if haystack.len() < needle.len() || needle.is_empty() { return None; }
+    let mut i = 0usize;
+    while i + needle.len() <= haystack.len() {
+        let mut j = 0usize; let mut same = true;
+        while j < needle.len() {
+            if haystack[i + j] != needle[j] { same = false; break; }
+            j += 1;
+        }
+        if same { return Some(i); }
+        i += 1;
+    }
+    None
+}
+
+struct gabriel_avideo_v1;
+
+impl RemediationModule<Request<'_>> for gabriel_avideo_v1 {
+    fn evaluate(&self, request: &Request<'_>, edits: &mut Edits<'_>) -> Result<Decision, Failure> {
+        let _ = edits;
+        let _ = match request.header_count() {
+            Availability::Ready(count) => count,
+            Availability::NeedMore => return Ok(Decision::NeedMore),
+            Availability::Unavailable => return Err(Failure),
+        };
+        let message = request.message();
+        if !message.is_complete() { return Ok(Decision::NeedMore); }
+        let head = message.prefix();
+        let line_end = head.iter().position(|&b| b == b'\r').unwrap_or(head.len());
+        let request_line = &head[..line_end];
+        let path_at = request_line.iter().position(|&b| b == b' ').unwrap_or(request_line.len());
+        let target = &request_line[path_at + 1..];
+        if !target.starts_with(ROUTE) { return Ok(Decision::Continue); }
+        let body_range = match request.body_range() {
+            Availability::Ready(range) => range,
+            Availability::NeedMore => return Ok(Decision::NeedMore),
+            Availability::Unavailable => return Err(Failure),
+        };
+        let body = match message.bytes(body_range)? {
+            Availability::Ready(bytes) => bytes,
+            Availability::NeedMore => return Ok(Decision::NeedMore),
+            Availability::Unavailable => return Err(Failure),
+        };
+        NEEDLES.iter().any(|n| find(body, *n).is_some()) && return Ok(Decision::Refuse);
+        Ok(Decision::Continue)
+    }
+}
+
+static API: Api = Api {
+    header: ApiHeader { version: http::VERSION, table_size: size_of::<Api>() as u32 },
+    input_size: size_of::<Input>() as u32,
+    output_size: size_of::<ModuleOutput>() as u32,
+    sink_size: size_of::<EditSink>() as u32,
+    message_size: size_of::<MessageInput>() as u32,
+    state_bytes: 0,
+    capabilities: CONTINUE | REFUSE | NEED_MORE | EDIT,
+    required_inputs: 0,
+    evaluate: Some(evaluate),
+};
+
+unsafe extern "C" fn evaluate(input: *const Input, sink: *const EditSink, output: *mut ModuleOutput) -> i32 {
+    unsafe { http::invoke(&gabriel_avideo_v1, input, sink, output) }
+}
+
+#[unsafe(no_mangle)]
+pub extern "C" fn eden_http_remediation_v3() -> *const Api { &API }
+
+#[panic_handler]
+fn panic(_information: &PanicInfo<'_>) -> ! {
+    loop { core::hint::spin_loop(); }
+}
