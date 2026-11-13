@@ -22,6 +22,9 @@ This document records the triage of feed advisories that the current Eden HTTP r
 | CVE-2026-118306, CVE-2026-119261, CVE-2026-119263, CVE-2026-120931, CVE-2026-121030, CVE-2026-121034, CVE-2026-121035, CVE-2026-121037, CVE-2026-121060, CVE-2026-121071, CVE-2026-121073, CVE-2026-121074, CVE-2026-121076, CVE-2026-121077, CVE-2026-121086, CVE-2026-121089, CVE-2026-121104, CVE-2026-121114, CVE-2026-121126, CVE-2026-121131, CVE-2026-121148, CVE-2026-121156, CVE-2026-121157, CVE-2026-121185, CVE-2026-121189, CVE-2026-121200, CVE-2026-121202, CVE-2026-121214, CVE-2026-121229, CVE-2026-121234, CVE-2026-121241, CVE-2026-121246, CVE-2026-121247, CVE-2026-121249, CVE-2026-121250, CVE-2026-121257, CVE-2026-125347, CVE-2026-125350, CVE-2026-126842, CVE-2026-126846, CVE-2026-126859, CVE-2026-126872, CVE-2026-126885, CVE-2026-126909, CVE-2026-126912 | Google Chrome 157.x family |
 | CVE-2025-15556 | Notepad++ WinGUp updater |
 | CVE-2025-24054 | Windows NTLM hash disclosure spoofing |
+| CVE-2026-128116 | SvelteKit route-resolution XSS (victim's browser) |
+| CVE-2026-128121 | SvelteKit adapter-vercel route regex (prerender-time, crawler-side) |
+| CVE-2026-128122 | SvelteKit _redirects injection (deploy-time file control required) |
 
 ## Category B — wire-protocol gaps
 
@@ -50,6 +53,15 @@ This document records the triage of feed advisories that the current Eden HTTP r
 | CVE-2024-4741 | OpenSSL SSL_free_buffers (TLS stack) |
 | CVE-2026-85102 | Check Point VPN certificate validation |
 | CVE-2026-59310 | VMware vCenter Syslog service (UDP) |
+| CVE-2026-128087, CVE-2026-128088 | russh SSH host-key / agent flaws (SSH wire) |
+| CVE-2026-128089 | dnspython WKS parser DoS (DNS record parsing library) |
+| CVE-2026-128128, CVE-2026-128129 | aiohttp WebSocket / upgrade-101 DoS (Upgrade handling beyond the HTTP/1.101 interlay's request view; recorded product limitation) |
+| CVE-2026-129217 | FRRouting bgpd OOB read (BGP wire) |
+| CVE-2026-128117, CVE-2026-128123 | SvelteKit adapter-node crash / fetch-proxy DoS (vendor craft not published; not fixture-recordable without it) |
+| CVE-2026-128118 | SvelteKit import-guard secret leak (build-time) |
+| CVE-2026-128100 | Vault ACL deny bypass via name case-variants (no generic request-level signature without the deployment's protected-name list) |
+| CVE-2026-68551 | Budget Board OIDC takeover (unverified-email IdP semantics inside the token, not request-visible) |
+| CVE-2026-68541 | PolicyPress CSS-only redaction bypass (client-side rendering) |
 
 The [Apache mod_http2 case study for CVE-2026-119618](CVE_2026_119618.md) records a policy and module comparison on an HTTP/1.1 fixture. The HTTP/2 frame race in the affected Apache implementation remains outside that test.
 

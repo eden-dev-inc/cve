@@ -42,6 +42,7 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2025-3248](CVE_2025_3248.md) — Langflow: unauthenticated code execution in the validation API (CVE-2025-3248)
 - [CVE-2025-31161](CVE_2025_31161.md) — CrushFTP unauthenticated admin takeover (CVE-2025-31161)
 - [CVE-2025-32432](CVE_2025_32432.md) — unauthenticated remote code execution (CVE-2025-32432)
+- [CVE-2025-43867](CVE_2025_43867.md) — file access through a vulnerable component (CVE-2025-43867)
 - [CVE-2025-49844](CVE_2025_49844.md) — Redis Lua-script sandbox escape (CVE-2025-49844) through Eden's API
 - [CVE-2025-55182](CVE_2025_55182.md) — React Server Components decoder (CVE-2025-55182) through Eden's API
 - [CVE-2025-8110](CVE_2025_8110.md) — Gogs contents API symlink following (CVE-2025-8110)
@@ -60,9 +61,13 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-41940](CVE_2026_41940.md) — cPanel and WHM login authentication bypass (CVE-2026-41940)
 - [CVE-2026-61511](CVE_2026_61511.md) — vBulletin template eval injection (CVE-2026-61511)
 - [CVE-2026-76418](CVE_2026_76418.md) — Cisco ASA and FTD: crafted SSL VPN request reloads the device
+- [CVE-2026-67444](CVE_2026_67444.md) — stored XSS through attacker-chosen upload content type (CVE-2026-67444)
+- [CVE-2026-68905](CVE_2026_68905.md) — unauthenticated AI proxy drains the operator's API quota (CVE-2026-68905)
 - [CVE-2026-76460](CVE_2026_76460.md) — Cisco ISE: authentication bypass through a privileged API endpoint
 - [CVE-2026-76519](CVE_2026_76519.md) — Cisco Secure Email Gateway: arbitrary file write and root command execution
 - [CVE-2026-88771](CVE_2026_88771.md) — NetScaler ADC and Gateway: unauthenticated code execution via improper input validation
+- [CVE-2026-89037](CVE_2026_89037.md) — ticket API exposes other companies' attachments (CVE-2026-89037)
+- [CVE-2026-92738](CVE_2026_92738.md) — MFA login completes after the pending request should have expired (CVE-2026-92738)
 - [CVE-2026-93616](CVE_2026_93616.md) — Check Point Management Server: unauthenticated upload to arbitrary locations
 - [CVE-2026-94127](CVE_2026_94127.md) — F5 BIG-IP: APM OAuth Authorization Server takeover
 - [CVE-2026-76504](CVE_2026_76504.md) — Cisco SD-WAN Manager: authentication bypass to admin API access
@@ -231,9 +236,19 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-9767](CVE_2026_9767.md) — WordPress School Management ERP SQL injection (CVE-2026-9767)
 - [CVE-2026-9852](CVE_2026_9852.md) — Hitachi RTU500 file upload traversal (CVE-2026-9852)
 - [CVE-2026-9859](CVE_2026_9859.md) — Mattermost board channelId permission bypass (CVE-2026-9859)
+- [CVE-2026-127213](CVE_2026_127213.md) — unauthenticated wishlist change via IDOR (CVE-2026-127213)
+- [CVE-2026-127214](CVE_2026_127214.md) — SSRF through the Custom Function sandbox via module subpaths (CVE-2026-127214)
+- [CVE-2026-127215](CVE_2026_127215.md) — broken access control in admin-ajax handlers (CVE-2026-127215)
 - [CVE-2026-128014](CVE_2026_128014.md) — FrankenPHP: Brotli decoder out-of-bounds write
 - [CVE-2026-128023](CVE_2026_128023.md) — FrankenPHP dot-header trust spoof (CVE-2026-128023)
 - [CVE-2026-128027](CVE_2026_128027.md) — FrankenPHP: code execution through stale bundled libraries
+- [CVE-2026-128119](CVE_2026_128119.md) — cross-function argument leak in query.batch (CVE-2026-128119)
+- [CVE-2026-128120](CVE_2026_128120.md) — denial of service in form data handling (CVE-2026-128120)
+- [CVE-2026-128124](CVE_2026_128124.md) — request-stalling Host headers in add_domain masks (CVE-2026-128124)
+- [CVE-2026-128125](CVE_2026_128125.md) — CookieJar resource exhaustion (CVE-2026-128125)
+- [CVE-2026-128126](CVE_2026_128126.md) — denial of service in form posts (CVE-2026-128126)
+- [CVE-2026-128127](CVE_2026_128127.md) — denial of service in multipart posts (CVE-2026-128127)
+- [CVE-2026-128130](CVE_2026_128130.md) — parser buffer growth and replay in the pure-Python parser (CVE-2026-128130)
 - [CVE-2026-129161](CVE_2026_129161.md) — account takeover via brute-forced reset codes (CVE-2026-129161)
 - [CVE-2026-129165](CVE_2026_129165.md) — file:// link read in report template preview (CVE-2026-129165)
 - [CVE-2026-129167](CVE_2026_129167.md) — absolute path traversal to RCE in the converter (CVE-2026-129167)
