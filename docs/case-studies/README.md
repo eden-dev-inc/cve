@@ -45,6 +45,7 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2025-31161](CVE_2025_31161.md) — CrushFTP unauthenticated admin takeover (CVE-2025-31161)
 - [CVE-2025-32432](CVE_2025_32432.md) — unauthenticated remote code execution (CVE-2025-32432)
 - [CVE-2025-43867](CVE_2025_43867.md) — Johnson Controls FX Server: file access through a vulnerable component
+- [CVE-2025-43874](CVE_2025_43874.md) — OS command injection on the device interface (CVE-2025-43874)
 - [CVE-2025-49844](CVE_2025_49844.md) — Redis Lua-script sandbox escape (CVE-2025-49844) through Eden's API
 - [CVE-2025-55182](CVE_2025_55182.md) — React Server Components decoder (CVE-2025-55182) through Eden's API
 - [CVE-2025-8110](CVE_2025_8110.md) — Gogs contents API symlink following (CVE-2025-8110)
@@ -66,12 +67,14 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-59774](CVE_2026_59774.md) — Gitea: server file read and code execution via the Org-mode renderer
 - [CVE-2026-61511](CVE_2026_61511.md) — vBulletin template eval injection (CVE-2026-61511)
 - [CVE-2026-62071](CVE_2026_62071.md) — WordPress File Upload plugin: unauthenticated SQL injection
+- [CVE-2026-71531](CVE_2026_71531.md) — cross-shop access via Webservice API scope override (CVE-2026-71531)
 - [CVE-2026-75869](CVE_2026_75869.md) — ManageEngine DDI Central: PowerShell injection via crafted DNS suffix values
 - [CVE-2026-76418](CVE_2026_76418.md) — Cisco ASA and FTD: crafted SSL VPN request reloads the device
 - [CVE-2026-67444](CVE_2026_67444.md) — Hubleys: stored XSS through attacker-chosen upload content type
 - [CVE-2026-68905](CVE_2026_68905.md) — Hugo Blog: unauthenticated AI proxy drains the operator's API quota
 - [CVE-2026-76460](CVE_2026_76460.md) — Cisco ISE: authentication bypass through a privileged API endpoint
 - [CVE-2026-76519](CVE_2026_76519.md) — Cisco Secure Email Gateway: arbitrary file write and root command execution
+- [CVE-2026-82102](CVE_2026_82102.md) — server-side request forgery via connector fields (CVE-2026-82102)
 - [CVE-2026-82504](CVE_2026_82504.md) — VITEC EZ TV: unauthenticated ASPX upload to remote code execution
 - [CVE-2026-88771](CVE_2026_88771.md) — NetScaler ADC and Gateway: unauthenticated code execution via improper input validation
 - [CVE-2026-88773](CVE_2026_88773.md) — NetScaler: security-control bypass via HTTP request smuggling
@@ -110,6 +113,9 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-109163](CVE_2026_109163.md) — Apache HTTP Server: mod_vhost_alias 1-byte stack buffer overwrite (CVE-2026-109163)
 - [CVE-2026-109618](CVE_2026_109618.md) — PHP request-shutdown memory defect (CVE-2026-109618) through Eden's API
 - [CVE-2026-109619](CVE_2026_109619.md) — PHP cross-request state confusion (CVE-2026-109619) through Eden's API
+- [CVE-2026-110178](CVE_2026_110178.md) — cross-tenant overwrite of public tools and credentials (CVE-2026-110178)
+- [CVE-2026-110194](CVE_2026_110194.md) — server-side request forgery via tool fields (CVE-2026-110194)
+- [CVE-2026-110279](CVE_2026_110279.md) — X-Upstream-Authorization header replaces managed credentials (CVE-2026-110279)
 - [CVE-2026-110447](CVE_2026_110447.md) — Collabora Online: OS command injection in the CODE proxy
 - [CVE-2026-110264](CVE_2026_110264.md) — GitLab: code execution through the regex compiler
 - [CVE-2026-110697](CVE_2026_110697.md) — Red Hat Quay SQL LIKE wildcard injection in robot list (CVE-2026-110697)
@@ -139,11 +145,14 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-123158](CVE_2026_123158.md) — SSH password authentication prerequisite removal (CVE-2026-123158)
 - [CVE-2026-123218](CVE_2026_123218.md) — IBM Aspera Faspex crafted-message authorization bypass (CVE-2026-123218)
 - [CVE-2026-123488](CVE_2026_123488.md) — Craft CMS search SQL injection (CVE-2026-123488)
+- [CVE-2026-123628](CVE_2026_123628.md) — unauthenticated environment disclosure (CVE-2026-123628)
 - [CVE-2026-123659](CVE_2026_123659.md) — ProfilePress member-directory role bypass (CVE-2026-123659)
 - [CVE-2026-123668](CVE_2026_123668.md) — GetPaid payment bypass via fractional quantity (CVE-2026-123668)
 - [CVE-2026-123747](CVE_2026_123747.md) — pappl-retrofit directory traversal in add-ppdfi (CVE-2026-123747)
 - [CVE-2026-123790](CVE_2026_123790.md) — ComfyUI-Easy-Use: unauthenticated path traversal (CVE-2026-123790)
 - [CVE-2026-123807](CVE_2026_123807.md) — Signal K resources API traversal (CVE-2026-123807)
+- [CVE-2026-124020](CVE_2026_124020.md) — host header injection poisons password-reset links (CVE-2026-124020)
+- [CVE-2026-124021](CVE_2026_124021.md) — authorization bypass in the remote API (CVE-2026-124021)
 - [CVE-2026-124691](CVE_2026_124691.md) — Kendo UI for jQuery: XSS in the Gantt Parent dropdown (CVE-2026-124691)
 - [CVE-2026-124695](CVE_2026_124695.md) — Kendo UI for jQuery: XSS in Form item hints (CVE-2026-124695)
 - [CVE-2026-124696](CVE_2026_124696.md) — Kendo UI for jQuery: XSS in Spreadsheet sheet names (CVE-2026-124696)
@@ -273,3 +282,4 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-129167](CVE_2026_129167.md) — absolute path traversal to RCE in the converter (CVE-2026-129167)
 - [CVE-2026-129171](CVE_2026_129171.md) — SQL injection on the stats route (CVE-2026-129171)
 - [CVE-2026-86863](CVE_2026_86863.md) — pgAdmin 4: webserver-authentication bypass via client-supplied identity header
+- [CVE-2026-129180](CVE_2026_129180.md) — unauthenticated SQL injection in actionpage.php (CVE-2026-129180)
