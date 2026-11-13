@@ -2,7 +2,7 @@
 
 This document records advisories triaged against the current Eden HTTP remediation profile and the reason each remains outside the recorded case studies. It follows the portfolio's assessment rule: state the exact stage reached rather than relabeling a gap as coverage. As of 2026-11-13 the qualified profile is the 1.103.0 single-node HTTP/1 native MVP — a request/response interlay whose declarative policies and native modules see the HTTP method, target, headers, and body of traffic they front.
 
-The 30-day review closed on November 13, 2026. This annex records the dispositions of 292 distinct advisories.
+The 30-day review closed on November 13, 2026. The review recorded dispositions for 292 distinct advisories. Wave 31 adds 17 more, bringing this annex to 309.
 
 ## Why these advisories have no recorded remediation
 
@@ -31,20 +31,6 @@ The 30-day review closed on November 13, 2026. This annex records the dispositio
 | CVE-2026-106195, CVE-2026-106234, CVE-2026-106237, CVE-2026-106241, CVE-2026-106294, CVE-2026-106329, CVE-2026-106372, CVE-2026-106375, CVE-2026-106401, CVE-2026-106414, CVE-2026-106417, CVE-2026-110136, CVE-2026-110142, CVE-2026-110144, CVE-2026-110149, CVE-2026-110152, CVE-2026-110159, CVE-2026-110161, CVE-2026-110165, CVE-2026-110916, CVE-2026-112992, CVE-2026-113007, CVE-2026-113014, CVE-2026-113020, CVE-2026-113023, CVE-2026-113056, CVE-2026-113072, CVE-2026-113078, CVE-2026-113084, CVE-2026-113089, CVE-2026-113116, CVE-2026-113126, CVE-2026-113138, CVE-2026-113169, CVE-2026-113171, CVE-2026-113186, CVE-2026-113189, CVE-2026-113211, CVE-2026-113222, CVE-2026-113235, CVE-2026-113252, CVE-2026-113261, CVE-2026-113263, CVE-2026-113270, CVE-2026-113283, CVE-2026-113300, CVE-2026-113328, CVE-2026-113336, CVE-2026-113342, CVE-2026-118305, CVE-2026-118308, CVE-2026-118309, CVE-2026-118310, CVE-2026-118312, CVE-2026-118316, CVE-2026-118321, CVE-2026-118332, CVE-2026-118340, CVE-2026-118342, CVE-2026-118355 | Google Chrome rendering/engine family (V8, ANGLE, Skia, Dawn, Compositing, FileSystem, Mojo, Updater, DevTools, sandbox escapes) — client-side execution in the victim's browser |
 | CVE-2026-102304, CVE-2026-102306, CVE-2026-102308, CVE-2026-102309, CVE-2026-102316, CVE-2026-102322, CVE-2026-102331, CVE-2026-103626, CVE-2026-103628, CVE-2026-103630, CVE-2026-106197, CVE-2026-106211, CVE-2026-106227, CVE-2026-106239, CVE-2026-106281, CVE-2026-106298, CVE-2026-106323, CVE-2026-106358, CVE-2026-106382, CVE-2026-106419, CVE-2026-95277, CVE-2026-95281, CVE-2026-95283, CVE-2026-95284, CVE-2026-95299, CVE-2026-95310, CVE-2026-95311, CVE-2026-95313, CVE-2026-95318, CVE-2026-95325, CVE-2026-95329, CVE-2026-95331, CVE-2026-95347, CVE-2026-95349, CVE-2026-95356, CVE-2026-95339, CVE-2026-95350, CVE-2026-95357, CVE-2026-93372, CVE-2026-93373 | Google Chrome engine family, additional release trains (Views, ANGLE, Tint, WebGL, GPU, Fonts, FullScreen, Updater, sandbox escapes) — client-side execution |
 | CVE-2026-84388 | FortiPAM Chrome extension (client-side browser extension) |
-| CVE-2025-53698, CVE-2025-53699 | JCI iSTAR alternate hardware interface bypass (physical/alternate panel interface, not frontable HTTP) |
-| CVE-2026-9661 | Poste Italiane Postecert FIRMAOK! local OpenSSL search-path hijack (local, Windows) |
-| CVE-2026-5514 | IBM Bob auth-provider token exposure via extension enumeration (in-process extension API, no frontable route) |
-| CVE-2026-115501 | IBM i QFileSvr.400 stack buffer overflow (local IBM i file-server command) |
-| CVE-2026-128134 | NLTK dot2img code execution (Python library / graphviz shell) |
-| CVE-2026-128886 | Red Hat Enterprise Linux local flaw |
-| CVE-2026-129173 | Stirling-PDF insufficient session timeout (server-side session configuration, no request-level signature) |
-| CVE-2026-110189 | ContextForge jq DoS via jsonpath_filter (filter-complexity signature not publishable as bytes) |
-| CVE-2026-110195 | ContextForge stored XSS in privileged UI (victim-interaction rendering, client-side execution) |
-| CVE-2026-110278 | ContextForge identity-claim signature replay (token semantics, not request-visible) |
-| CVE-2026-94407 | ContextForge ReDoS in registration (server regex complexity, no byte signature) |
-| CVE-2026-109158, CVE-2026-114468 | App Connect Operator error-message disclosure / container-internal HTTP (deployment logging, not frontable signature) |
-| CVE-2026-115788 | App Connect Operator log forging via resource creation (log-pipeline integrity, not an HTTP boundary) |
-| CVE-2026-91868, CVE-2026-91869 | IBM QRadar EDR improper access control (vendor route unpublished; no honest fixture signature) |
 | CVE-2025-24054 | Windows NTLM hash disclosure spoofing |
 | CVE-2026-128116 | SvelteKit route-resolution XSS (victim's browser) |
 | CVE-2026-68541 | PolicyPress CSS-only redaction and workflow defaults |
@@ -84,6 +70,7 @@ The 30-day review closed on November 13, 2026. This annex records the dispositio
 | CVE-2026-106173 | FortiSIEM path traversal through crafted packets |
 | CVE-2026-114713 | UnrealIRCd IRCv3 label injection across linked servers |
 | CVE-2026-85746, CVE-2026-85748, CVE-2026-92262 | MariaDB spatial conversion, cursor handling, and table-name encoding through database operations |
+| CVE-2026-128886 | D-Bus nonce-tcp authentication can stall new connections while waiting for a token |
 
 The [aiohttp CVE-2026-128131 case study](CVE_2026_128131.md) tested an HTTP request body size rule. WebSocket frames and client response decoding remain outside that test.
 
@@ -122,6 +109,11 @@ The [Apache mod_http2 case study for CVE-2026-119618](CVE_2026_119618.md) record
 | CVE-2026-98464, CVE-2026-98490, CVE-2026-98548, CVE-2026-98549, CVE-2026-98959, CVE-2026-99078, CVE-2026-99079, CVE-2026-99999 | Linux kernel RISC-V KVM, OVS conntrack, SCTP, TCP, Btrfs, mlx5e, IPv4 (local kernel) |
 | CVE-2026-98323, CVE-2026-98365, CVE-2026-100075, CVE-2026-97413, CVE-2026-93228, CVE-2026-93207 | Linux kernel RDMA siw/RXE, SRPT, RTRS, svcrdma, SUNRPC GSS (local kernel) |
 | CVE-2026-87886 | Acronis cPanel/Plesk plugin insecure file permissions (local; exploited per CISA KEV) |
+| CVE-2025-53698, CVE-2025-53699 | Johnson Controls iSTAR alternate physical hardware interfaces |
+| CVE-2026-9661 | Postecert FIRMAOK! Windows OpenSSL search-path hijack |
+| CVE-2026-5514 | IBM Bob session token exposure to in-process extensions |
+| CVE-2026-115501 | IBM i QFileSvr.400 stack overflow through a local authenticated file-system command |
+| CVE-2026-128134 | NLTK dot2img executes a Graphviz binary planted in a writable PATH directory |
 
 ## Category D — application state, build output, and pending tests
 
@@ -137,6 +129,14 @@ The [Apache mod_http2 case study for CVE-2026-119618](CVE_2026_119618.md) record
 | CVE-2026-105445 | Docker Hub account conversion and personal access token reassignment |
 | CVE-2026-96012 | IBM Db2 Mirror for i privilege escalation. No fixture comparison was recorded. |
 | CVE-2026-89078, CVE-2026-93577 | GitLab CI/CD regex parsing and compilation. The [related case study](CVE_2026_97229.md) documents a different CVE and a separately tested rule. No fixture comparison was recorded for these two advisories. |
+| CVE-2026-129173 | Stirling-PDF workflow participant details session timeout |
+| CVE-2026-110189 | ContextForge jq filter can terminate workers or exhaust resources |
+| CVE-2026-110195 | ContextForge token exchange cache can reuse upstream credentials across credential contexts |
+| CVE-2026-110278 | ContextForge identity claim signature replay or disclosure during tool invocation |
+| CVE-2026-94407 | ContextForge regular expression complexity in a tool schema |
+| CVE-2026-109158, CVE-2026-114468 | IBM App Connect disclosure through logged errors and administrative HTTP calls from inside the running container |
+| CVE-2026-115788 | IBM App Connect log forging through resource creation |
+| CVE-2026-91868, CVE-2026-91869 | IBM QRadar EDR information disclosure and inadequate TOTP verification rate limiting |
 
 ## Recording status
 
