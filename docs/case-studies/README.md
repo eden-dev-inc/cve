@@ -62,8 +62,8 @@ The reports record the application or fixture tested, the observed behavior, and
 - [CVE-2026-105948](CVE_2026_105948.md) — Octopus Server RBAC bypass (CVE-2026-105948)
 - [CVE-2026-106023](CVE_2026_106023.md) — Apache HTTP Server: mod_md NULL pointer dereference leads to child process crash (CVE-2026-106023)
 - [CVE-2026-106931](CVE_2026_106931.md) — SiteGuard Server statistics command injection (CVE-2026-106931)
-- [CVE-2026-107412](CVE_2026_107412.md) — memory overflow DoS on gateway routes (CVE-2026-107412)
-- [CVE-2026-107415](CVE_2026_107415.md) — memory overflow DoS in Email OTP authentication (CVE-2026-107415)
+- [CVE-2026-107412](CVE_2026_107412.md) — NetScaler ADC and Gateway: memory overflow DoS on gateway routes
+- [CVE-2026-107415](CVE_2026_107415.md) — NetScaler ADC and Gateway: memory overflow DoS in Email OTP authentication
 - [CVE-2026-107718](CVE_2026_107718.md) — AdonisJS: open redirect via unencoded route parameters (CVE-2026-107718)
 - [CVE-2026-109163](CVE_2026_109163.md) — Apache HTTP Server: mod_vhost_alias 1-byte stack buffer overwrite (CVE-2026-109163)
 - [CVE-2026-109618](CVE_2026_109618.md) — PHP request-shutdown memory defect (CVE-2026-109618) through Eden's API
@@ -112,13 +112,13 @@ The reports record the application or fixture tested, the observed behavior, and
 - [CVE-2026-126082](CVE_2026_126082.md) — Rails Active Storage ImageMagick coder abuse (CVE-2026-126082)
 - [CVE-2026-126150](CVE_2026_126150.md) — FortiMail: IBE webmail account takeover via weak password recovery
 - [CVE-2026-126155](CVE_2026_126155.md) — FortiMail: IBE webmail session takeover via incorrect authorization
-- [CVE-2026-126147](CVE_2026_126147.md) — unauthenticated path traversal to code execution (CVE-2026-126147)
-- [CVE-2026-126156](CVE_2026_126156.md) — IBE account takeover via user-controlled key (CVE-2026-126156)
-- [CVE-2026-126157](CVE_2026_126157.md) — access to other users' secure email accounts (CVE-2026-126157)
-- [CVE-2026-126164](CVE_2026_126164.md) — SQL injection to code execution (CVE-2026-126164)
-- [CVE-2026-126170](CVE_2026_126170.md) — unauthenticated code execution via output encoding (CVE-2026-126170)
+- [CVE-2026-126147](CVE_2026_126147.md) — FortiMail: unauthenticated path traversal to code execution
+- [CVE-2026-126156](CVE_2026_126156.md) — FortiMail: IBE account takeover via user-controlled key
+- [CVE-2026-126157](CVE_2026_126157.md) — FortiMail: access to other users' secure email accounts
+- [CVE-2026-126164](CVE_2026_126164.md) — FortiMail: SQL injection to code execution
+- [CVE-2026-126170](CVE_2026_126170.md) — FortiManager and FortiAnalyzer: unauthenticated code execution via output encoding
 - [CVE-2026-126187](CVE_2026_126187.md) — React Server Components unauthenticated RCE (CVE-2026-126187) through Eden's API
-- [CVE-2026-126229](CVE_2026_126229.md) — VDOM authorization bypass (CVE-2026-126229)
+- [CVE-2026-126229](CVE_2026_126229.md) — FortiAnalyzer and FortiManager: VDOM authorization bypass
 - [CVE-2026-126613](CVE_2026_126613.md) — hMailServer REST unbounded JSON allocation (CVE-2026-126613)
 - [CVE-2026-126623](CVE_2026_126623.md) — hMailServer JSON-reader complexity DoS (CVE-2026-126623)
 - [CVE-2026-126768](CVE_2026_126768.md) — OpsTree REMS authentication bypass on the reports API (CVE-2026-126768)
