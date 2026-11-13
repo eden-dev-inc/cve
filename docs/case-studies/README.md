@@ -177,3 +177,7 @@ The reports record the application or fixture tested, the observed behavior, and
 - [CVE-2026-9852](CVE_2026_9852.md) — Hitachi RTU500 file upload traversal (CVE-2026-9852)
 - [CVE-2026-9859](CVE_2026_9859.md) — Mattermost board channelId permission bypass (CVE-2026-9859)
 - [CVE-2026-128023](CVE_2026_128023.md) — FrankenPHP dot-header trust spoof (CVE-2026-128023)
+- [CVE-2026-129161](CVE_2026_129161.md) — account takeover via brute-forced reset codes (CVE-2026-129161) (CVE-2026-129161)
+- [CVE-2026-129165](CVE_2026_129165.md) — file:// link read in report template preview (CVE-2026-129165) (CVE-2026-129165)
+- [CVE-2026-129167](CVE_2026_129167.md) — absolute path traversal to RCE in the converter (CVE-2026-129167) (CVE-2026-129167)
+- [CVE-2026-129171](CVE_2026_129171.md) — SQL injection on the stats route (CVE-2026-129171) (CVE-2026-129171)
