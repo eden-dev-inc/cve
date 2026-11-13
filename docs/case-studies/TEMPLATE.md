@@ -90,7 +90,7 @@ Open every case study with the practical consequences of exploitation and why th
 
 ## Performance
 
-<When measured, give the instrument, unit, sample count, mean, p50 and p95 per arm, and describe what the measured interval includes. Use comparable arms for incremental overhead claims. Otherwise state that performance was not measured.>
+<When measured, give the instrument, unit, sample count, mean, p50 and p95 per arm, and describe what the measured interval includes. Report declarative and native module timings in this section. Use the measured comparison table for baseline probe outcomes. Otherwise state that performance was not measured.>
 
 ## Test scope
 
