@@ -65,7 +65,7 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-68905](CVE_2026_68905.md) — Hugo Blog: unauthenticated AI proxy drains the operator's API quota
 - [CVE-2026-76460](CVE_2026_76460.md) — Cisco ISE: authentication bypass through a privileged API endpoint
 - [CVE-2026-76519](CVE_2026_76519.md) — Cisco Secure Email Gateway: arbitrary file write and root command execution
-- [CVE-2026-82504](CVE_2026_82504.md) — unauthenticated ASPX upload to remote code execution (CVE-2026-82504)
+- [CVE-2026-82504](CVE_2026_82504.md) — VITEC EZ TV: unauthenticated ASPX upload to remote code execution
 - [CVE-2026-88771](CVE_2026_88771.md) — NetScaler ADC and Gateway: unauthenticated code execution via improper input validation
 - [CVE-2026-89037](CVE_2026_89037.md) — Dolibarr: ticket API exposes other companies' attachments
 - [CVE-2026-92738](CVE_2026_92738.md) — Vault: MFA login completes after the pending request should have expired
@@ -250,9 +250,9 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-128126](CVE_2026_128126.md) — aiohttp: denial of service in form posts
 - [CVE-2026-128127](CVE_2026_128127.md) — aiohttp: denial of service in multipart posts
 - [CVE-2026-128130](CVE_2026_128130.md) — aiohttp: parser buffer growth and replay in the pure-Python parser
-- [CVE-2026-127216](CVE_2026_127216.md) — CSRF writes password hashes to a public file (CVE-2026-127216)
-- [CVE-2026-127217](CVE_2026_127217.md) — blind SSRF through the fetch parameter (CVE-2026-127217)
-- [CVE-2026-128131](CVE_2026_128131.md) — CPU exhaustion in concatenated-stream decompression (CVE-2026-128131)
+- [CVE-2026-127216](CVE_2026_127216.md) — Injection Guard: CSRF writes password hashes to a public file
+- [CVE-2026-127217](CVE_2026_127217.md) — Post to Google My Business: blind SSRF through the fetch parameter
+- [CVE-2026-128131](CVE_2026_128131.md) — aiohttp: CPU exhaustion in concatenated-stream decompression
 - [CVE-2026-129161](CVE_2026_129161.md) — account takeover via brute-forced reset codes (CVE-2026-129161)
 - [CVE-2026-129165](CVE_2026_129165.md) — file:// link read in report template preview (CVE-2026-129165)
 - [CVE-2026-129167](CVE_2026_129167.md) — absolute path traversal to RCE in the converter (CVE-2026-129167)

@@ -54,8 +54,10 @@ This document records advisories triaged against the current Eden HTTP remediati
 | CVE-2026-59310 | VMware vCenter Syslog service (UDP) |
 | CVE-2026-128087, CVE-2026-128088 | russh SSH host-key / agent flaws (SSH wire) |
 | CVE-2026-128089 | dnspython WKS parser DoS (DNS record parsing library) |
-| CVE-2026-128128, CVE-2026-128129, CVE-2026-128132 | aiohttp WebSocket / upgrade-101 DoS — WebSocket permessage-deflate frame parsing beyond the HTTP/1.101 interlay's request view; recorded product limitation. (CVE-2026-128131, the request-body variant, is remediated — see its case study) |
+| CVE-2026-128128, CVE-2026-128129, CVE-2026-128132 | aiohttp WebSocket frame handling and connection data buffered while an upgrade is pending |
 | CVE-2026-129217 | FRRouting bgpd OOB read (BGP wire) |
+
+The [aiohttp CVE-2026-128131 case study](CVE_2026_128131.md) tested an HTTP request body size rule. WebSocket frames and client response decoding remain outside that test.
 
 The [Apache mod_http2 case study for CVE-2026-119618](CVE_2026_119618.md) records a policy and module comparison on an HTTP/1.1 fixture. The HTTP/2 frame race in the affected Apache implementation remains outside that test.
 
@@ -84,7 +86,7 @@ The [Apache mod_http2 case study for CVE-2026-119618](CVE_2026_119618.md) record
 | CVE-2026-118665 | GraphQL Tools (library) |
 | CVE-2026-118782, CVE-2026-119191, CVE-2026-119196, CVE-2026-119283 | Forge / pyasn1 / joserfc (libraries) |
 | CVE-2026-114102, CVE-2026-114143 | adm-zip / toml-node (libraries) |
-| CVE-2026-128885, CVE-2026-128987 | RHEL 10 dbus local connection/transport DoS (local, not network-reachable) |
+| CVE-2026-128885, CVE-2026-128987 | RHEL 10 dbus local connection/transport DoS |
 
 ## Category D — application state, build output, and pending tests
 

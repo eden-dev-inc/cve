@@ -95,6 +95,8 @@ Use the [CVE case study and bundle template](../docs/case-studies/TEMPLATE.md) f
 | [CVE-2026-127213](CVE-2026-127213/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-127214](CVE-2026-127214/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-127215](CVE-2026-127215/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-127216](CVE-2026-127216/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-127217](CVE-2026-127217/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-128014](CVE-2026-128014/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-128027](CVE-2026-128027/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-128119](CVE-2026-128119/README.md) | `1.0.0` | Lab comparison recorded |
@@ -104,6 +106,7 @@ Use the [CVE case study and bundle template](../docs/case-studies/TEMPLATE.md) f
 | [CVE-2026-128126](CVE-2026-128126/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-128127](CVE-2026-128127/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-128130](CVE-2026-128130/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-128131](CVE-2026-128131/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-18556](CVE-2026-18556/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-18963](CVE-2026-18963/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-19868](CVE-2026-19868/README.md) | `1.0.0` | Lab comparison recorded |
@@ -134,6 +137,7 @@ Use the [CVE case study and bundle template](../docs/case-studies/TEMPLATE.md) f
 | [CVE-2026-76981](CVE-2026-76981/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-77604](CVE-2026-77604/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-77690](CVE-2026-77690/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-82504](CVE-2026-82504/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-85632](CVE-2026-85632/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-88771](CVE-2026-88771/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-88772](CVE-2026-88772/README.md) | `1.0.0` | Lab comparison recorded |
