@@ -5,9 +5,14 @@ The reports record the application or fixture tested, the observed behavior, and
 [Native module sources](modules/README.md)
 
 - [CVE-2017-7921](CVE_2017_7921.md) — Hikvision unauthenticated sensitive access (CVE-2017-7921)
+- [CVE-2020-36847](CVE_2020_36847.md) — rename-to-PHP remote code execution (CVE-2020-36847) (CVE-2020-36847)
+- [CVE-2021-22204](CVE_2021_22204.md) — DjVu arbitrary code execution on crafted files (CVE-2021-22204) (CVE-2021-22204)
 - [CVE-2021-43798](CVE_2021_43798.md) — Grafana plugin path traversal file read (CVE-2021-43798)
 - [CVE-2021-44228](CVE_2021_44228.md) — Log4j JNDI lookup (CVE-2021-44228) through Eden's API
+- [CVE-2023-27524](CVE_2023_27524.md) — forged sessions via the default SECRET_KEY (CVE-2023-27524) (CVE-2023-27524)
 - [CVE-2023-34468](CVE_2023_34468.md) — Apache NiFi H2 connection URL code injection (CVE-2023-34468)
+- [CVE-2023-39780](CVE_2023_39780.md) — authenticated command injection via start_apply (CVE-2023-39780) (CVE-2023-39780)
+- [CVE-2023-49606](CVE_2023_49606.md) — use-after-free in Connection header parsing (CVE-2023-49606) (CVE-2023-49606)
 - [CVE-2024-23897](CVE_2024_23897.md) — Jenkins CLI arbitrary file read (CVE-2024-23897) through Eden's API
 - [CVE-2024-24919](CVE_2024_24919.md) — Check Point path traversal information disclosure (CVE-2024-24919)
 - [CVE-2024-5186](CVE_2024_5186.md) — privateGPT SSRF via file upload (CVE-2024-5186)
@@ -24,12 +29,15 @@ The reports record the application or fixture tested, the observed behavior, and
 - [CVE-2024-5273](CVE_2024_5273.md) — Report-Info path traversal file read (CVE-2024-5273)
 - [CVE-2025-11201](CVE_2025_11201.md) — MLflow artifact path traversal RCE (CVE-2025-11201)
 - [CVE-2025-24813](CVE_2025_24813.md) — Tomcat partial-PUT path traversal (CVE-2025-24813) through Eden's API
+- [CVE-2025-28137](CVE_2025_28137.md) — pre-authentication command injection (CVE-2025-28137) (CVE-2025-28137)
 - [CVE-2025-29927](CVE_2025_29927.md) — Next.js middleware authentication bypass (CVE-2025-29927) through Eden's API
 - [CVE-2025-3248](CVE_2025_3248.md) — Langflow: unauthenticated code execution in the validation API (CVE-2025-3248)
 - [CVE-2025-31161](CVE_2025_31161.md) — CrushFTP unauthenticated admin takeover (CVE-2025-31161)
+- [CVE-2025-32432](CVE_2025_32432.md) — unauthenticated remote code execution (CVE-2025-32432) (CVE-2025-32432)
 - [CVE-2025-49844](CVE_2025_49844.md) — Redis Lua-script sandbox escape (CVE-2025-49844) through Eden's API
 - [CVE-2025-55182](CVE_2025_55182.md) — React Server Components decoder (CVE-2025-55182) through Eden's API
 - [CVE-2025-8110](CVE_2025_8110.md) — Gogs contents API symlink following (CVE-2025-8110)
+- [CVE-2025-60021](CVE_2025_60021.md) — unauthenticated command injection in the builtin heap service (CVE-2025-60021) (CVE-2025-60021)
 - [CVE-2026-25939](CVE_2026_25939.md) — FUXA unauthenticated scheduler write (CVE-2026-25939)
 - [CVE-2026-39987](CVE_2026_39987.md) — marimo terminal command execution (CVE-2026-39987)
 - [CVE-2026-41940](CVE_2026_41940.md) — cPanel and WHM login authentication bypass (CVE-2026-41940)
