@@ -1,6 +1,8 @@
 # Project Gabriel case studies
 
 The reports record the application or fixture tested, the observed behavior, and the scope of the result.
+Advisories the current HTTP interlay cannot act on — client-side, wire-protocol, or local-execution —
+are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DISPOSITIONS.md).
 
 [Native module sources](modules/README.md)
 
@@ -13,6 +15,7 @@ The reports record the application or fixture tested, the observed behavior, and
 - [CVE-2021-22204](CVE_2021_22204.md) — DjVu arbitrary code execution on crafted files (CVE-2021-22204)
 - [CVE-2021-43798](CVE_2021_43798.md) — Grafana plugin path traversal file read (CVE-2021-43798)
 - [CVE-2021-44228](CVE_2021_44228.md) — Log4j JNDI lookup (CVE-2021-44228) through Eden's API
+- [CVE-2023-22894](CVE_2023_22894.md) — sensitive-data inference through the admin query filter (CVE-2023-22894) (CVE-2023-22894)
 - [CVE-2023-27524](CVE_2023_27524.md) — forged sessions via the default SECRET_KEY (CVE-2023-27524)
 - [CVE-2023-34468](CVE_2023_34468.md) — Apache NiFi H2 connection URL code injection (CVE-2023-34468)
 - [CVE-2023-39780](CVE_2023_39780.md) — authenticated command injection via start_apply (CVE-2023-39780)
@@ -44,6 +47,7 @@ The reports record the application or fixture tested, the observed behavior, and
 - [CVE-2025-8110](CVE_2025_8110.md) — Gogs contents API symlink following (CVE-2025-8110)
 - [CVE-2025-60021](CVE_2025_60021.md) — unauthenticated command injection in the builtin heap service (CVE-2025-60021)
 - [CVE-2025-61624](CVE_2025_61624.md) — FortiOS family: file write/delete via traversal in CLI arguments
+- [CVE-2026-0322](CVE_2026_0322.md) — management interface root code execution (CVE-2026-0322) (CVE-2026-0322)
 - [CVE-2026-3199](CVE_2026_3199.md) — Sonatype Nexus Repository: task component code execution
 - [CVE-2026-5430](CVE_2026_5430.md) — WSO2: authentication bypass via JWT algorithm confusion
 - [CVE-2026-7273](CVE_2026_7273.md) — Zyxel GS1900: stack overflow in the switch CGI program
@@ -55,6 +59,7 @@ The reports record the application or fixture tested, the observed behavior, and
 - [CVE-2026-39987](CVE_2026_39987.md) — marimo terminal command execution (CVE-2026-39987)
 - [CVE-2026-41940](CVE_2026_41940.md) — cPanel and WHM login authentication bypass (CVE-2026-41940)
 - [CVE-2026-61511](CVE_2026_61511.md) — vBulletin template eval injection (CVE-2026-61511)
+- [CVE-2026-76418](CVE_2026_76418.md) — crafted SSL VPN request reloads the device (CVE-2026-76418) (CVE-2026-76418)
 - [CVE-2026-76460](CVE_2026_76460.md) — Cisco ISE: authentication bypass through a privileged API endpoint
 - [CVE-2026-76519](CVE_2026_76519.md) — Cisco Secure Email Gateway: arbitrary file write and root command execution
 - [CVE-2026-88771](CVE_2026_88771.md) — NetScaler ADC and Gateway: unauthenticated code execution via improper input validation
@@ -99,6 +104,7 @@ The reports record the application or fixture tested, the observed behavior, and
 - [CVE-2026-116241](CVE_2026_116241.md) — pgAdmin 4: OS command execution through COPY TO PROGRAM in query export
 - [CVE-2026-116468](CVE_2026_116468.md) — WildFly deployment-handler RBAC bypass (CVE-2026-116468)
 - [CVE-2026-116606](CVE_2026_116606.md) — Barracuda ESG unauthenticated backup-restore auth bypass (CVE-2026-116606)
+- [CVE-2026-118527](CVE_2026_118527.md) — predictable-filename upload to a known location (CVE-2026-118527) (CVE-2026-118527)
 - [CVE-2026-118527](CVE_2026_118527.md) — Ivanti predictable-filename upload (CVE-2026-118527)
 - [CVE-2026-119171](CVE_2026_119171.md) — WooCommerce paid-option surcharge bypass (CVE-2026-119171)
 - [CVE-2026-119302](CVE_2026_119302.md) — NotificationX unauth shortcode execution (CVE-2026-119302)
