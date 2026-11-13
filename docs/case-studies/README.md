@@ -8,14 +8,14 @@ The reports record the application or fixture tested, the observed behavior, and
 - [CVE-2016-10972](CVE_2016_10972.md) — WordPress newspaper theme: unauthenticated options access via td_ajax_update_panel
 - [CVE-2017-7921](CVE_2017_7921.md) — Hikvision unauthenticated sensitive access (CVE-2017-7921)
 - [CVE-2019-7256](CVE_2019_7256.md) — Linear eMerge E3: unauthenticated command injection
-- [CVE-2020-36847](CVE_2020_36847.md) — rename-to-PHP remote code execution (CVE-2020-36847) (CVE-2020-36847)
-- [CVE-2021-22204](CVE_2021_22204.md) — DjVu arbitrary code execution on crafted files (CVE-2021-22204) (CVE-2021-22204)
+- [CVE-2020-36847](CVE_2020_36847.md) — rename-to-PHP remote code execution (CVE-2020-36847)
+- [CVE-2021-22204](CVE_2021_22204.md) — DjVu arbitrary code execution on crafted files (CVE-2021-22204)
 - [CVE-2021-43798](CVE_2021_43798.md) — Grafana plugin path traversal file read (CVE-2021-43798)
 - [CVE-2021-44228](CVE_2021_44228.md) — Log4j JNDI lookup (CVE-2021-44228) through Eden's API
-- [CVE-2023-27524](CVE_2023_27524.md) — forged sessions via the default SECRET_KEY (CVE-2023-27524) (CVE-2023-27524)
+- [CVE-2023-27524](CVE_2023_27524.md) — forged sessions via the default SECRET_KEY (CVE-2023-27524)
 - [CVE-2023-34468](CVE_2023_34468.md) — Apache NiFi H2 connection URL code injection (CVE-2023-34468)
-- [CVE-2023-39780](CVE_2023_39780.md) — authenticated command injection via start_apply (CVE-2023-39780) (CVE-2023-39780)
-- [CVE-2023-49606](CVE_2023_49606.md) — use-after-free in Connection header parsing (CVE-2023-49606) (CVE-2023-49606)
+- [CVE-2023-39780](CVE_2023_39780.md) — authenticated command injection via start_apply (CVE-2023-39780)
+- [CVE-2023-49606](CVE_2023_49606.md) — use-after-free in Connection header parsing (CVE-2023-49606)
 - [CVE-2024-23897](CVE_2024_23897.md) — Jenkins CLI arbitrary file read (CVE-2024-23897) through Eden's API
 - [CVE-2024-24919](CVE_2024_24919.md) — Check Point path traversal information disclosure (CVE-2024-24919)
 - [CVE-2024-5186](CVE_2024_5186.md) — privateGPT SSRF via file upload (CVE-2024-5186)
@@ -32,15 +32,15 @@ The reports record the application or fixture tested, the observed behavior, and
 - [CVE-2024-5273](CVE_2024_5273.md) — Report-Info path traversal file read (CVE-2024-5273)
 - [CVE-2025-11201](CVE_2025_11201.md) — MLflow artifact path traversal RCE (CVE-2025-11201)
 - [CVE-2025-24813](CVE_2025_24813.md) — Tomcat partial-PUT path traversal (CVE-2025-24813) through Eden's API
-- [CVE-2025-28137](CVE_2025_28137.md) — pre-authentication command injection (CVE-2025-28137) (CVE-2025-28137)
+- [CVE-2025-28137](CVE_2025_28137.md) — pre-authentication command injection (CVE-2025-28137)
 - [CVE-2025-29927](CVE_2025_29927.md) — Next.js middleware authentication bypass (CVE-2025-29927) through Eden's API
 - [CVE-2025-3248](CVE_2025_3248.md) — Langflow: unauthenticated code execution in the validation API (CVE-2025-3248)
 - [CVE-2025-31161](CVE_2025_31161.md) — CrushFTP unauthenticated admin takeover (CVE-2025-31161)
-- [CVE-2025-32432](CVE_2025_32432.md) — unauthenticated remote code execution (CVE-2025-32432) (CVE-2025-32432)
+- [CVE-2025-32432](CVE_2025_32432.md) — unauthenticated remote code execution (CVE-2025-32432)
 - [CVE-2025-49844](CVE_2025_49844.md) — Redis Lua-script sandbox escape (CVE-2025-49844) through Eden's API
 - [CVE-2025-55182](CVE_2025_55182.md) — React Server Components decoder (CVE-2025-55182) through Eden's API
 - [CVE-2025-8110](CVE_2025_8110.md) — Gogs contents API symlink following (CVE-2025-8110)
-- [CVE-2025-60021](CVE_2025_60021.md) — unauthenticated command injection in the builtin heap service (CVE-2025-60021) (CVE-2025-60021)
+- [CVE-2025-60021](CVE_2025_60021.md) — unauthenticated command injection in the builtin heap service (CVE-2025-60021)
 - [CVE-2026-7273](CVE_2026_7273.md) — Zyxel GS1900: stack overflow in the switch CGI program
 - [CVE-2026-25939](CVE_2026_25939.md) — FUXA unauthenticated scheduler write (CVE-2026-25939)
 - [CVE-2026-28318](CVE_2026_28318.md) — SolarWinds Serv-U: unauthenticated DoS via Content-Encoding: deflate
@@ -62,6 +62,8 @@ The reports record the application or fixture tested, the observed behavior, and
 - [CVE-2026-105948](CVE_2026_105948.md) — Octopus Server RBAC bypass (CVE-2026-105948)
 - [CVE-2026-106023](CVE_2026_106023.md) — Apache HTTP Server: mod_md NULL pointer dereference leads to child process crash (CVE-2026-106023)
 - [CVE-2026-106931](CVE_2026_106931.md) — SiteGuard Server statistics command injection (CVE-2026-106931)
+- [CVE-2026-107412](CVE_2026_107412.md) — memory overflow DoS on gateway routes (CVE-2026-107412)
+- [CVE-2026-107415](CVE_2026_107415.md) — memory overflow DoS in Email OTP authentication (CVE-2026-107415)
 - [CVE-2026-107718](CVE_2026_107718.md) — AdonisJS: open redirect via unencoded route parameters (CVE-2026-107718)
 - [CVE-2026-109163](CVE_2026_109163.md) — Apache HTTP Server: mod_vhost_alias 1-byte stack buffer overwrite (CVE-2026-109163)
 - [CVE-2026-109618](CVE_2026_109618.md) — PHP request-shutdown memory defect (CVE-2026-109618) through Eden's API
@@ -110,7 +112,13 @@ The reports record the application or fixture tested, the observed behavior, and
 - [CVE-2026-126082](CVE_2026_126082.md) — Rails Active Storage ImageMagick coder abuse (CVE-2026-126082)
 - [CVE-2026-126150](CVE_2026_126150.md) — FortiMail: IBE webmail account takeover via weak password recovery
 - [CVE-2026-126155](CVE_2026_126155.md) — FortiMail: IBE webmail session takeover via incorrect authorization
+- [CVE-2026-126147](CVE_2026_126147.md) — unauthenticated path traversal to code execution (CVE-2026-126147)
+- [CVE-2026-126156](CVE_2026_126156.md) — IBE account takeover via user-controlled key (CVE-2026-126156)
+- [CVE-2026-126157](CVE_2026_126157.md) — access to other users' secure email accounts (CVE-2026-126157)
+- [CVE-2026-126164](CVE_2026_126164.md) — SQL injection to code execution (CVE-2026-126164)
+- [CVE-2026-126170](CVE_2026_126170.md) — unauthenticated code execution via output encoding (CVE-2026-126170)
 - [CVE-2026-126187](CVE_2026_126187.md) — React Server Components unauthenticated RCE (CVE-2026-126187) through Eden's API
+- [CVE-2026-126229](CVE_2026_126229.md) — VDOM authorization bypass (CVE-2026-126229)
 - [CVE-2026-126613](CVE_2026_126613.md) — hMailServer REST unbounded JSON allocation (CVE-2026-126613)
 - [CVE-2026-126623](CVE_2026_126623.md) — hMailServer JSON-reader complexity DoS (CVE-2026-126623)
 - [CVE-2026-126768](CVE_2026_126768.md) — OpsTree REMS authentication bypass on the reports API (CVE-2026-126768)
@@ -196,7 +204,7 @@ The reports record the application or fixture tested, the observed behavior, and
 - [CVE-2026-9852](CVE_2026_9852.md) — Hitachi RTU500 file upload traversal (CVE-2026-9852)
 - [CVE-2026-9859](CVE_2026_9859.md) — Mattermost board channelId permission bypass (CVE-2026-9859)
 - [CVE-2026-128023](CVE_2026_128023.md) — FrankenPHP dot-header trust spoof (CVE-2026-128023)
-- [CVE-2026-129161](CVE_2026_129161.md) — account takeover via brute-forced reset codes (CVE-2026-129161) (CVE-2026-129161)
-- [CVE-2026-129165](CVE_2026_129165.md) — file:// link read in report template preview (CVE-2026-129165) (CVE-2026-129165)
-- [CVE-2026-129167](CVE_2026_129167.md) — absolute path traversal to RCE in the converter (CVE-2026-129167) (CVE-2026-129167)
-- [CVE-2026-129171](CVE_2026_129171.md) — SQL injection on the stats route (CVE-2026-129171) (CVE-2026-129171)
+- [CVE-2026-129161](CVE_2026_129161.md) — account takeover via brute-forced reset codes (CVE-2026-129161)
+- [CVE-2026-129165](CVE_2026_129165.md) — file:// link read in report template preview (CVE-2026-129165)
+- [CVE-2026-129167](CVE_2026_129167.md) — absolute path traversal to RCE in the converter (CVE-2026-129167)
+- [CVE-2026-129171](CVE_2026_129171.md) — SQL injection on the stats route (CVE-2026-129171)
