@@ -2,6 +2,8 @@
 
 This document records advisories triaged against the current Eden HTTP remediation profile and the reason each remains outside the recorded case studies. It follows the portfolio's assessment rule: state the exact stage reached rather than relabeling a gap as coverage. As of 2026-11-13 the qualified profile is the 1.103.0 single-node HTTP/1 native MVP — a request/response interlay whose declarative policies and native modules see the HTTP method, target, headers, and body of traffic they front.
 
+The 30-day review closed on November 13, 2026. This annex records the dispositions of 292 distinct advisories.
+
 ## Why these advisories have no recorded remediation
 
 **Client-side execution (category A).** The exploitation primitive runs inside the victim's browser, document renderer, or endpoint application. The CVE-specific malicious bytes travel inside otherwise-legitimate content (a web page, a PDF, an email attachment); Eden fronts a server, not the victim's process, and refusing all such content is a blanket block rather than a CVE-specific control. These records name the affected component so a customer can confirm their patch state; they are not claims of Eden coverage.
@@ -28,9 +30,6 @@ This document records advisories triaged against the current Eden HTTP remediati
 | CVE-2026-86950 | Apple CoreGraphics processing of crafted files |
 | CVE-2026-106195, CVE-2026-106234, CVE-2026-106237, CVE-2026-106241, CVE-2026-106294, CVE-2026-106329, CVE-2026-106372, CVE-2026-106375, CVE-2026-106401, CVE-2026-106414, CVE-2026-106417, CVE-2026-110136, CVE-2026-110142, CVE-2026-110144, CVE-2026-110149, CVE-2026-110152, CVE-2026-110159, CVE-2026-110161, CVE-2026-110165, CVE-2026-110916, CVE-2026-112992, CVE-2026-113007, CVE-2026-113014, CVE-2026-113020, CVE-2026-113023, CVE-2026-113056, CVE-2026-113072, CVE-2026-113078, CVE-2026-113084, CVE-2026-113089, CVE-2026-113116, CVE-2026-113126, CVE-2026-113138, CVE-2026-113169, CVE-2026-113171, CVE-2026-113186, CVE-2026-113189, CVE-2026-113211, CVE-2026-113222, CVE-2026-113235, CVE-2026-113252, CVE-2026-113261, CVE-2026-113263, CVE-2026-113270, CVE-2026-113283, CVE-2026-113300, CVE-2026-113328, CVE-2026-113336, CVE-2026-113342, CVE-2026-118305, CVE-2026-118308, CVE-2026-118309, CVE-2026-118310, CVE-2026-118312, CVE-2026-118316, CVE-2026-118321, CVE-2026-118332, CVE-2026-118340, CVE-2026-118342, CVE-2026-118355 | Google Chrome rendering/engine family (V8, ANGLE, Skia, Dawn, Compositing, FileSystem, Mojo, Updater, DevTools, sandbox escapes) — client-side execution in the victim's browser |
 | CVE-2026-102304, CVE-2026-102306, CVE-2026-102308, CVE-2026-102309, CVE-2026-102316, CVE-2026-102322, CVE-2026-102331, CVE-2026-103626, CVE-2026-103628, CVE-2026-103630, CVE-2026-106197, CVE-2026-106211, CVE-2026-106227, CVE-2026-106239, CVE-2026-106281, CVE-2026-106298, CVE-2026-106323, CVE-2026-106358, CVE-2026-106382, CVE-2026-106419, CVE-2026-95277, CVE-2026-95281, CVE-2026-95283, CVE-2026-95284, CVE-2026-95299, CVE-2026-95310, CVE-2026-95311, CVE-2026-95313, CVE-2026-95318, CVE-2026-95325, CVE-2026-95329, CVE-2026-95331, CVE-2026-95347, CVE-2026-95349, CVE-2026-95356, CVE-2026-95339, CVE-2026-95350, CVE-2026-95357, CVE-2026-93372, CVE-2026-93373 | Google Chrome engine family, additional release trains (Views, ANGLE, Tint, WebGL, GPU, Fonts, FullScreen, Updater, sandbox escapes) — client-side execution |
-| CVE-2026-98323, CVE-2026-98365, CVE-2026-100075, CVE-2026-97413, CVE-2026-93228, CVE-2026-93207 | Linux kernel RDMA siw/RXE, SRPT, RTRS, svcrdma, SUNRPC GSS (local kernel) |
-| CVE-2026-87886 | Acronis cPanel/Plesk plugin insecure file permissions (local; exploited per CISA KEV) |
-| CVE-2026-89078, CVE-2026-93577 | GitLab CI/CD regex family — siblings of the proven CVE-2026-97229 pattern (same remediation applies; see its case study) |
 | CVE-2026-84388 | FortiPAM Chrome extension (client-side browser extension) |
 | CVE-2025-24054 | Windows NTLM hash disclosure spoofing |
 | CVE-2026-128116 | SvelteKit route-resolution XSS (victim's browser) |
@@ -107,6 +106,8 @@ The [Apache mod_http2 case study for CVE-2026-119618](CVE_2026_119618.md) record
 | CVE-2026-110936 | Siemens Software Center local DLL loading |
 | CVE-2026-59346 | VMware Workstation and Fusion VMXNET3 guest-to-host code execution |
 | CVE-2026-98464, CVE-2026-98490, CVE-2026-98548, CVE-2026-98549, CVE-2026-98959, CVE-2026-99078, CVE-2026-99079, CVE-2026-99999 | Linux kernel RISC-V KVM, OVS conntrack, SCTP, TCP, Btrfs, mlx5e, IPv4 (local kernel) |
+| CVE-2026-98323, CVE-2026-98365, CVE-2026-100075, CVE-2026-97413, CVE-2026-93228, CVE-2026-93207 | Linux kernel RDMA siw/RXE, SRPT, RTRS, svcrdma, SUNRPC GSS (local kernel) |
+| CVE-2026-87886 | Acronis cPanel/Plesk plugin insecure file permissions (local; exploited per CISA KEV) |
 
 ## Category D — application state, build output, and pending tests
 
@@ -121,6 +122,7 @@ The [Apache mod_http2 case study for CVE-2026-119618](CVE_2026_119618.md) record
 | CVE-2026-102489 | Zammad session hijacking leading to code execution. No fixture comparison was recorded. |
 | CVE-2026-105445 | Docker Hub account conversion and personal access token reassignment |
 | CVE-2026-96012 | IBM Db2 Mirror for i privilege escalation. No fixture comparison was recorded. |
+| CVE-2026-89078, CVE-2026-93577 | GitLab CI/CD regex parsing and compilation. The [related case study](CVE_2026_97229.md) documents a different CVE and a separately tested rule. No fixture comparison was recorded for these two advisories. |
 
 ## Recording status
 

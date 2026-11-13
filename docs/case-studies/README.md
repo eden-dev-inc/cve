@@ -65,7 +65,7 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-41940](CVE_2026_41940.md) — cPanel and WHM login authentication bypass (CVE-2026-41940)
 - [CVE-2026-59774](CVE_2026_59774.md) — Gitea: server file read and code execution via the Org-mode renderer
 - [CVE-2026-61511](CVE_2026_61511.md) — vBulletin template eval injection (CVE-2026-61511)
-- [CVE-2026-62071](CVE_2026_62071.md) — unauthenticated SQL injection (CVE-2026-62071)
+- [CVE-2026-62071](CVE_2026_62071.md) — WordPress File Upload plugin: unauthenticated SQL injection
 - [CVE-2026-75869](CVE_2026_75869.md) — ManageEngine DDI Central: PowerShell injection via crafted DNS suffix values
 - [CVE-2026-76418](CVE_2026_76418.md) — Cisco ASA and FTD: crafted SSL VPN request reloads the device
 - [CVE-2026-67444](CVE_2026_67444.md) — Hubleys: stored XSS through attacker-chosen upload content type
@@ -74,13 +74,13 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-76519](CVE_2026_76519.md) — Cisco Secure Email Gateway: arbitrary file write and root command execution
 - [CVE-2026-82504](CVE_2026_82504.md) — VITEC EZ TV: unauthenticated ASPX upload to remote code execution
 - [CVE-2026-88771](CVE_2026_88771.md) — NetScaler ADC and Gateway: unauthenticated code execution via improper input validation
-- [CVE-2026-88773](CVE_2026_88773.md) — security-control bypass via HTTP request smuggling (CVE-2026-88773)
+- [CVE-2026-88773](CVE_2026_88773.md) — NetScaler: security-control bypass via HTTP request smuggling
 - [CVE-2026-89037](CVE_2026_89037.md) — Dolibarr: ticket API exposes other companies' attachments
-- [CVE-2026-90970](CVE_2026_90970.md) — prompt-template sandbox escape (CVE-2026-90970)
+- [CVE-2026-90970](CVE_2026_90970.md) — GitLab AI Gateway: prompt-template sandbox escape
 - [CVE-2026-92738](CVE_2026_92738.md) — Vault: MFA login completes after the pending request should have expired
 - [CVE-2026-93616](CVE_2026_93616.md) — Check Point Management Server: unauthenticated upload to arbitrary locations
 - [CVE-2026-93674](CVE_2026_93674.md) — Langflow OSS: code execution via special characters in OS commands
-- [CVE-2026-93952](CVE_2026_93952.md) — unauthenticated reach of privileged internal functionality (CVE-2026-93952)
+- [CVE-2026-93952](CVE_2026_93952.md) — VeloCloud Orchestrator: unauthenticated reach of privileged internal functionality
 - [CVE-2026-94127](CVE_2026_94127.md) — F5 BIG-IP: APM OAuth Authorization Server takeover
 - [CVE-2026-76504](CVE_2026_76504.md) — Cisco SD-WAN Manager: authentication bypass to admin API access
 - [CVE-2026-88772](CVE_2026_88772.md) — NetScaler ADC and Gateway: memory overflow to code execution
