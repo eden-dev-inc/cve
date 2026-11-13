@@ -7,6 +7,7 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 [Native module sources](modules/README.md)
 
 - [CVE-2014-8361](CVE_2014_8361.md) — Realtek SDK miniigd: SOAP command execution via NewInternalClient
+- [CVE-2015-5468](CVE_2015_5468.md) — directory traversal in the download handler (CVE-2015-5468)
 - [CVE-2016-10972](CVE_2016_10972.md) — WordPress newspaper theme: unauthenticated options access via td_ajax_update_panel
 - [CVE-2017-5689](CVE_2017_5689.md) — Intel AMT: complete web authentication bypass via digest handling
 - [CVE-2017-7921](CVE_2017_7921.md) — Hikvision unauthenticated sensitive access (CVE-2017-7921)
@@ -15,6 +16,7 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2021-22204](CVE_2021_22204.md) — DjVu arbitrary code execution on crafted files (CVE-2021-22204)
 - [CVE-2021-43798](CVE_2021_43798.md) — Grafana plugin path traversal file read (CVE-2021-43798)
 - [CVE-2021-44228](CVE_2021_44228.md) — Log4j JNDI lookup (CVE-2021-44228) through Eden's API
+- [CVE-2022-25486](CVE_2022_25486.md) — local file inclusion via the url parameter (CVE-2022-25486)
 - [CVE-2023-22894](CVE_2023_22894.md) — Strapi: sensitive-data inference through the admin query filter
 - [CVE-2023-27524](CVE_2023_27524.md) — forged sessions via the default SECRET_KEY (CVE-2023-27524)
 - [CVE-2023-34468](CVE_2023_34468.md) — Apache NiFi H2 connection URL code injection (CVE-2023-34468)
@@ -48,6 +50,7 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2025-8110](CVE_2025_8110.md) — Gogs contents API symlink following (CVE-2025-8110)
 - [CVE-2025-60021](CVE_2025_60021.md) — unauthenticated command injection in the builtin heap service (CVE-2025-60021)
 - [CVE-2025-61624](CVE_2025_61624.md) — FortiOS family: file write/delete via traversal in CLI arguments
+- [CVE-2025-69985](CVE_2025_69985.md) — authentication bypass via Referer spoof to script execution (CVE-2025-69985)
 - [CVE-2026-0322](CVE_2026_0322.md) — PAN-OS: management interface root code execution
 - [CVE-2026-3199](CVE_2026_3199.md) — Sonatype Nexus Repository: task component code execution
 - [CVE-2026-5430](CVE_2026_5430.md) — WSO2: authentication bypass via JWT algorithm confusion
@@ -55,11 +58,13 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-18556](CVE_2026_18556.md) — N-central: administrative account takeover via authentication bypass
 - [CVE-2026-18963](CVE_2026_18963.md) — Keycloak: unauthenticated account takeover in the reset-credentials flow
 - [CVE-2026-25939](CVE_2026_25939.md) — FUXA unauthenticated scheduler write (CVE-2026-25939)
+- [CVE-2026-27175](CVE_2026_27175.md) — shell command injection in the rc endpoint (CVE-2026-27175)
 - [CVE-2026-28318](CVE_2026_28318.md) — SolarWinds Serv-U: unauthenticated DoS via Content-Encoding: deflate
 - [CVE-2026-39813](CVE_2026_39813.md) — FortiSandbox: path traversal privilege escalation in the JRPC API
 - [CVE-2026-39987](CVE_2026_39987.md) — marimo terminal command execution (CVE-2026-39987)
 - [CVE-2026-41940](CVE_2026_41940.md) — cPanel and WHM login authentication bypass (CVE-2026-41940)
 - [CVE-2026-61511](CVE_2026_61511.md) — vBulletin template eval injection (CVE-2026-61511)
+- [CVE-2026-75869](CVE_2026_75869.md) — PowerShell injection via crafted DNS suffix values (CVE-2026-75869)
 - [CVE-2026-76418](CVE_2026_76418.md) — Cisco ASA and FTD: crafted SSL VPN request reloads the device
 - [CVE-2026-67444](CVE_2026_67444.md) — Hubleys: stored XSS through attacker-chosen upload content type
 - [CVE-2026-68905](CVE_2026_68905.md) — Hugo Blog: unauthenticated AI proxy drains the operator's API quota

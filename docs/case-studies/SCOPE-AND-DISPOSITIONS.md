@@ -21,6 +21,7 @@ This document records advisories triaged against the current Eden HTTP remediati
 | CVE-2025-6554, CVE-2025-6558, CVE-2025-10585, CVE-2025-13223, CVE-2025-14174, CVE-2025-2783, CVE-2025-4609, CVE-2025-5419, CVE-2026-2441, CVE-2026-3910, CVE-2026-85046, CVE-2026-87491 | Google Chrome (V8, ANGLE, Skia, Mojo, FileSystem) |
 | CVE-2026-118306, CVE-2026-119261, CVE-2026-119263, CVE-2026-120931, CVE-2026-121030, CVE-2026-121034, CVE-2026-121035, CVE-2026-121037, CVE-2026-121060, CVE-2026-121071, CVE-2026-121073, CVE-2026-121074, CVE-2026-121076, CVE-2026-121077, CVE-2026-121086, CVE-2026-121089, CVE-2026-121104, CVE-2026-121114, CVE-2026-121126, CVE-2026-121131, CVE-2026-121148, CVE-2026-121156, CVE-2026-121157, CVE-2026-121185, CVE-2026-121189, CVE-2026-121200, CVE-2026-121202, CVE-2026-121214, CVE-2026-121229, CVE-2026-121234, CVE-2026-121241, CVE-2026-121246, CVE-2026-121247, CVE-2026-121249, CVE-2026-121250, CVE-2026-121257, CVE-2026-125347, CVE-2026-125350, CVE-2026-126842, CVE-2026-126846, CVE-2026-126859, CVE-2026-126872, CVE-2026-126885, CVE-2026-126909, CVE-2026-126912 | Google Chrome 157.x family |
 | CVE-2025-15556 | Notepad++ WinGUp updater |
+| CVE-2026-86950 | Out-of-bounds write addressed with bounds checking (client-side component) |
 | CVE-2025-24054 | Windows NTLM hash disclosure spoofing |
 | CVE-2026-128116 | SvelteKit route-resolution XSS (victim's browser) |
 | CVE-2026-68541 | PolicyPress CSS-only redaction and workflow defaults |
@@ -86,7 +87,10 @@ The [Apache mod_http2 case study for CVE-2026-119618](CVE_2026_119618.md) record
 | CVE-2026-118665 | GraphQL Tools (library) |
 | CVE-2026-118782, CVE-2026-119191, CVE-2026-119196, CVE-2026-119283 | Forge / pyasn1 / joserfc (libraries) |
 | CVE-2026-114102, CVE-2026-114143 | adm-zip / toml-node (libraries) |
-| CVE-2026-128885, CVE-2026-128987 | RHEL 10 dbus local connection/transport DoS |
+| CVE-2026-128885, CVE-2026-128987 | RHEL 10 dbus local connection/transport DoS (local, not network-reachable) |
+| CVE-2026-123039 | Check Point Gaia DynamicCLI root escalation via world-writable local socket (local) |
+| CVE-2026-102490 | Zammad local privilege escalation via DEB/RPM install (local) |
+| CVE-2026-102489 | Zammad RCE with undisclosed mechanics (not fixture-recordable without vendor detail) |
 
 ## Category D — application state, build output, and pending tests
 
