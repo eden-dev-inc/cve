@@ -6,7 +6,7 @@ The reports record the application or fixture tested, the observed behavior, and
 
 - [CVE-2014-8361](CVE_2014_8361.md) — Realtek SDK miniigd: SOAP command execution via NewInternalClient
 - [CVE-2016-10972](CVE_2016_10972.md) — WordPress newspaper theme: unauthenticated options access via td_ajax_update_panel
-- [CVE-2017-5689](CVE_2017_5689.md) — complete web authentication bypass via digest handling (CVE-2017-5689)
+- [CVE-2017-5689](CVE_2017_5689.md) — Intel AMT: complete web authentication bypass via digest handling
 - [CVE-2017-7921](CVE_2017_7921.md) — Hikvision unauthenticated sensitive access (CVE-2017-7921)
 - [CVE-2019-7256](CVE_2019_7256.md) — Linear eMerge E3: unauthenticated command injection
 - [CVE-2020-36847](CVE_2020_36847.md) — rename-to-PHP remote code execution (CVE-2020-36847)
@@ -17,7 +17,7 @@ The reports record the application or fixture tested, the observed behavior, and
 - [CVE-2023-34468](CVE_2023_34468.md) — Apache NiFi H2 connection URL code injection (CVE-2023-34468)
 - [CVE-2023-39780](CVE_2023_39780.md) — authenticated command injection via start_apply (CVE-2023-39780)
 - [CVE-2023-49606](CVE_2023_49606.md) — use-after-free in Connection header parsing (CVE-2023-49606)
-- [CVE-2023-54335](CVE_2023_54335.md) — login bypass and PHP upload to remote code execution (CVE-2023-54335)
+- [CVE-2023-54335](CVE_2023_54335.md) — eXtplorer: login bypass and PHP upload to remote code execution
 - [CVE-2024-23897](CVE_2024_23897.md) — Jenkins CLI arbitrary file read (CVE-2024-23897) through Eden's API
 - [CVE-2024-24919](CVE_2024_24919.md) — Check Point path traversal information disclosure (CVE-2024-24919)
 - [CVE-2024-5186](CVE_2024_5186.md) — privateGPT SSRF via file upload (CVE-2024-5186)
@@ -47,8 +47,8 @@ The reports record the application or fixture tested, the observed behavior, and
 - [CVE-2026-3199](CVE_2026_3199.md) — Sonatype Nexus Repository: task component code execution
 - [CVE-2026-5430](CVE_2026_5430.md) — WSO2: authentication bypass via JWT algorithm confusion
 - [CVE-2026-7273](CVE_2026_7273.md) — Zyxel GS1900: stack overflow in the switch CGI program
-- [CVE-2026-18556](CVE_2026_18556.md) — administrative account takeover via authentication bypass (CVE-2026-18556)
-- [CVE-2026-18963](CVE_2026_18963.md) — unauthenticated account takeover in the reset-credentials flow (CVE-2026-18963)
+- [CVE-2026-18556](CVE_2026_18556.md) — N-central: administrative account takeover via authentication bypass
+- [CVE-2026-18963](CVE_2026_18963.md) — Keycloak: unauthenticated account takeover in the reset-credentials flow
 - [CVE-2026-25939](CVE_2026_25939.md) — FUXA unauthenticated scheduler write (CVE-2026-25939)
 - [CVE-2026-28318](CVE_2026_28318.md) — SolarWinds Serv-U: unauthenticated DoS via Content-Encoding: deflate
 - [CVE-2026-39813](CVE_2026_39813.md) — FortiSandbox: path traversal privilege escalation in the JRPC API
@@ -60,9 +60,9 @@ The reports record the application or fixture tested, the observed behavior, and
 - [CVE-2026-88771](CVE_2026_88771.md) — NetScaler ADC and Gateway: unauthenticated code execution via improper input validation
 - [CVE-2026-93616](CVE_2026_93616.md) — Check Point Management Server: unauthenticated upload to arbitrary locations
 - [CVE-2026-94127](CVE_2026_94127.md) — F5 BIG-IP: APM OAuth Authorization Server takeover
-- [CVE-2026-76504](CVE_2026_76504.md) — authentication bypass to admin API access (CVE-2026-76504)
-- [CVE-2026-88772](CVE_2026_88772.md) — memory overflow to code execution (CVE-2026-88772)
-- [CVE-2026-88779](CVE_2026_88779.md) — crash via improper input validation (CVE-2026-88779)
+- [CVE-2026-76504](CVE_2026_76504.md) — Cisco SD-WAN Manager: authentication bypass to admin API access
+- [CVE-2026-88772](CVE_2026_88772.md) — NetScaler ADC and Gateway: memory overflow to code execution
+- [CVE-2026-88779](CVE_2026_88779.md) — NetScaler ADC and Gateway: denial of service
 - [CVE-2026-96654](CVE_2026_96654.md) — Plex Media Server: URL injection into plugin function calls via searchOne
 - [CVE-2026-96655](CVE_2026_96655.md) — Plex Media Server SSRF and the timeline fixture
 - [CVE-2026-96656](CVE_2026_96656.md) — Plex Media Server: arbitrary file write via TranscoderH264Options
@@ -86,14 +86,14 @@ The reports record the application or fixture tested, the observed behavior, and
 - [CVE-2026-109618](CVE_2026_109618.md) — PHP request-shutdown memory defect (CVE-2026-109618) through Eden's API
 - [CVE-2026-109619](CVE_2026_109619.md) — PHP cross-request state confusion (CVE-2026-109619) through Eden's API
 - [CVE-2026-110447](CVE_2026_110447.md) — Collabora Online: OS command injection in the CODE proxy
-- [CVE-2026-110264](CVE_2026_110264.md) — code execution through the regex compiler (CVE-2026-110264)
+- [CVE-2026-110264](CVE_2026_110264.md) — GitLab: code execution through the regex compiler
 - [CVE-2026-110697](CVE_2026_110697.md) — Red Hat Quay SQL LIKE wildcard injection in robot list (CVE-2026-110697)
 - [CVE-2026-111334](CVE_2026_111334.md) — NetScaler ADC: memory overflow DoS in Endpoint Analysis
-- [CVE-2026-111497](CVE_2026_111497.md) — out-of-bounds write on crafted streams (CVE-2026-111497)
+- [CVE-2026-111497](CVE_2026_111497.md) — Bundled Brotli decoder: out-of-bounds write on crafted streams
 - [CVE-2026-111560](CVE_2026_111560.md) — Barracuda timezone-setting OS command injection (CVE-2026-111560)
 - [CVE-2026-111793](CVE_2026_111793.md) — Openwave Webtop transcoder file-type bypass (CVE-2026-111793)
-- [CVE-2026-114136](CVE_2026_114136.md) — RCE via byte-transform codecs in the charset (CVE-2026-114136)
-- [CVE-2026-114509](CVE_2026_114509.md) — authentication bypass via crafted non-string credentials (CVE-2026-114509)
+- [CVE-2026-114136](CVE_2026_114136.md) — Django REST framework: denial of service through byte-transform charsets
+- [CVE-2026-114509](CVE_2026_114509.md) — Laravel TokenGuard: authentication bypass via crafted non-string credentials
 - [CVE-2026-114604](CVE_2026_114604.md) — graphql-tools mergeIncrementalResult prototype pollution (CVE-2026-114604)
 - [CVE-2026-114625](CVE_2026_114625.md) — VeloCloud Orchestrator operator escalation (CVE-2026-114625)
 - [CVE-2026-116241](CVE_2026_116241.md) — pgAdmin 4: OS command execution through COPY TO PROGRAM in query export
@@ -140,9 +140,9 @@ The reports record the application or fixture tested, the observed behavior, and
 - [CVE-2026-126170](CVE_2026_126170.md) — FortiManager and FortiAnalyzer: unauthenticated code execution via output encoding
 - [CVE-2026-126187](CVE_2026_126187.md) — React Server Components unauthenticated RCE (CVE-2026-126187) through Eden's API
 - [CVE-2026-126229](CVE_2026_126229.md) — FortiAnalyzer and FortiManager: VDOM authorization bypass
-- [CVE-2026-126251](CVE_2026_126251.md) — incorrect authorization to unauthorized access (CVE-2026-126251)
-- [CVE-2026-126257](CVE_2026_126257.md) — unauthorized access via hard-coded password (CVE-2026-126257)
-- [CVE-2026-126263](CVE_2026_126263.md) — unauthenticated SQL injection to code execution (CVE-2026-126263)
+- [CVE-2026-126251](CVE_2026_126251.md) — FortiAuthenticator: incorrect authorization to unauthorized access
+- [CVE-2026-126257](CVE_2026_126257.md) — FortiAuthenticator: unauthorized access via hard-coded password
+- [CVE-2026-126263](CVE_2026_126263.md) — FortiMail: authenticated SQL injection can lead to code execution
 - [CVE-2026-126613](CVE_2026_126613.md) — hMailServer REST unbounded JSON allocation (CVE-2026-126613)
 - [CVE-2026-126623](CVE_2026_126623.md) — hMailServer JSON-reader complexity DoS (CVE-2026-126623)
 - [CVE-2026-126768](CVE_2026_126768.md) — OpsTree REMS authentication bypass on the reports API (CVE-2026-126768)
