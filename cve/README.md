@@ -7,6 +7,7 @@ Use the [CVE case study and bundle template](../docs/case-studies/TEMPLATE.md) f
 | [CVE-2017-5689](CVE-2017-5689/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2017-7921](CVE-2017-7921/README.md) | `1.0.0` | Route-level assessment |
 | [CVE-2021-44228](CVE-2021-44228/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2023-22894](CVE-2023-22894/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2023-34468](CVE-2023-34468/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2023-54335](CVE-2023-54335/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2024-23897](CVE-2024-23897/README.md) | `1.0.0` | Lab comparison recorded |
@@ -27,6 +28,7 @@ Use the [CVE case study and bundle template](../docs/case-studies/TEMPLATE.md) f
 | [CVE-2025-29927](CVE-2025-29927/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2025-61624](CVE-2025-61624/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2025-8110](CVE-2025-8110/README.md) | `1.0.0` | Partial coverage in the lab |
+| [CVE-2026-0322](CVE-2026-0322/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-100109](CVE-2026-100109/README.md) | `1.0.0` | Tier 2 import failed |
 | [CVE-2026-102657](CVE-2026-102657/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-102764](CVE-2026-102764/README.md) | `1.0.0` | Lab comparison recorded |
@@ -112,6 +114,7 @@ Use the [CVE case study and bundle template](../docs/case-studies/TEMPLATE.md) f
 | [CVE-2026-71395](CVE-2026-71395/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-7273](CVE-2026-7273/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-75650](CVE-2026-75650/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-76418](CVE-2026-76418/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-76460](CVE-2026-76460/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-76504](CVE-2026-76504/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-76519](CVE-2026-76519/README.md) | `1.0.0` | Lab comparison recorded |
