@@ -25,6 +25,8 @@ cve/CVE-<year>-<number>/
 | `deployment.json` | The applicable policy or native declaration, including route and software scope. Use placeholders for deployment-specific values. Label fixture settings. |
 | `api.md` | Prerequisites, parameterized API commands, effective-state readback, verification, revocation, and restore. Use [the Log4j API example](../../cve/CVE-2021-44228/http-request-filter/api.md) and [deployment prerequisites](../deployment.md). |
 
+For standalone Rust sources linked from a report, use `docs/case-studies/modules/CVE-YYYY-NNNN.rs`. List the file, case study, and source SHA-256 in the [module index](modules/README.md).
+
 For an assessment, a declarative-only result, or a failed native import, publish the report and link the artifacts that exist. Record the exact stage reached and the configuration that was exercised.
 
 ## Case study starter
