@@ -1,5 +1,7 @@
 # CVE module bundles
 
+Use the [CVE case study and bundle template](../docs/case-studies/TEMPLATE.md) for new entries.
+
 | CVE | Module version | Evidence status |
 | --- | --- | --- |
 | [CVE-2017-7921](CVE-2017-7921/README.md) | `1.0.0` | Route-level assessment |
