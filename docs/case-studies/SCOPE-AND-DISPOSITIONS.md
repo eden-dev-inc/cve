@@ -21,7 +21,22 @@ This document records advisories triaged against the current Eden HTTP remediati
 | CVE-2025-6554, CVE-2025-6558, CVE-2025-10585, CVE-2025-13223, CVE-2025-14174, CVE-2025-2783, CVE-2025-4609, CVE-2025-5419, CVE-2026-2441, CVE-2026-3910, CVE-2026-85046, CVE-2026-87491 | Google Chrome (V8, ANGLE, Skia, Mojo, FileSystem) |
 | CVE-2026-118306, CVE-2026-119261, CVE-2026-119263, CVE-2026-120931, CVE-2026-121030, CVE-2026-121034, CVE-2026-121035, CVE-2026-121037, CVE-2026-121060, CVE-2026-121071, CVE-2026-121073, CVE-2026-121074, CVE-2026-121076, CVE-2026-121077, CVE-2026-121086, CVE-2026-121089, CVE-2026-121104, CVE-2026-121114, CVE-2026-121126, CVE-2026-121131, CVE-2026-121148, CVE-2026-121156, CVE-2026-121157, CVE-2026-121185, CVE-2026-121189, CVE-2026-121200, CVE-2026-121202, CVE-2026-121214, CVE-2026-121229, CVE-2026-121234, CVE-2026-121241, CVE-2026-121246, CVE-2026-121247, CVE-2026-121249, CVE-2026-121250, CVE-2026-121257, CVE-2026-125347, CVE-2026-125350, CVE-2026-126842, CVE-2026-126846, CVE-2026-126859, CVE-2026-126872, CVE-2026-126885, CVE-2026-126909, CVE-2026-126912 | Google Chrome 157.x family |
 | CVE-2025-15556 | Notepad++ WinGUp updater |
-| CVE-2026-86950 | Apple CoreGraphics processing of crafted files |
+| CVE-2026-124194 | Microsoft Outlook spoofing (exploited; victim must interact) |
+| CVE-2026-121529 | Fortinet FortiClientMac/Windows origin validation (victim must interact) |
+| CVE-2026-70279 | Microsoft Exchange XSS spoofing (user must open a malicious link) |
+| CVE-2026-96951 | Windows Shell feature bypass (client) |
+| CVE-2026-110936 | Siemens Software Center DLL planting (local; exploited per CISA) |
+| CVE-2026-86950 | Out-of-bounds write addressed by bounds checking (client component) |
+| CVE-2026-126148 | FortiMail HA join-request command injection (HA packet stream, not frontable HTTP) |
+| CVE-2026-106173 | FortiSIEM traversal code execution (vendor documents crafted packets, not HTTP) |
+| CVE-2026-114713 | UnrealIRCd IRCv3 label tag injection (server-to-server IRC protocol) |
+| CVE-2026-105445 | Docker Hub account-conversion token reassignment (SaaS platform flaw, no frontable boundary) |
+| CVE-2026-59346 | VMware Workstation VMXNET3 hypervisor transition |
+| CVE-2026-96012 | IBM Db2 Mirror for i |
+| CVE-2026-98464, CVE-2026-98490, CVE-2026-98548, CVE-2026-98549, CVE-2026-98959, CVE-2026-99078, CVE-2026-99079, CVE-2026-99999 | Linux kernel RISC-V KVM, OVS conntrack, SCTP, TCP, Btrfs, mlx5e, IPv4 (local kernel) |
+| CVE-2026-85746, CVE-2026-85748, CVE-2026-92262 | MariaDB ST_AsText OOB write, SYS_REFCURSOR use-after-free, #mysql50# code execution (database wire/library) |
+| CVE-2026-106195, CVE-2026-106234, CVE-2026-106237, CVE-2026-106241, CVE-2026-106294, CVE-2026-106329, CVE-2026-106372, CVE-2026-106375, CVE-2026-106401, CVE-2026-106414, CVE-2026-106417, CVE-2026-110136, CVE-2026-110142, CVE-2026-110144, CVE-2026-110149, CVE-2026-110152, CVE-2026-110159, CVE-2026-110161, CVE-2026-110165, CVE-2026-110916, CVE-2026-112992, CVE-2026-113007, CVE-2026-113014, CVE-2026-113020, CVE-2026-113023, CVE-2026-113056, CVE-2026-113072, CVE-2026-113078, CVE-2026-113084, CVE-2026-113089, CVE-2026-113116, CVE-2026-113126, CVE-2026-113138, CVE-2026-113169, CVE-2026-113171, CVE-2026-113186, CVE-2026-113189, CVE-2026-113211, CVE-2026-113222, CVE-2026-113235, CVE-2026-113252, CVE-2026-113261, CVE-2026-113263, CVE-2026-113270, CVE-2026-113283, CVE-2026-113300, CVE-2026-113328, CVE-2026-113336, CVE-2026-113342, CVE-2026-118305, CVE-2026-118308, CVE-2026-118309, CVE-2026-118310, CVE-2026-118312, CVE-2026-118316, CVE-2026-118321, CVE-2026-118332, CVE-2026-118340, CVE-2026-118342, CVE-2026-118355 | Google Chrome rendering/engine family (V8, ANGLE, Skia, Dawn, Compositing, FileSystem, Mojo, Updater, DevTools, sandbox escapes) — client-side execution in the victim's browser |
+| CVE-2026-86950 | Out-of-bounds write addressed with bounds checking (client-side component) |
 | CVE-2025-24054 | Windows NTLM hash disclosure spoofing |
 | CVE-2026-128116 | SvelteKit route-resolution XSS (victim's browser) |
 | CVE-2026-68541 | PolicyPress CSS-only redaction and workflow defaults |
