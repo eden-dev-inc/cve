@@ -150,6 +150,7 @@ Use the [CVE case study and bundle template](../docs/case-studies/TEMPLATE.md) f
 | [CVE-2026-77690](CVE-2026-77690/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-82504](CVE-2026-82504/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-85632](CVE-2026-85632/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-86863](CVE-2026-86863/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-88771](CVE-2026-88771/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-88772](CVE-2026-88772/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-88773](CVE-2026-88773/README.md) | `1.0.0` | Lab comparison recorded |
