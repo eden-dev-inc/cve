@@ -283,4 +283,4 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-129171](CVE_2026_129171.md) — SQL injection on the stats route (CVE-2026-129171)
 - [CVE-2026-86863](CVE_2026_86863.md) — pgAdmin 4: webserver-authentication bypass via client-supplied identity header
 - [CVE-2026-129180](CVE_2026_129180.md) — Visitor Management System: unauthenticated SQL injection in actionpage.php
-- [CVE-2026-71519](CVE_2026_71519.md) — PrestaShop: cross-shop customer records via Webservice API (CVE-2026-71519)
+- [CVE-2026-71519](CVE_2026_71519.md) — PrestaShop: cross-shop customer records via Webservice API
