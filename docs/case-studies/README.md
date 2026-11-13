@@ -5,6 +5,7 @@ The reports record the application or fixture tested, the observed behavior, and
 [Native module sources](modules/README.md)
 
 - [CVE-2017-7921](CVE_2017_7921.md) — Hikvision unauthenticated sensitive access (CVE-2017-7921)
+- [CVE-2021-43798](CVE_2021_43798.md) — Grafana plugin path traversal file read (CVE-2021-43798)
 - [CVE-2021-44228](CVE_2021_44228.md) — Log4j JNDI lookup (CVE-2021-44228) through Eden's API
 - [CVE-2023-34468](CVE_2023_34468.md) — Apache NiFi H2 connection URL code injection (CVE-2023-34468)
 - [CVE-2024-23897](CVE_2024_23897.md) — Jenkins CLI arbitrary file read (CVE-2024-23897) through Eden's API
@@ -21,12 +22,18 @@ The reports record the application or fixture tested, the observed behavior, and
 - [CVE-2024-5227](CVE_2024_5227.md) — TP-Link PPTP VPN command injection (CVE-2024-5227)
 - [CVE-2024-5229](CVE_2024_5229.md) — Primary Addon for Elementor stored XSS (CVE-2024-5229)
 - [CVE-2024-5273](CVE_2024_5273.md) — Report-Info path traversal file read (CVE-2024-5273)
+- [CVE-2025-11201](CVE_2025_11201.md) — MLflow artifact path traversal RCE (CVE-2025-11201)
 - [CVE-2025-24813](CVE_2025_24813.md) — Tomcat partial-PUT path traversal (CVE-2025-24813) through Eden's API
 - [CVE-2025-29927](CVE_2025_29927.md) — Next.js middleware authentication bypass (CVE-2025-29927) through Eden's API
 - [CVE-2025-3248](CVE_2025_3248.md) — Langflow: unauthenticated code execution in the validation API (CVE-2025-3248)
+- [CVE-2025-31161](CVE_2025_31161.md) — CrushFTP unauthenticated admin takeover (CVE-2025-31161)
 - [CVE-2025-49844](CVE_2025_49844.md) — Redis Lua-script sandbox escape (CVE-2025-49844) through Eden's API
 - [CVE-2025-55182](CVE_2025_55182.md) — React Server Components decoder (CVE-2025-55182) through Eden's API
 - [CVE-2025-8110](CVE_2025_8110.md) — Gogs contents API symlink following (CVE-2025-8110)
+- [CVE-2026-25939](CVE_2026_25939.md) — FUXA unauthenticated scheduler write (CVE-2026-25939)
+- [CVE-2026-39987](CVE_2026_39987.md) — marimo terminal command execution (CVE-2026-39987)
+- [CVE-2026-41940](CVE_2026_41940.md) — cPanel and WHM login authentication bypass (CVE-2026-41940)
+- [CVE-2026-61511](CVE_2026_61511.md) — vBulletin template eval injection (CVE-2026-61511)
 - [CVE-2026-100109](CVE_2026_100109.md) — Security For WooCommerce unauth admin creation (CVE-2026-100109)
 - [CVE-2026-102657](CVE_2026_102657.md) — esm.sh web.NewHandler encoded dot-segment traversal (CVE-2026-102657)
 - [CVE-2026-102764](CVE_2026_102764.md) — BeyondTrust unvalidated message origin file operations (CVE-2026-102764)
@@ -169,3 +176,4 @@ The reports record the application or fixture tested, the observed behavior, and
 - [CVE-2026-9767](CVE_2026_9767.md) — WordPress School Management ERP SQL injection (CVE-2026-9767)
 - [CVE-2026-9852](CVE_2026_9852.md) — Hitachi RTU500 file upload traversal (CVE-2026-9852)
 - [CVE-2026-9859](CVE_2026_9859.md) — Mattermost board channelId permission bypass (CVE-2026-9859)
+- [CVE-2026-128023](CVE_2026_128023.md) — FrankenPHP dot-header trust spoof (CVE-2026-128023)
