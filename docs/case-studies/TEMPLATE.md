@@ -29,8 +29,12 @@ For an assessment, a declarative-only result, or a failed native import, publish
 
 ## Case study starter
 
+Open every case study with the practical consequences of exploitation and why the affected deployment needs remediation. Ground those consequences in the advisory or other cited evidence. Describe prerequisites and qualify the impact when it depends on configuration, access, or a specific version.
+
 ````markdown
 # <Product and vulnerability> (CVE-YYYY-NNNN)
+
+<In two or three sentences, explain what a successful attacker could do, which systems, users, or data are at risk under the affected conditions, and why operators need to remediate. State what remains exposed while the affected system stays unpatched.>
 
 [Vendor advisory](<url>) · [CVE record](<url>) · [Source and API bundle](<relative path>)
 
@@ -90,6 +94,7 @@ For an assessment, a declarative-only result, or a failed native import, publish
 
 ## Before publishing
 
+- Check that the opening states a concrete consequence and gives operators a reason to remediate. Cite the source for the stated impact.
 - Match the CVE, module version, scope, and linked source across the report and bundle. Label example declarations and observed results.
 - Confirm each coverage claim against the baseline, the protected result, and the legitimate-traffic probes. Record failed imports and bypasses with their observed outcomes.
 - Verify links and available digests. Keep credentials, customer data, private addresses, and internal lab paths out of public material.
