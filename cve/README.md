@@ -35,6 +35,7 @@ Use the [CVE case study and bundle template](../docs/case-studies/TEMPLATE.md) f
 | [CVE-2026-106931](CVE-2026-106931/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-109163](CVE-2026-109163/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-110447](CVE-2026-110447/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-111334](CVE-2026-111334/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-111560](CVE-2026-111560/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-111793](CVE-2026-111793/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-114604](CVE-2026-114604/README.md) | `1.0.0` | Lab comparison recorded |
@@ -45,9 +46,10 @@ Use the [CVE case study and bundle template](../docs/case-studies/TEMPLATE.md) f
 | [CVE-2026-119171](CVE-2026-119171/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-119302](CVE-2026-119302/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-119618](CVE-2026-119618/README.md) | `1.0.0` | Lab comparison recorded |
-| [CVE-2026-119977](CVE-2026-119977/README.md) | `1.0.0` | Tier 2 withdrawn after a bypass |
+| [CVE-2026-119977](CVE-2026-119977/README.md) | `1.0.0` | Staging-path fixture recorded. Prior candidate withdrawn. |
 | [CVE-2026-120209](CVE-2026-120209/README.md) | `1.0.0` | Tier 2 import failed |
 | [CVE-2026-12062](CVE-2026-12062/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-120869](CVE-2026-120869/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-121653](CVE-2026-121653/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-121683](CVE-2026-121683/README.md) | `1.0.0` | Route-level assessment |
 | [CVE-2026-123218](CVE-2026-123218/README.md) | `1.0.0` | Lab comparison recorded |
@@ -63,6 +65,8 @@ Use the [CVE case study and bundle template](../docs/case-studies/TEMPLATE.md) f
 | [CVE-2026-125842](CVE-2026-125842/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-125843](CVE-2026-125843/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-126082](CVE-2026-126082/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-126150](CVE-2026-126150/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-126155](CVE-2026-126155/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-126187](CVE-2026-126187/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-126613](CVE-2026-126613/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-126623](CVE-2026-126623/README.md) | `1.0.0` | Lab comparison recorded |
@@ -81,6 +85,7 @@ Use the [CVE case study and bundle template](../docs/case-studies/TEMPLATE.md) f
 | [CVE-2026-63030](CVE-2026-63030/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-63655](CVE-2026-63655/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-71395](CVE-2026-71395/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-7273](CVE-2026-7273/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-75650](CVE-2026-75650/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-76981](CVE-2026-76981/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-77604](CVE-2026-77604/README.md) | `1.0.0` | Lab comparison recorded |
