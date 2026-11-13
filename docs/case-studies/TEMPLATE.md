@@ -18,7 +18,7 @@ cve/CVE-<year>-<number>/
 
 | File | What to include |
 | --- | --- |
-| Case study | Vulnerability, enforcement decision, test method and results, coverage, and links to public evidence and source. Use the starter below. |
+| Case study | Vulnerability, enforcement decision, implementation steps, test method and results, coverage, and links to public evidence and source. Use the starter below. |
 | Bundle `README.md` | CVE and vendor advisory, evidence status, supported product and Eden versions, links to the case study and bundle files, and the relevant artifact digests. |
 | `Cargo.toml` and `src/lib.rs` | The module crate and exact source. Match the module name and SemVer in `patch.toml`. |
 | `patch.toml` | Advisory, module SemVer, Eden compatibility, protocol and ABI, SDK revision, target, compiler, and build profile. Follow the [existing manifest](../../cve/CVE-2021-44228/http-request-filter/patch.toml). |
@@ -59,7 +59,16 @@ Open every case study with the practical consequences of exploitation and why th
 - **Declarative policy** <Exact scope and decision. Link or show the tested policy. State which legitimate requests it blocks.>
 - **Native module** <Exact scope, inspected input, match conditions, action, and behavior for incomplete input or no match. Link the exact source and include a short excerpt if it clarifies the decision. If this tier was unavailable or failed, record the stage and observed outcome.>
 
-<Link the deployment declaration and API instructions. Identify the evidence that the expected policy or module was active at the enforcement point.>
+## Implement the remediation
+
+<Give the operator the steps in execution order. Put the case-specific commands, API requests, and configuration changes in the report. Link the exact deployment declaration and companion API example for full payloads. Define each placeholder before use and identify the Eden release used to verify the commands.>
+
+1. **Prepare the target.** <Specify the affected product and version, compatible Eden release, required permissions, and target endpoint or interlay. Name the policy or module version and where to get it.>
+2. **Apply the protection.** <For a declarative policy, show the exact policy and how to publish it to the target. For a native module, show how to obtain or build the versioned archive, verify its archive digest, import it, complete signed approval and admission, and explicitly activate it. Include the command or API request for each applicable action.>
+3. **Confirm enforcement.** <Show the readback command and the expected effective policy digest or activation receipt, including shard acknowledgment where applicable. Give the benign and advisory-shaped verification probes for an isolated environment and the expected gateway and backend outcomes.>
+4. **Roll back or restore.** <Show how to restore the prior policy or revoke and restore the native operation. Explain what happens to traffic during the change and how to verify the resulting state.>
+
+<Link the vendor’s fix instructions for the affected release line. If an Eden path was untested, failed, or was unavailable, state the stage reached. Label any example steps that were not run and include the vendor’s documented update or workaround when available.>
 
 ## Measured comparison (<YYYY-MM-DD> UTC)
 
@@ -95,6 +104,7 @@ Open every case study with the practical consequences of exploitation and why th
 ## Before publishing
 
 - Check that the opening states a concrete consequence and gives operators a reason to remediate. Cite the source for the stated impact.
+- Check that an operator can follow the case-specific implementation steps, substitute the documented values, verify enforcement, and roll back or restore the change.
 - Match the CVE, module version, scope, and linked source across the report and bundle. Label example declarations and observed results.
 - Confirm each coverage claim against the baseline, the protected result, and the legitimate-traffic probes. Record failed imports and bypasses with their observed outcomes.
 - Verify links and available digests. Keep credentials, customer data, private addresses, and internal lab paths out of public material.
