@@ -4,10 +4,10 @@ The reports record the application or fixture tested, the observed behavior, and
 
 [Native module sources](modules/README.md)
 
-- [CVE-2014-8361](CVE_2014_8361.md) — Realtek SDK miniigd: SOAP command execution via NewInternalClient
-- [CVE-2016-10972](CVE_2016_10972.md) — WordPress newspaper theme: unauthenticated options access via td_ajax_update_panel
+- [CVE-2014-8361](CVE_2014_8361.md) — SOAP command execution via NewInternalClient (CVE-2014-8361) (CVE-2014-8361)
+- [CVE-2016-10972](CVE_2016_10972.md) — unauthenticated options access via td_ajax_update_panel (CVE-2016-10972) (CVE-2016-10972)
 - [CVE-2017-7921](CVE_2017_7921.md) — Hikvision unauthenticated sensitive access (CVE-2017-7921)
-- [CVE-2019-7256](CVE_2019_7256.md) — Linear eMerge E3: unauthenticated command injection
+- [CVE-2019-7256](CVE_2019_7256.md) — unauthenticated command injection (CVE-2019-7256) (CVE-2019-7256)
 - [CVE-2020-36847](CVE_2020_36847.md) — rename-to-PHP remote code execution (CVE-2020-36847) (CVE-2020-36847)
 - [CVE-2021-22204](CVE_2021_22204.md) — DjVu arbitrary code execution on crafted files (CVE-2021-22204) (CVE-2021-22204)
 - [CVE-2021-43798](CVE_2021_43798.md) — Grafana plugin path traversal file read (CVE-2021-43798)
@@ -41,14 +41,16 @@ The reports record the application or fixture tested, the observed behavior, and
 - [CVE-2025-55182](CVE_2025_55182.md) — React Server Components decoder (CVE-2025-55182) through Eden's API
 - [CVE-2025-8110](CVE_2025_8110.md) — Gogs contents API symlink following (CVE-2025-8110)
 - [CVE-2025-60021](CVE_2025_60021.md) — unauthenticated command injection in the builtin heap service (CVE-2025-60021) (CVE-2025-60021)
+- [CVE-2026-7273](CVE_2026_7273.md) — stack overflow in the switch CGI program (CVE-2026-7273) (CVE-2026-7273)
 - [CVE-2026-25939](CVE_2026_25939.md) — FUXA unauthenticated scheduler write (CVE-2026-25939)
-- [CVE-2026-28318](CVE_2026_28318.md) — SolarWinds Serv-U: unauthenticated DoS via Content-Encoding: deflate
-- [CVE-2026-39813](CVE_2026_39813.md) — FortiSandbox: path traversal privilege escalation in the JRPC API
+- [CVE-2026-28318](CVE_2026_28318.md) — unauthenticated DoS via Content-Encoding: deflate (CVE-2026-28318) (CVE-2026-28318)
+- [CVE-2026-39813](CVE_2026_39813.md) — path traversal privilege escalation in the JRPC API (CVE-2026-39813) (CVE-2026-39813)
 - [CVE-2026-39987](CVE_2026_39987.md) — marimo terminal command execution (CVE-2026-39987)
 - [CVE-2026-41940](CVE_2026_41940.md) — cPanel and WHM login authentication bypass (CVE-2026-41940)
 - [CVE-2026-61511](CVE_2026_61511.md) — vBulletin template eval injection (CVE-2026-61511)
-- [CVE-2026-96654](CVE_2026_96654.md) — Plex Media Server: URL injection into plugin function calls via searchOne
-- [CVE-2026-96656](CVE_2026_96656.md) — Plex Media Server: arbitrary file write via TranscoderH264Options
+- [CVE-2026-96654](CVE_2026_96654.md) — URL injection into plugin function calls via searchOne (CVE-2026-96654) (CVE-2026-96654)
+- [CVE-2026-96656](CVE_2026_96656.md) — arbitrary file write via TranscoderH264Options (CVE-2026-96656) (CVE-2026-96656)
+- [CVE-2026-97229](CVE_2026_97229.md) — unauthenticated RCE through CI/CD regex validation (CVE-2026-97229) (CVE-2026-97229)
 - [CVE-2026-100109](CVE_2026_100109.md) — Security For WooCommerce unauth admin creation (CVE-2026-100109)
 - [CVE-2026-102657](CVE_2026_102657.md) — esm.sh web.NewHandler encoded dot-segment traversal (CVE-2026-102657)
 - [CVE-2026-102764](CVE_2026_102764.md) — BeyondTrust unvalidated message origin file operations (CVE-2026-102764)
@@ -66,20 +68,24 @@ The reports record the application or fixture tested, the observed behavior, and
 - [CVE-2026-109619](CVE_2026_109619.md) — PHP cross-request state confusion (CVE-2026-109619) through Eden's API
 - [CVE-2026-110447](CVE_2026_110447.md) — Collabora Online proxy.php OS command injection (CVE-2026-110447)
 - [CVE-2026-110697](CVE_2026_110697.md) — Red Hat Quay SQL LIKE wildcard injection in robot list (CVE-2026-110697)
+- [CVE-2026-111334](CVE_2026_111334.md) — memory overflow DoS in Endpoint Analysis (CVE-2026-111334) (CVE-2026-111334)
 - [CVE-2026-111560](CVE_2026_111560.md) — Barracuda timezone-setting OS command injection (CVE-2026-111560)
 - [CVE-2026-111793](CVE_2026_111793.md) — Openwave Webtop transcoder file-type bypass (CVE-2026-111793)
 - [CVE-2026-114604](CVE_2026_114604.md) — graphql-tools mergeIncrementalResult prototype pollution (CVE-2026-114604)
 - [CVE-2026-114625](CVE_2026_114625.md) — VeloCloud Orchestrator operator escalation (CVE-2026-114625)
-- [CVE-2026-116241](CVE_2026_116241.md) — pgAdmin 4: OS command execution through COPY TO PROGRAM in query export
+- [CVE-2026-116241](CVE_2026_116241.md) — OS command execution through COPY TO PROGRAM in query export (CVE-2026-116241) (CVE-2026-116241)
 - [CVE-2026-116468](CVE_2026_116468.md) — WildFly deployment-handler RBAC bypass (CVE-2026-116468)
 - [CVE-2026-116606](CVE_2026_116606.md) — Barracuda ESG unauthenticated backup-restore auth bypass (CVE-2026-116606)
 - [CVE-2026-118527](CVE_2026_118527.md) — Ivanti predictable-filename upload (CVE-2026-118527)
 - [CVE-2026-119171](CVE_2026_119171.md) — WooCommerce paid-option surcharge bypass (CVE-2026-119171)
 - [CVE-2026-119302](CVE_2026_119302.md) — NotificationX unauth shortcode execution (CVE-2026-119302)
 - [CVE-2026-119618](CVE_2026_119618.md) — Apache HTTP Server: mod_http2 heap corruption and RCE in assign_headers (CVE-2026-119618)
+- [CVE-2026-119977](CVE_2026_119977.md) — RCE through web-accessible upgrade staging paths (CVE-2026-119977) (CVE-2026-119977)
 - [CVE-2026-119977](CVE_2026_119977.md) — WordPress core upgrade installer race (CVE-2026-119977)
 - [CVE-2026-120209](CVE_2026_120209.md) — AJ-Report share-token RCE (CVE-2026-120209)
 - [CVE-2026-12062](CVE_2026_12062.md) — ADAudit Plus authenticated SQL injection (CVE-2026-12062)
+- [CVE-2026-120869](CVE_2026_120869.md) — unauthenticated authentication bypass (CVE-2026-120869) (CVE-2026-120869)
+- [CVE-2026-121653](CVE_2026_121653.md) — unauthenticated SQL injection in the Core (CVE-2026-121653) (CVE-2026-121653)
 - [CVE-2026-121653](CVE_2026_121653.md) — Ivanti EPM Core API SQL injection (CVE-2026-121653)
 - [CVE-2026-121683](CVE_2026_121683.md) — Ivanti CSA missing authentication (CVE-2026-121683)
 - [CVE-2026-123040](CVE_2026_123040.md) — TrueConf Server: privilege escalation with prior code execution (CVE-2026-123040)
@@ -104,6 +110,8 @@ The reports record the application or fixture tested, the observed behavior, and
 - [CVE-2026-125842](CVE_2026_125842.md) — webriti Wallstreet Agency theme: CSRF on theme options (CVE-2026-125842)
 - [CVE-2026-125843](CVE_2026_125843.md) — Spasalon theme: CSRF on theme options (CVE-2026-125843)
 - [CVE-2026-126082](CVE_2026_126082.md) — Rails Active Storage ImageMagick coder abuse (CVE-2026-126082)
+- [CVE-2026-126150](CVE_2026_126150.md) — IBE webmail account takeover via weak password recovery (CVE-2026-126150) (CVE-2026-126150)
+- [CVE-2026-126155](CVE_2026_126155.md) — IBE webmail session takeover via incorrect authorization (CVE-2026-126155) (CVE-2026-126155)
 - [CVE-2026-126187](CVE_2026_126187.md) — React Server Components unauthenticated RCE (CVE-2026-126187) through Eden's API
 - [CVE-2026-126613](CVE_2026_126613.md) — hMailServer REST unbounded JSON allocation (CVE-2026-126613)
 - [CVE-2026-126623](CVE_2026_126623.md) — hMailServer JSON-reader complexity DoS (CVE-2026-126623)
@@ -182,7 +190,9 @@ The reports record the application or fixture tested, the observed behavior, and
 - [CVE-2026-96455](CVE_2026_96455.md) — Reachy Mini unauth app-install RCE (CVE-2026-96455)
 - [CVE-2026-96651](CVE_2026_96651.md) — Plex Media Server url-parameter traversal (CVE-2026-96651)
 - [CVE-2026-96652](CVE_2026_96652.md) — Plex token SSRF to arbitrary destinations (CVE-2026-96652)
+- [CVE-2026-96654](CVE_2026_96654.md) — Plex timeline SSRF to loopback agent (CVE-2026-96654)
 - [CVE-2026-96655](CVE_2026_96655.md) — Plex transcode-endpoint SSRF (CVE-2026-96655)
+- [CVE-2026-96656](CVE_2026_96656.md) — Plex TranscoderH264Options codec write (CVE-2026-96656)
 - [CVE-2026-9667](CVE_2026_9667.md) — IBM WebSphere SSRF (CVE-2026-9667)
 - [CVE-2026-9668](CVE_2026_9668.md) — ZTE SCP SQL injection (CVE-2026-9668)
 - [CVE-2026-96775](CVE_2026_96775.md) — MLflow dspy pickle deserialization bypass (CVE-2026-96775)
