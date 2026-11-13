@@ -272,3 +272,4 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-129165](CVE_2026_129165.md) — file:// link read in report template preview (CVE-2026-129165)
 - [CVE-2026-129167](CVE_2026_129167.md) — absolute path traversal to RCE in the converter (CVE-2026-129167)
 - [CVE-2026-129171](CVE_2026_129171.md) — SQL injection on the stats route (CVE-2026-129171)
+- [CVE-2026-86863](CVE_2026_86863.md) — pgAdmin 4 webserver-auth bypass via client identity header (CVE-2026-86863)
