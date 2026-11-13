@@ -38,16 +38,20 @@ Use the [CVE case study and bundle template](../docs/case-studies/TEMPLATE.md) f
 | [CVE-2026-102764](CVE-2026-102764/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-102895](CVE-2026-102895/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-104286](CVE-2026-104286/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-104935](CVE-2026-104935/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-105133](CVE-2026-105133/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-105134](CVE-2026-105134/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-105948](CVE-2026-105948/README.md) | `1.0.0` | Lab comparison recorded. CVE attribution unverified |
 | [CVE-2026-106023](CVE-2026-106023/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-106042](CVE-2026-106042/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-106931](CVE-2026-106931/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-107412](CVE-2026-107412/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-107415](CVE-2026-107415/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-107656](CVE-2026-107656/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-109163](CVE-2026-109163/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-110264](CVE-2026-110264/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-110447](CVE-2026-110447/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-111214](CVE-2026-111214/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-111334](CVE-2026-111334/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-111497](CVE-2026-111497/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-111560](CVE-2026-111560/README.md) | `1.0.0` | Lab comparison recorded |
@@ -126,6 +130,7 @@ Use the [CVE case study and bundle template](../docs/case-studies/TEMPLATE.md) f
 | [CVE-2026-48356](CVE-2026-48356/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-49236](CVE-2026-49236/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-5430](CVE-2026-5430/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-59774](CVE-2026-59774/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-60004](CVE-2026-60004/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-63030](CVE-2026-63030/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-63655](CVE-2026-63655/README.md) | `1.0.0` | Lab comparison recorded |
@@ -150,6 +155,7 @@ Use the [CVE case study and bundle template](../docs/case-studies/TEMPLATE.md) f
 | [CVE-2026-89037](CVE-2026-89037/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-92738](CVE-2026-92738/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-93616](CVE-2026-93616/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-93674](CVE-2026-93674/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-94127](CVE-2026-94127/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-95814](CVE-2026-95814/README.md) | `1.0.0` | Lab comparison recorded. CVE attribution unverified |
 | [CVE-2026-96443](CVE-2026-96443/README.md) | `1.0.0` | Lab comparison recorded |

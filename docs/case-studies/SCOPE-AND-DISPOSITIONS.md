@@ -25,16 +25,7 @@ This document records advisories triaged against the current Eden HTTP remediati
 | CVE-2026-121529 | Fortinet FortiClientMac/Windows origin validation (victim must interact) |
 | CVE-2026-70279 | Microsoft Exchange XSS spoofing (user must open a malicious link) |
 | CVE-2026-96951 | Windows Shell feature bypass (client) |
-| CVE-2026-110936 | Siemens Software Center DLL planting (local; exploited per CISA) |
-| CVE-2026-86950 | Out-of-bounds write addressed by bounds checking (client component) |
-| CVE-2026-126148 | FortiMail HA join-request command injection (HA packet stream, not frontable HTTP) |
-| CVE-2026-106173 | FortiSIEM traversal code execution (vendor documents crafted packets, not HTTP) |
-| CVE-2026-114713 | UnrealIRCd IRCv3 label tag injection (server-to-server IRC protocol) |
-| CVE-2026-105445 | Docker Hub account-conversion token reassignment (SaaS platform flaw, no frontable boundary) |
-| CVE-2026-59346 | VMware Workstation VMXNET3 hypervisor transition |
-| CVE-2026-96012 | IBM Db2 Mirror for i |
-| CVE-2026-98464, CVE-2026-98490, CVE-2026-98548, CVE-2026-98549, CVE-2026-98959, CVE-2026-99078, CVE-2026-99079, CVE-2026-99999 | Linux kernel RISC-V KVM, OVS conntrack, SCTP, TCP, Btrfs, mlx5e, IPv4 (local kernel) |
-| CVE-2026-85746, CVE-2026-85748, CVE-2026-92262 | MariaDB ST_AsText OOB write, SYS_REFCURSOR use-after-free, #mysql50# code execution (database wire/library) |
+| CVE-2026-86950 | Apple CoreGraphics processing of crafted files |
 | CVE-2026-106195, CVE-2026-106234, CVE-2026-106237, CVE-2026-106241, CVE-2026-106294, CVE-2026-106329, CVE-2026-106372, CVE-2026-106375, CVE-2026-106401, CVE-2026-106414, CVE-2026-106417, CVE-2026-110136, CVE-2026-110142, CVE-2026-110144, CVE-2026-110149, CVE-2026-110152, CVE-2026-110159, CVE-2026-110161, CVE-2026-110165, CVE-2026-110916, CVE-2026-112992, CVE-2026-113007, CVE-2026-113014, CVE-2026-113020, CVE-2026-113023, CVE-2026-113056, CVE-2026-113072, CVE-2026-113078, CVE-2026-113084, CVE-2026-113089, CVE-2026-113116, CVE-2026-113126, CVE-2026-113138, CVE-2026-113169, CVE-2026-113171, CVE-2026-113186, CVE-2026-113189, CVE-2026-113211, CVE-2026-113222, CVE-2026-113235, CVE-2026-113252, CVE-2026-113261, CVE-2026-113263, CVE-2026-113270, CVE-2026-113283, CVE-2026-113300, CVE-2026-113328, CVE-2026-113336, CVE-2026-113342, CVE-2026-118305, CVE-2026-118308, CVE-2026-118309, CVE-2026-118310, CVE-2026-118312, CVE-2026-118316, CVE-2026-118321, CVE-2026-118332, CVE-2026-118340, CVE-2026-118342, CVE-2026-118355 | Google Chrome rendering/engine family (V8, ANGLE, Skia, Dawn, Compositing, FileSystem, Mojo, Updater, DevTools, sandbox escapes) — client-side execution in the victim's browser |
 | CVE-2025-24054 | Windows NTLM hash disclosure spoofing |
 | CVE-2026-128116 | SvelteKit route-resolution XSS (victim's browser) |
@@ -71,6 +62,10 @@ This document records advisories triaged against the current Eden HTTP remediati
 | CVE-2026-128089 | dnspython WKS parser DoS (DNS record parsing library) |
 | CVE-2026-128128, CVE-2026-128129, CVE-2026-128132 | aiohttp WebSocket frame handling and connection data buffered while an upgrade is pending |
 | CVE-2026-129217 | FRRouting bgpd OOB read (BGP wire) |
+| CVE-2026-126148 | FortiMail HA join-request packets |
+| CVE-2026-106173 | FortiSIEM path traversal through crafted packets |
+| CVE-2026-114713 | UnrealIRCd IRCv3 label injection across linked servers |
+| CVE-2026-85746, CVE-2026-85748, CVE-2026-92262 | MariaDB spatial conversion, cursor handling, and table-name encoding through database operations |
 
 The [aiohttp CVE-2026-128131 case study](CVE_2026_128131.md) tested an HTTP request body size rule. WebSocket frames and client response decoding remain outside that test.
 
@@ -104,6 +99,9 @@ The [Apache mod_http2 case study for CVE-2026-119618](CVE_2026_119618.md) record
 | CVE-2026-128885, CVE-2026-128987 | RHEL 10 dbus local connection/transport DoS |
 | CVE-2026-123039 | Check Point Gaia DynamicCLI root escalation through a local socket |
 | CVE-2026-102490 | Zammad local privilege escalation in DEB/RPM service startup |
+| CVE-2026-110936 | Siemens Software Center local DLL loading |
+| CVE-2026-59346 | VMware Workstation and Fusion VMXNET3 guest-to-host code execution |
+| CVE-2026-98464, CVE-2026-98490, CVE-2026-98548, CVE-2026-98549, CVE-2026-98959, CVE-2026-99078, CVE-2026-99079, CVE-2026-99999 | Linux kernel RISC-V KVM, OVS conntrack, SCTP, TCP, Btrfs, mlx5e, IPv4 (local kernel) |
 
 ## Category D — application state, build output, and pending tests
 
@@ -116,6 +114,8 @@ The [Apache mod_http2 case study for CVE-2026-119618](CVE_2026_119618.md) record
 | CVE-2026-128100 | Vault authorization depends on deployed ACLs and case-insensitive identity handling |
 | CVE-2026-68551 | Budget Board account linking depends on validation of the identity provider's verified-email claim |
 | CVE-2026-102489 | Zammad session hijacking leading to code execution. No fixture comparison was recorded. |
+| CVE-2026-105445 | Docker Hub account conversion and personal access token reassignment |
+| CVE-2026-96012 | IBM Db2 Mirror for i privilege escalation. No fixture comparison was recorded. |
 
 ## Recording status
 

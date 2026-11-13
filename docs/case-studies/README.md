@@ -63,7 +63,7 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-39813](CVE_2026_39813.md) — FortiSandbox: path traversal privilege escalation in the JRPC API
 - [CVE-2026-39987](CVE_2026_39987.md) — marimo terminal command execution (CVE-2026-39987)
 - [CVE-2026-41940](CVE_2026_41940.md) — cPanel and WHM login authentication bypass (CVE-2026-41940)
-- [CVE-2026-59774](CVE_2026_59774.md) — server file read and code execution via the Org-mode renderer (CVE-2026-59774)
+- [CVE-2026-59774](CVE_2026_59774.md) — Gitea: server file read and code execution via the Org-mode renderer
 - [CVE-2026-61511](CVE_2026_61511.md) — vBulletin template eval injection (CVE-2026-61511)
 - [CVE-2026-75869](CVE_2026_75869.md) — ManageEngine DDI Central: PowerShell injection via crafted DNS suffix values
 - [CVE-2026-76418](CVE_2026_76418.md) — Cisco ASA and FTD: crafted SSL VPN request reloads the device
@@ -76,7 +76,7 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-89037](CVE_2026_89037.md) — Dolibarr: ticket API exposes other companies' attachments
 - [CVE-2026-92738](CVE_2026_92738.md) — Vault: MFA login completes after the pending request should have expired
 - [CVE-2026-93616](CVE_2026_93616.md) — Check Point Management Server: unauthenticated upload to arbitrary locations
-- [CVE-2026-93674](CVE_2026_93674.md) — code execution via special characters in OS commands (CVE-2026-93674)
+- [CVE-2026-93674](CVE_2026_93674.md) — Langflow OSS: code execution via special characters in OS commands
 - [CVE-2026-94127](CVE_2026_94127.md) — F5 BIG-IP: APM OAuth Authorization Server takeover
 - [CVE-2026-76504](CVE_2026_76504.md) — Cisco SD-WAN Manager: authentication bypass to admin API access
 - [CVE-2026-88772](CVE_2026_88772.md) — NetScaler ADC and Gateway: memory overflow to code execution
@@ -92,16 +92,16 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-103980](CVE_2026_103980.md) — ideon SSRF protection bypass via IPv6 transition addresses (CVE-2026-103980)
 - [CVE-2026-104150](CVE_2026_104150.md) — AdonisJS: ReDoS via uncontrolled regex complexity (CVE-2026-104150)
 - [CVE-2026-104286](CVE_2026_104286.md) — FortiMail: unauthenticated file write via web request traversal
-- [CVE-2026-104935](CVE_2026_104935.md) — authentication bypass via certificate spoofing (CVE-2026-104935)
+- [CVE-2026-104935](CVE_2026_104935.md) — Ivanti Connect Secure: authentication bypass via certificate spoofing
 - [CVE-2026-105133](CVE_2026_105133.md) — AhsayCBS: authentication bypass in the API password check
 - [CVE-2026-105134](CVE_2026_105134.md) — AhsayCBS: OS command injection in the Replication Receiver
 - [CVE-2026-105948](CVE_2026_105948.md) — Octopus Server RBAC bypass (CVE-2026-105948)
 - [CVE-2026-106023](CVE_2026_106023.md) — Apache HTTP Server: mod_md NULL pointer dereference leads to child process crash (CVE-2026-106023)
-- [CVE-2026-106042](CVE_2026_106042.md) — connector credential capture via request redirect (CVE-2026-106042)
+- [CVE-2026-106042](CVE_2026_106042.md) — Xtraction: connector credential capture via request redirect
 - [CVE-2026-106931](CVE_2026_106931.md) — SiteGuard Server Edition: privileged OS command injection
 - [CVE-2026-107412](CVE_2026_107412.md) — NetScaler ADC and Gateway: memory overflow DoS on gateway routes
 - [CVE-2026-107415](CVE_2026_107415.md) — NetScaler ADC and Gateway: memory overflow DoS in Email OTP authentication
-- [CVE-2026-107656](CVE_2026_107656.md) — authentication bypass through an alternate path (CVE-2026-107656)
+- [CVE-2026-107656](CVE_2026_107656.md) — FortiSandbox: authentication bypass through an alternate path
 - [CVE-2026-107718](CVE_2026_107718.md) — AdonisJS: open redirect via unencoded route parameters (CVE-2026-107718)
 - [CVE-2026-109163](CVE_2026_109163.md) — Apache HTTP Server: mod_vhost_alias 1-byte stack buffer overwrite (CVE-2026-109163)
 - [CVE-2026-109618](CVE_2026_109618.md) — PHP request-shutdown memory defect (CVE-2026-109618) through Eden's API
@@ -109,7 +109,7 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-110447](CVE_2026_110447.md) — Collabora Online: OS command injection in the CODE proxy
 - [CVE-2026-110264](CVE_2026_110264.md) — GitLab: code execution through the regex compiler
 - [CVE-2026-110697](CVE_2026_110697.md) — Red Hat Quay SQL LIKE wildcard injection in robot list (CVE-2026-110697)
-- [CVE-2026-111214](CVE_2026_111214.md) — root command injection through QinQ parent-interface names (CVE-2026-111214)
+- [CVE-2026-111214](CVE_2026_111214.md) — pfSense CE: root command injection through QinQ parent-interface names
 - [CVE-2026-111334](CVE_2026_111334.md) — NetScaler ADC: memory overflow DoS in Endpoint Analysis
 - [CVE-2026-111497](CVE_2026_111497.md) — Bundled Brotli decoder: out-of-bounds write on crafted streams
 - [CVE-2026-111560](CVE_2026_111560.md) — Barracuda timezone-setting OS command injection (CVE-2026-111560)
