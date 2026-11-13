@@ -40,7 +40,7 @@ This document records the triage of feed advisories that the current Eden HTTP r
 | CVE-2026-4408 | Samba samr (SMB) |
 | CVE-2026-99153, CVE-2026-99154 | libiscsi PDU handling |
 | CVE-2025-32433 | Erlang/OTP SSH |
-| CVE-2019-9513, CVE-2026-33871, CVE-2026-119618 | HTTP/2 framing (ping loop, Netty, Apache mod_http2) |
+| CVE-2019-9513, CVE-2026-33871 | HTTP/2 framing (ping loop and Netty) |
 | CVE-2026-116945 | Microsoft SQL Server TDS heap overflow |
 | CVE-2026-118383 | MongoDB replica-set wire protocol |
 | CVE-2020-11651 | SaltStack ZeroMQ message bus |
@@ -50,6 +50,8 @@ This document records the triage of feed advisories that the current Eden HTTP r
 | CVE-2024-4741 | OpenSSL SSL_free_buffers (TLS stack) |
 | CVE-2026-85102 | Check Point VPN certificate validation |
 | CVE-2026-59310 | VMware vCenter Syslog service (UDP) |
+
+The [Apache mod_http2 case study for CVE-2026-119618](CVE_2026_119618.md) records a policy and module comparison on an HTTP/1.1 fixture. The HTTP/2 frame race in the affected Apache implementation remains outside that test.
 
 ## Category C — local execution and host libraries
 
