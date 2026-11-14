@@ -65,29 +65,29 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-18963](CVE_2026_18963.md) — Keycloak: unauthenticated account takeover in the reset-credentials flow
 - [CVE-2026-20182](CVE_2026_20182.md) — Cisco SD-WAN: unauthenticated administrative takeover
 - [CVE-2026-20253](CVE_2026_20253.md) — Splunk: unauthenticated file write via the PostgreSQL sidecar endpoint
-- [CVE-2026-15733](CVE_2026_15733.md) — authenticated OS command injection (CVE-2026-15733)
-- [CVE-2026-23734](CVE_2026_23734.md) — path traversal via the resources parameter in ssx/jsx (CVE-2026-23734)
+- [CVE-2026-15733](CVE_2026_15733.md) — WGDashboard: authenticated OS command injection
+- [CVE-2026-23734](CVE_2026_23734.md) — XWiki: path traversal via the resources parameter in ssx/jsx
 - [CVE-2026-25939](CVE_2026_25939.md) — FUXA unauthenticated scheduler write (CVE-2026-25939)
 - [CVE-2026-27175](CVE_2026_27175.md) — MajorDoMo: shell command injection in the rc endpoint
-- [CVE-2026-27760](CVE_2026_27760.md) — PHP code injection via installer AJAX endpoint (CVE-2026-27760)
+- [CVE-2026-27760](CVE_2026_27760.md) — OpenCATS: PHP code injection via installer AJAX endpoint
 - [CVE-2026-28318](CVE_2026_28318.md) — SolarWinds Serv-U: unauthenticated DoS via Content-Encoding: deflate
 - [CVE-2026-39813](CVE_2026_39813.md) — FortiSandbox: path traversal privilege escalation in the JRPC API
 - [CVE-2026-39987](CVE_2026_39987.md) — marimo terminal command execution (CVE-2026-39987)
-- [CVE-2026-40933](CVE_2026_40933.md) — authenticated RCE via MCP adapters (CVE-2026-40933)
-- [CVE-2026-41176](CVE_2026_41176.md) — unauthenticated options/set enables auth bypass and RCE (CVE-2026-41176)
-- [CVE-2026-41268](CVE_2026_41268.md) — parameter-override bypass to RCE (CVE-2026-41268)
-- [CVE-2026-41679](CVE_2026_41679.md) — unauthenticated RCE via import payload (CVE-2026-41679)
+- [CVE-2026-40933](CVE_2026_40933.md) — Flowise: authenticated RCE via MCP adapters
+- [CVE-2026-41176](CVE_2026_41176.md) — Rclone: unauthenticated options/set enables auth bypass and RCE
+- [CVE-2026-41268](CVE_2026_41268.md) — Flowise: parameter-override bypass to RCE
+- [CVE-2026-41679](CVE_2026_41679.md) — Paperclip: unauthenticated RCE via import payload
 - [CVE-2026-41940](CVE_2026_41940.md) — cPanel and WHM login authentication bypass (CVE-2026-41940)
 - [CVE-2026-46817](CVE_2026_46817.md) — Oracle EBS: unauthenticated takeover of Oracle Payments file transmission
 - [CVE-2026-48939](CVE_2026_48939.md) — iCagenda: unauthenticated PHP upload to RCE
-- [CVE-2026-42208](CVE_2026_42208.md) — SQL injection in proxy API key verification (CVE-2026-42208)
-- [CVE-2026-42271](CVE_2026_42271.md) — command execution via MCP stdio test endpoints (CVE-2026-42271)
-- [CVE-2026-44578](CVE_2026_44578.md) — SSRF via WebSocket URL in self-hosted mode (CVE-2026-44578)
-- [CVE-2026-45434](CVE_2026_45434.md) — authentication bypass via password-change logic flaw (CVE-2026-45434)
-- [CVE-2026-46442](CVE_2026_46442.md) — host RCE via POST /api/v1/node-custom-function (CVE-2026-46442)
-- [CVE-2026-48908](CVE_2026_48908.md) — unauthenticated RCE (CVE-2026-48908)
+- [CVE-2026-42208](CVE_2026_42208.md) — LiteLLM: SQL injection in proxy API key verification
+- [CVE-2026-42271](CVE_2026_42271.md) — LiteLLM: command execution via MCP stdio test endpoints
+- [CVE-2026-44578](CVE_2026_44578.md) — Next.js: SSRF via WebSocket URL in self-hosted mode
+- [CVE-2026-45434](CVE_2026_45434.md) — OFBiz: authentication bypass via password-change logic flaw
+- [CVE-2026-46442](CVE_2026_46442.md) — Flowise: host RCE via POST /api/v1/node-custom-function
+- [CVE-2026-48908](CVE_2026_48908.md) — SP Page Builder: unauthenticated RCE
 - [CVE-2026-59774](CVE_2026_59774.md) — Gitea: server file read and code execution via the Org-mode renderer
-- [CVE-2026-61447](CVE_2026_61447.md) — RCE via CodeAgent._execute_python (CVE-2026-61447)
+- [CVE-2026-61447](CVE_2026_61447.md) — PraisonAI: RCE via CodeAgent._execute_python
 - [CVE-2026-61511](CVE_2026_61511.md) — vBulletin template eval injection (CVE-2026-61511)
 - [CVE-2026-62071](CVE_2026_62071.md) — WordPress File Upload plugin: unauthenticated SQL injection
 - [CVE-2026-71531](CVE_2026_71531.md) — PrestaShop: cross-shop access via Webservice API scope override
