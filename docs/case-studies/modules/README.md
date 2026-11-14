@@ -154,7 +154,7 @@ Each file uses the advisory ID in its path and the patch title in the source. Th
 | cPanel and WHM Login-flow Authentication Bypass Guard | [`CVE-2026-41940.rs`](CVE-2026-41940.rs) | [CVE-2026-41940](../CVE_2026_41940.md) | `424b93bea0103e7d2bed77058293260cf0e3bea6fe7eab62d71b68beeaa9b970` |
 | LiteLLM Proxy API Key SQL Guard | [`CVE-2026-42208.rs`](CVE-2026-42208.rs) | [CVE-2026-42208](../CVE_2026_42208.md) | `7410980155aabeff99080750bd73f401cef7a4f527b38489093879844e685452` |
 | LiteLLM MCP Stdio Test Request Guard | [`CVE-2026-42271.rs`](CVE-2026-42271.rs) | [CVE-2026-42271](../CVE_2026_42271.md) | `04ec50c000f8f162e774aee43534d1db8e4b3a8cb4fe644fd0fce6c426e95437` |
-| Apache CGI Internal Redirect Guard | [`CVE-2026-42356.rs`](CVE-2026-42356.rs) | [CVE-2026-42356](../CVE_2026_42356.md) | `a331d154534c4e3dd5a667dfe8658914c12a4b6e90936a02ddd1938d2d1aac05` |
+| Apache CGI Internal Redirect Guard | [`CVE-2026-42356.rs`](CVE-2026-42356.rs) | [CVE-2026-42356](../CVE_2026_42356.md) | `2616334b37482b326e90e1531196c6abd1e4ef8ff1973bd50559f7c2269d5fb9` |
 | Apache Mod Dav Shared Lock Overflow Guard | [`CVE-2026-42528.rs`](CVE-2026-42528.rs) | [CVE-2026-42528](../CVE_2026_42528.md) | `ec643b4c279bbc86ac6a97afcd678979c40faa2955a45fe95db4245d39967c67` |
 | Apache Mod Xml2enc Heap Overflow Guard | [`CVE-2026-42536.rs`](CVE-2026-42536.rs) | [CVE-2026-42536](../CVE_2026_42536.md) | `aeb271e68b8cf33590fa9fd798ad95abd7a1cc5a46b930fb7263b4c3d4538d1d` |
 | Apache mod_ssl OCSP Request Guard | [`CVE-2026-44185.rs`](CVE-2026-44185.rs) | [CVE-2026-44185](../CVE_2026_44185.md) | `1524a0d19e413de7940886285b87dd4fb6b095825ccb833af0d3a80d57fd875f` |
@@ -182,7 +182,7 @@ Each file uses the advisory ID in its path and the patch title in the source. Th
 | vBulletin Eval Injection in the Template Runtime Guard | [`CVE-2026-61511.rs`](CVE-2026-61511.rs) | [CVE-2026-61511](../CVE_2026_61511.md) | `ad33d5aa822130670be2159ca0788c428269db1b3e86d2a31c59370fcc254c89` |
 | AdonisJS Exception Rendering Guard | [`CVE-2026-61526.rs`](CVE-2026-61526.rs) | [CVE-2026-61526](../CVE_2026_61526.md) | `ca6650212676092260dced8e91530f6a4799421e9cf4e2ac4e235c64e8097aa4` |
 | WordPress File Upload Plugin SQL Injection Guard | [`CVE-2026-62071.rs`](CVE-2026-62071.rs) | [CVE-2026-62071](../CVE_2026_62071.md) | `bc970bf33fd517c016bcd5340a0f996a53e425dd10395087f37bab8312e70d4f` |
-| Apache Mod Proxy Ftp PASV Address Handling Guard | [`CVE-2026-63045.rs`](CVE-2026-63045.rs) | [CVE-2026-63045](../CVE_2026_63045.md) | `607732feed03e97199b5dc81128778baa8da77feba6377d8367e794fe477ac55` |
+| Apache Mod Proxy Ftp PASV Address Handling Guard | [`CVE-2026-63045.rs`](CVE-2026-63045.rs) | [CVE-2026-63045](../CVE_2026_63045.md) | `8e2274232ff4c627920790f22bdb09b55ae2093c8b40ac9b7968fddf21635977` |
 | Apache Mod Vhost Alias Stack Overflow Guard | [`CVE-2026-63292.rs`](CVE-2026-63292.rs) | [CVE-2026-63292](../CVE_2026_63292.md) | `fbc5bd035f8b8b4891ace27c4465cca97d4f3e7fb4243c8e4ef297fc1af8dc41` |
 | Apache mod_xml2enc Charset Conversion Guard | [`CVE-2026-63686.rs`](CVE-2026-63686.rs) | [CVE-2026-63686](../CVE_2026_63686.md) | `04f1319b18018eda4019dea1716c1dcb0436b942915fb664c5bd008f71c564f1` |
 | Apache mod_proxy_uwsgi Transfer Encoding Guard | [`CVE-2026-63718.rs`](CVE-2026-63718.rs) | [CVE-2026-63718](../CVE_2026_63718.md) | `9075d031c2d0e8fd61017680e638680eda18b2e2402cd7f293df4aa0f07e117f` |
