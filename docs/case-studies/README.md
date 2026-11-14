@@ -56,17 +56,17 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-0322](CVE_2026_0322.md) — PAN-OS: management interface root code execution
 - [CVE-2026-3199](CVE_2026_3199.md) — Sonatype Nexus Repository: task component code execution
 - [CVE-2026-5430](CVE_2026_5430.md) — WSO2: authentication bypass via JWT algorithm confusion
-- [CVE-2026-6483](CVE_2026_6483.md) — OS command injection in internet.cgi (CVE-2026-6483) (CVE-2026-6483)
+- [CVE-2026-6483](CVE_2026_6483.md) — Wavlink WL-WN530H4: OS command injection in internet.cgi
 - [CVE-2026-6973](CVE_2026_6973.md) — Ivanti EPMM: administrative input handling to remote code execution
 - [CVE-2026-7273](CVE_2026_7273.md) — Zyxel GS1900: stack overflow in the switch CGI program
-- [CVE-2026-9440](CVE_2026_9440.md) — OS command injection in formAccept (CVE-2026-9440) (CVE-2026-9440)
-- [CVE-2026-9441](CVE_2026_9441.md) — OS command injection in formiNICbasic (CVE-2026-9441) (CVE-2026-9441)
-- [CVE-2026-9514](CVE_2026_9514.md) — OS command injection in setNetworkDiag (CVE--9514) (CVE-2026-9514)
-- [CVE-2026-9515](CVE_2026_9515.md) — OS command injection in setUnloadUserData (CVE--9515) (CVE-2026-9515)
-- [CVE-2026-9531](CVE_2026_9531.md) — OS command injection in setUpgradeUboot (CVE--9531) (CVE-2026-9531)
-- [CVE-2026-9532](CVE_2026_9532.md) — OS command injection in setUploadUserData (CVE--9532) (CVE-2026-9532)
-- [CVE-2026-9533](CVE_2026_9533.md) — OS command injection in recvUpgradeNewFw (CVE--9533) (CVE-2026-9533)
-- [CVE-2026-9534](CVE_2026_9534.md) — OS command injection in setWiFiWpsConfig (CVE--9534) (CVE-2026-9534)
+- [CVE-2026-9440](CVE_2026_9440.md) — Edimax BR-6478AC: OS command injection in formAccept
+- [CVE-2026-9441](CVE_2026_9441.md) — Edimax BR-6478AC: OS command injection in formiNICbasic
+- [CVE-2026-9514](CVE_2026_9514.md) — TOTOLINK CA750-PoE: OS command injection in setNetworkDiag
+- [CVE-2026-9515](CVE_2026_9515.md) — TOTOLINK CA750-PoE: OS command injection in setUnloadUserData
+- [CVE-2026-9531](CVE_2026_9531.md) — TOTOLINK CA750-PoE: OS command injection in setUpgradeUboot
+- [CVE-2026-9532](CVE_2026_9532.md) — TOTOLINK CA750-PoE: OS command injection in setUploadUserData
+- [CVE-2026-9533](CVE_2026_9533.md) — TOTOLINK CA750-PoE: OS command injection in recvUpgradeNewFw
+- [CVE-2026-9534](CVE_2026_9534.md) — TOTOLINK CA750-PoE: OS command injection in setWiFiWpsConfig
 - [CVE-2026-12569](CVE_2026_12569.md) — Windchill: remote code execution through deserialization
 - [CVE-2026-8037](CVE_2026_8037.md) — Progress LoadMaster family: unauthenticated OS command injection via the API
 - [CVE-2026-9586](CVE_2026_9586.md) — Switchvox: unauthenticated SQL injection to RCE via the /pa endpoint
@@ -80,7 +80,7 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-27175](CVE_2026_27175.md) — MajorDoMo: shell command injection in the rc endpoint
 - [CVE-2026-27760](CVE_2026_27760.md) — OpenCATS: PHP code injection via installer AJAX endpoint
 - [CVE-2026-28318](CVE_2026_28318.md) — SolarWinds Serv-U: unauthenticated DoS via Content-Encoding: deflate
-- [CVE-2026-36356](CVE_2026_36356.md) — unauthenticated OS command injection via SetRemoteAccess (CVE-2026-36356) (CVE-2026-36356)
+- [CVE-2026-36356](CVE_2026_36356.md) — MeiG FORGE_SLT711: unauthenticated OS command injection via SetRemoteAccess
 - [CVE-2026-39813](CVE_2026_39813.md) — FortiSandbox: path traversal privilege escalation in the JRPC API
 - [CVE-2026-39987](CVE_2026_39987.md) — marimo terminal command execution (CVE-2026-39987)
 - [CVE-2026-40933](CVE_2026_40933.md) — Flowise: authenticated RCE via MCP adapters
@@ -100,8 +100,8 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-61447](CVE_2026_61447.md) — PraisonAI: RCE via CodeAgent._execute_python
 - [CVE-2026-61511](CVE_2026_61511.md) — vBulletin template eval injection (CVE-2026-61511)
 - [CVE-2026-62071](CVE_2026_62071.md) — WordPress File Upload plugin: unauthenticated SQL injection
-- [CVE-2026-64849](CVE_2026_64849.md) — unauthenticated SSRF in webhook delivery (CVE-2026-64849) (CVE-2026-64849)
-- [CVE-2026-66066](CVE_2026_66066.md) — arbitrary file read and RCE (CVE-2026-66066) (CVE-2026-66066)
+- [CVE-2026-64849](CVE_2026_64849.md) — MLflow: unauthenticated SSRF in webhook delivery
+- [CVE-2026-66066](CVE_2026_66066.md) — Rails Active Storage: unsafe libvips image processing
 - [CVE-2026-71531](CVE_2026_71531.md) — PrestaShop: cross-shop access via Webservice API scope override
 - [CVE-2026-75869](CVE_2026_75869.md) — ManageEngine DDI Central: PowerShell injection via crafted DNS suffix values
 - [CVE-2026-76418](CVE_2026_76418.md) — Cisco ASA and FTD: crafted SSL VPN request reloads the device
@@ -111,7 +111,7 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-76519](CVE_2026_76519.md) — Cisco Secure Email Gateway: arbitrary file write and root command execution
 - [CVE-2026-82078](CVE_2026_82078.md) — PaperCut: arbitrary Java execution through unapproved database drivers
 - [CVE-2026-82102](CVE_2026_82102.md) — DataStage: server-side request forgery via connector fields
-- [CVE-2026-82329](CVE_2026_82329.md) — authentication bypass to administrative access (CVE-2026-82329) (CVE-2026-82329)
+- [CVE-2026-82329](CVE_2026_82329.md) — Artifactory: authentication bypass to administrative access
 - [CVE-2026-82504](CVE_2026_82504.md) — VITEC EZ TV: unauthenticated ASPX upload to remote code execution
 - [CVE-2026-85706](CVE_2026_85706.md) — GitLab: unauthenticated file read through the commits API
 - [CVE-2026-88771](CVE_2026_88771.md) — NetScaler ADC and Gateway: unauthenticated code execution via improper input validation
