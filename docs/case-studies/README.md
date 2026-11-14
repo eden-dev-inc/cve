@@ -70,8 +70,10 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-12569](CVE_2026_12569.md) — Windchill: remote code execution through deserialization
 - [CVE-2026-8037](CVE_2026_8037.md) — Progress LoadMaster family: unauthenticated OS command injection via the API
 - [CVE-2026-9586](CVE_2026_9586.md) — Switchvox: unauthenticated SQL injection to RCE via the /pa endpoint
+- [CVE-2026-18053](CVE_2026_18053.md) — subscriber account takeover via IDOR (CVE-2026-18053) (CVE-2026-18053)
 - [CVE-2026-18556](CVE_2026_18556.md) — N-central: administrative account takeover via authentication bypass
 - [CVE-2026-18963](CVE_2026_18963.md) — Keycloak: unauthenticated account takeover in the reset-credentials flow
+- [CVE-2026-19907](CVE_2026_19907.md) — admin impersonation via forged login cookies (CVE-2026-19907) (CVE-2026-19907)
 - [CVE-2026-20182](CVE_2026_20182.md) — Cisco SD-WAN: unauthenticated administrative takeover
 - [CVE-2026-20253](CVE_2026_20253.md) — Splunk: unauthenticated file write via the PostgreSQL sidecar endpoint
 - [CVE-2026-15733](CVE_2026_15733.md) — WGDashboard: authenticated OS command injection
@@ -176,6 +178,7 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-119977](CVE_2026_119977.md) — WordPress Core: RCE through web-accessible upgrade staging paths
 - [CVE-2026-120209](CVE_2026_120209.md) — AJ-Report share-token RCE (CVE-2026-120209)
 - [CVE-2026-12062](CVE_2026_12062.md) — ADAudit Plus authenticated SQL injection (CVE-2026-12062)
+- [CVE-2026-120522](CVE_2026_120522.md) — unauthenticated path traversal write (CVE-2026-120522) (CVE-2026-120522)
 - [CVE-2026-120869](CVE_2026_120869.md) — NetScaler Console: unauthenticated authentication bypass
 - [CVE-2026-121653](CVE_2026_121653.md) — Ivanti EPM: unauthenticated SQL injection in the Core
 - [CVE-2026-121683](CVE_2026_121683.md) — Ivanti CSA missing authentication (CVE-2026-121683)
@@ -322,3 +325,9 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-86863](CVE_2026_86863.md) — pgAdmin 4: webserver-authentication bypass via client-supplied identity header
 - [CVE-2026-129180](CVE_2026_129180.md) — Visitor Management System: unauthenticated SQL injection in actionpage.php
 - [CVE-2026-71519](CVE_2026_71519.md) — PrestaShop: cross-shop customer records via Webservice API
+- [CVE-2026-129250](CVE_2026_129250.md) — buffer overflow in formPPTPSetup (CVE-2026-129250) (CVE-2026-129250)
+- [CVE-2026-129258](CVE_2026_129258.md) — unverified firmware install via the upgrade handler (CVE-2026-129258) (CVE-2026-129258)
+- [CVE-2026-129259](CVE_2026_129259.md) — stored XSS via the image upload endpoint (CVE-2026-129259) (CVE-2026-129259)
+- [CVE-2026-129260](CVE_2026_129260.md) — path traversal file read in the custom page handler (CVE-2026-129260) (CVE-2026-129260)
+- [CVE-2026-129428](CVE_2026_129428.md) — authorization bypass in the AI approval API (CVE-2026-129428) (CVE-2026-129428)
+- [CVE-2026-129433](CVE_2026_129433.md) — OS command injection in Compose backup serviceName (CVE-2026-129433) (CVE-2026-129433)
