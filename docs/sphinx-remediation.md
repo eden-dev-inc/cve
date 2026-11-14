@@ -155,8 +155,23 @@ Replay the same probes against the same application before and after activation.
 | Off-route request, encoding/case variants, partial input | Record observed bypasses and bounds. Check that incomplete input does not silently release protected traffic. |
 | Rollback and restoration | Restore the recorded prior declarative configuration, or exercise native revoke and a fresh authorized restoration in staging. Check receipts and replay the probes. Required native protection can fail closed after revoke. |
 
-For the Log4j fixture, a native edit can still return HTTP 200. Check what
-reached the backend and whether a lookup or callback occurred. Record application
+For the Log4j fixture, both benign and corrected requests can return HTTP 200.
+For a wire-only smoke test, set `STAGING_INTERLAY_URL` to the base URL of the
+staging listener connected to your controlled logging fixture. Send these
+requests and compare the fixture's captured bodies:
+
+```sh
+curl -sS -H 'Content-Type: application/json' \
+  --data-binary '{"message":"hello from staging"}' "$STAGING_INTERLAY_URL/api/log"
+curl -sS -H 'Content-Type: application/json' \
+  --data-binary '{"message":"synthetic ${jndi:fixture-marker}"}' "$STAGING_INTERLAY_URL/api/log"
+```
+
+Under the native rule, the first body should be unchanged and the second
+should contain `[jndi-redacted]fixture-marker}` in place of the original lookup
+text. The declarative rule should refuse both requests. This smoke test checks
+message handling. A vulnerability outcome needs the affected application or a
+clearly labeled fixture with its own independent lookup or callback signal. Record application
 and SDK versions, patch name and version, input variants, observed outcomes
 and remaining limitations in the [case study template](case-studies/TEMPLATE.md).
 Keep the baseline in the behavioral comparison and omit unprotected baseline

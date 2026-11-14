@@ -86,17 +86,19 @@ def main():
         path.name: path for path in bundle_root.iterdir()
         if re.fullmatch(CVE, path.name) and path.is_dir()
     }
+    bundle_index = (bundle_root / "README.md").read_text()
+    indexed_cves = set(re.findall(rf"\]\(({CVE})/README\.md\)", bundle_index))
+    known_cves = bundles.keys() | indexed_cves
     targets = changed_cves(args.base) if args.base else set(args.cve) or None
     if targets is None:
-        targets = set(bundles)
-    if args.base:
-        targets &= bundles.keys()  # Case studies can exist without a bundle.
+        targets = known_cves
+    elif args.base:
+        targets &= known_cves  # Ignore standalone studies, but catch dangling bundle links.
     if not targets:
         print("No CVE bundles selected.")
         return 0
 
     reservations = json.loads((bundle_root / "patch-titles.json").read_text())
-    bundle_index = (bundle_root / "README.md").read_text()
     study_index = (studies / "README.md").read_text()
     errors = []
     for cve in sorted(targets):
@@ -107,7 +109,7 @@ def main():
         study = cve.replace("-", "_") + ".md"
         if not (folder / "README.md").is_file():
             errors.append(f"{cve}: missing README.md")
-        if f"]({cve}/README.md)" not in bundle_index:
+        if cve not in indexed_cves:
             errors.append(f"{cve}: missing link in cve/README.md")
         if not (studies / study).is_file() or f"]({study})" not in study_index:
             errors.append(f"{cve}: missing case study or link in docs/case-studies/README.md")
