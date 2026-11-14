@@ -1,5 +1,8 @@
 # Build and deploy a CVE module
 
+For a worked example, follow [Implement, test and apply a CVE patch with
+Eden Sphinx](sphinx-remediation.md).
+
 Give each patch a unique descriptive title. Use its lowercase hyphenated form as the registry package name and Cargo package name. Use underscores for the Rust library target. Keep the CVE ID in advisory fields and paths. Store the release version in the registry's SemVer field and the bundle's version fields. Record historical package identities and digests with their original evidence.
 
 Each `Cargo.toml` records the module version and expects a compatible Eden SDK
