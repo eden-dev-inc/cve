@@ -73,6 +73,7 @@ Use the [CVE case study and bundle template](../docs/case-studies/TEMPLATE.md) f
 | [CVE-2026-119618](CVE-2026-119618/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-119977](CVE-2026-119977/README.md) | `1.0.0` | Staging-path fixture recorded. Prior candidate withdrawn. |
 | [CVE-2026-120209](CVE-2026-120209/README.md) | `1.0.0` | Tier 2 import failed |
+| [CVE-2026-120522](CVE-2026-120522/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-12062](CVE-2026-12062/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-120869](CVE-2026-120869/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-121653](CVE-2026-121653/README.md) | `1.0.0` | Lab comparison recorded |
@@ -124,10 +125,18 @@ Use the [CVE case study and bundle template](../docs/case-studies/TEMPLATE.md) f
 | [CVE-2026-128130](CVE-2026-128130/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-128131](CVE-2026-128131/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-129180](CVE-2026-129180/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-129250](CVE-2026-129250/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-129258](CVE-2026-129258/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-129259](CVE-2026-129259/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-129260](CVE-2026-129260/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-129428](CVE-2026-129428/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-129433](CVE-2026-129433/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-15733](CVE-2026-15733/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-18053](CVE-2026-18053/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-18556](CVE-2026-18556/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-18963](CVE-2026-18963/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-19868](CVE-2026-19868/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-19907](CVE-2026-19907/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-20182](CVE-2026-20182/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-20253](CVE-2026-20253/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-20320](CVE-2026-20320/README.md) | `1.0.0` | Lab comparison recorded |

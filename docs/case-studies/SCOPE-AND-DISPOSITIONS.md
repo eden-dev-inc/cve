@@ -2,7 +2,7 @@
 
 This document records advisories triaged against the current Eden HTTP remediation profile and the reason each remains outside the recorded case studies. It follows the portfolio's assessment rule: state the exact stage reached rather than relabeling a gap as coverage. As of 2026-11-13 the qualified profile is the 1.103.0 single-node HTTP/1 native MVP — a request/response interlay whose declarative policies and native modules see the HTTP method, target, headers, and body of traffic they front.
 
-The 30-day review closed on November 13, 2026. The review recorded dispositions for 292 distinct advisories. Waves 31 and 32 added 19 more, bringing this annex to 311.
+The 30-day review closed on November 13, 2026. The review recorded dispositions for 292 distinct advisories. Waves 31 and 32 added 19 more. Wave 36 recorded 22 additional dispositions, bringing this annex to 333.
 
 ## Why these advisories have no recorded remediation
 
@@ -35,6 +35,14 @@ The 30-day review closed on November 13, 2026. The review recorded dispositions 
 | CVE-2026-128116 | SvelteKit route-resolution XSS (victim's browser) |
 | CVE-2026-68541 | PolicyPress CSS-only redaction and workflow defaults |
 | CVE-2026-110199 | IBM ContextForge privileged Web UI cross-site scripting can expose credentials in a browser session |
+| CVE-2025-71464, CVE-2025-71465 | Angular Editor XSS (toggleEditorMode / refreshView) — victim-browser execution |
+| CVE-2026-110531 | FV Player stored XSS via popup shortcode — victim-browser execution |
+| CVE-2026-116753 | Multi Step for Contact Form 7 stored XSS — victim-browser execution |
+| CVE-2026-120687 | FooBox stored DOM XSS via image alt — victim-browser execution |
+| CVE-2026-127115 | BuddyForms stored XSS in login shortcode — victim-browser execution |
+| CVE-2026-129254 | Opixido OCMS admin-TUI XSS — victim interaction (crafted link) |
+| CVE-2026-129251 | CloudSchool event-description XSS — victim interaction |
+| CVE-2026-129430 | filesharing XSS in bundle description links — victim-browser execution |
 
 ## Category B — wire-protocol gaps
 
@@ -72,6 +80,8 @@ The 30-day review closed on November 13, 2026. The review recorded dispositions 
 | CVE-2026-114713 | UnrealIRCd IRCv3 label injection across linked servers |
 | CVE-2026-85746, CVE-2026-85748, CVE-2026-92262 | MariaDB spatial conversion, cursor handling, and table-name encoding through database operations |
 | CVE-2026-128886 | D-Bus nonce-tcp authentication can stall new connections while waiting for a token |
+| CVE-2026-129431, CVE-2026-129432 | Ettercap SOCKS5/NFS dissector memory flaws — passive capture tool, not fronted HTTP |
+| CVE-2011-10042 | HTTP::Session for Perl passes an unfiltered session identifier to the Memcached text protocol. No fixture comparison was recorded. |
 
 The [aiohttp CVE-2026-128131 case study](CVE_2026_128131.md) tested an HTTP request body size rule. WebSocket frames and client response decoding remain outside that test.
 
@@ -116,6 +126,9 @@ The [Apache mod_http2 case study for CVE-2026-119618](CVE_2026_119618.md) record
 | CVE-2026-115501 | IBM i QFileSvr.400 stack overflow through a local authenticated file-system command |
 | CVE-2026-128134 | NLTK dot2img executes a Graphviz binary planted in a writable PATH directory |
 | CVE-2025-53700 | Johnson Controls iSTAR insecure storage allows file manipulation after local access |
+| CVE-2026-124536, CVE-2026-124539, CVE-2026-124540, CVE-2026-124541, CVE-2026-129113, CVE-2026-129114, CVE-2026-129115 | JSON-XS parser family (incr_parse, decode_hv/tag/str, underflow, FREEZE) — Perl library, decoding after arrival |
+| CVE-2026-129255 | CoolerMaster MASTERPLUS+ WinRing0x64.sys driver — local Windows driver flaw |
+| CVE-2026-129261 | Kingston FURY CTRL through 2.0.66.0 exposes a local driver IOCTL with insufficient access control. |
 
 ## Category D — application state, build output, and pending tests
 
@@ -139,19 +152,7 @@ The [Apache mod_http2 case study for CVE-2026-119618](CVE_2026_119618.md) record
 | CVE-2026-109158, CVE-2026-114468 | IBM App Connect disclosure through logged errors and administrative HTTP calls from inside the running container |
 | CVE-2026-115788 | IBM App Connect log forging through resource creation |
 | CVE-2026-91868, CVE-2026-91869 | IBM QRadar EDR information disclosure and inadequate TOTP verification rate limiting |
-| CVE-2026-124536, CVE-2026-124539, CVE-2026-124540, CVE-2026-124541, CVE-2026-129113, CVE-2026-129114, CVE-2026-129115 | JSON-XS parser family (incr_parse, decode_hv/tag/str, underflow, FREEZE) — Perl library, decoding after arrival |
-| CVE-2025-71464, CVE-2025-71465 | Angular Editor XSS (toggleEditorMode / refreshView) — victim-browser execution |
-| CVE-2026-110531 | FV Player stored XSS via popup shortcode — victim-browser execution |
-| CVE-2026-116753 | Multi Step for Contact Form 7 stored XSS — victim-browser execution |
-| CVE-2026-120687 | FooBox stored DOM XSS via image alt — victim-browser execution |
-| CVE-2026-127115 | BuddyForms stored XSS in login shortcode — victim-browser execution |
-| CVE-2026-129254 | Opixido OCMS admin-TUI XSS — victim interaction (crafted link) |
-| CVE-2026-129251 | CloudSchool event-description XSS — victim interaction |
-| CVE-2026-129430 | filesharing XSS in bundle description links — victim-browser execution |
-| CVE-2026-129429 | india-payroll — vendor detail not published |
-| CVE-2026-129431, CVE-2026-129432 | Ettercap SOCKS5/NFS dissector memory flaws — passive capture tool, not fronted HTTP |
-| CVE-2011-10042 | memcached HTTP session command injection — binary text-protocol port, not frontable HTTP |
-| CVE-2026-129255 | CoolerMaster MASTERPLUS+ WinRing0x64.sys driver — local Windows driver flaw |
+| CVE-2026-129429 | Frappe india-payroll tax-regime methods lack employee-level authorization. No fixture comparison was recorded. |
 
 ## Recording status
 
