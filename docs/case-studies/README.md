@@ -52,27 +52,27 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2025-60021](CVE_2025_60021.md) — unauthenticated command injection in the builtin heap service (CVE-2025-60021)
 - [CVE-2025-61624](CVE_2025_61624.md) — FortiOS family: file write/delete via traversal in CLI arguments
 - [CVE-2025-69985](CVE_2025_69985.md) — FUXA: authentication bypass via Referer spoof to script execution
-- [CVE-2026-0300](CVE_2026_0300.md) — buffer overflow RCE in the GlobalProtect captive portal (CVE-2026-0300) (CVE-2026-0300)
+- [CVE-2026-0300](CVE_2026_0300.md) — PAN-OS: buffer overflow RCE in the GlobalProtect captive portal
 - [CVE-2026-0322](CVE_2026_0322.md) — PAN-OS: management interface root code execution
 - [CVE-2026-3199](CVE_2026_3199.md) — Sonatype Nexus Repository: task component code execution
 - [CVE-2026-5430](CVE_2026_5430.md) — WSO2: authentication bypass via JWT algorithm confusion
-- [CVE-2026-6973](CVE_2026_6973.md) — administrative input handling to remote code execution (CVE-2026-6973) (CVE-2026-6973)
+- [CVE-2026-6973](CVE_2026_6973.md) — Ivanti EPMM: administrative input handling to remote code execution
 - [CVE-2026-7273](CVE_2026_7273.md) — Zyxel GS1900: stack overflow in the switch CGI program
-- [CVE-2026-12569](CVE_2026_12569.md) — remote code execution through deserialization (CVE-2026-12569) (CVE-2026-12569)
-- [CVE-2026-8037](CVE_2026_8037.md) — unauthenticated OS command injection via the API (CVE-2026-8037) (CVE-2026-8037)
-- [CVE-2026-9586](CVE_2026_9586.md) — unauthenticated SQL injection to RCE via the /pa endpoint (CVE-2026-9586) (CVE-2026-9586)
+- [CVE-2026-12569](CVE_2026_12569.md) — Windchill: remote code execution through deserialization
+- [CVE-2026-8037](CVE_2026_8037.md) — Progress LoadMaster family: unauthenticated OS command injection via the API
+- [CVE-2026-9586](CVE_2026_9586.md) — Switchvox: unauthenticated SQL injection to RCE via the /pa endpoint
 - [CVE-2026-18556](CVE_2026_18556.md) — N-central: administrative account takeover via authentication bypass
 - [CVE-2026-18963](CVE_2026_18963.md) — Keycloak: unauthenticated account takeover in the reset-credentials flow
-- [CVE-2026-20182](CVE_2026_20182.md) — unauthenticated administrative takeover (CVE-2026-20182) (CVE-2026-20182)
-- [CVE-2026-20253](CVE_2026_20253.md) — unauthenticated file write via the PostgreSQL sidecar endpoint (CVE-2026-20253) (CVE-2026-20253)
+- [CVE-2026-20182](CVE_2026_20182.md) — Cisco SD-WAN: unauthenticated administrative takeover
+- [CVE-2026-20253](CVE_2026_20253.md) — Splunk: unauthenticated file write via the PostgreSQL sidecar endpoint
 - [CVE-2026-25939](CVE_2026_25939.md) — FUXA unauthenticated scheduler write (CVE-2026-25939)
 - [CVE-2026-27175](CVE_2026_27175.md) — MajorDoMo: shell command injection in the rc endpoint
 - [CVE-2026-28318](CVE_2026_28318.md) — SolarWinds Serv-U: unauthenticated DoS via Content-Encoding: deflate
 - [CVE-2026-39813](CVE_2026_39813.md) — FortiSandbox: path traversal privilege escalation in the JRPC API
 - [CVE-2026-39987](CVE_2026_39987.md) — marimo terminal command execution (CVE-2026-39987)
 - [CVE-2026-41940](CVE_2026_41940.md) — cPanel and WHM login authentication bypass (CVE-2026-41940)
-- [CVE-2026-46817](CVE_2026_46817.md) — unauthenticated takeover of Oracle Payments file transmission (CVE-2026-46817) (CVE-2026-46817)
-- [CVE-2026-48939](CVE_2026_48939.md) — unauthenticated PHP upload to RCE (CVE-2026-48939) (CVE-2026-48939)
+- [CVE-2026-46817](CVE_2026_46817.md) — Oracle EBS: unauthenticated takeover of Oracle Payments file transmission
+- [CVE-2026-48939](CVE_2026_48939.md) — iCagenda: unauthenticated PHP upload to RCE
 - [CVE-2026-59774](CVE_2026_59774.md) — Gitea: server file read and code execution via the Org-mode renderer
 - [CVE-2026-61511](CVE_2026_61511.md) — vBulletin template eval injection (CVE-2026-61511)
 - [CVE-2026-62071](CVE_2026_62071.md) — WordPress File Upload plugin: unauthenticated SQL injection
@@ -83,10 +83,10 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-68905](CVE_2026_68905.md) — Hugo Blog: unauthenticated AI proxy drains the operator's API quota
 - [CVE-2026-76460](CVE_2026_76460.md) — Cisco ISE: authentication bypass through a privileged API endpoint
 - [CVE-2026-76519](CVE_2026_76519.md) — Cisco Secure Email Gateway: arbitrary file write and root command execution
-- [CVE-2026-82078](CVE_2026_82078.md) — arbitrary Java execution through unapproved database drivers (CVE-2026-82078) (CVE-2026-82078)
+- [CVE-2026-82078](CVE_2026_82078.md) — PaperCut: arbitrary Java execution through unapproved database drivers
 - [CVE-2026-82102](CVE_2026_82102.md) — DataStage: server-side request forgery via connector fields
 - [CVE-2026-82504](CVE_2026_82504.md) — VITEC EZ TV: unauthenticated ASPX upload to remote code execution
-- [CVE-2026-85706](CVE_2026_85706.md) — unauthenticated file read through the commits API (CVE-2026-85706) (CVE-2026-85706)
+- [CVE-2026-85706](CVE_2026_85706.md) — GitLab: unauthenticated file read through the commits API
 - [CVE-2026-88771](CVE_2026_88771.md) — NetScaler ADC and Gateway: unauthenticated code execution via improper input validation
 - [CVE-2026-88773](CVE_2026_88773.md) — NetScaler: security-control bypass via HTTP request smuggling
 - [CVE-2026-89037](CVE_2026_89037.md) — Dolibarr: ticket API exposes other companies' attachments
