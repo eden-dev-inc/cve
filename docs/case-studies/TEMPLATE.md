@@ -2,6 +2,8 @@
 
 Use this template to publish a Project Gabriel case study and its companion Eden remediation materials. [Log4j (CVE-2021-44228)](CVE_2021_44228.md) is the reference for the breadth of the case study and the [versioned bundle](../../cve/CVE-2021-44228/README.md).
 
+Give each patch a unique descriptive title. Use its lowercase hyphenated form as the registry package name and Cargo package name. Use underscores for the Rust library target. Keep the CVE ID in advisory fields and paths. Store the release version in the registry's SemVer field and the bundle's version fields. Record historical package identities and digests with their original evidence.
+
 ## File layout
 
 ```text
@@ -20,8 +22,8 @@ cve/CVE-<year>-<number>/
 | --- | --- |
 | Case study | Vulnerability, enforcement decision, implementation steps, test method and results, coverage, and links to public evidence and source. Use the starter below. |
 | Bundle `README.md` | CVE and vendor advisory, evidence status, supported product and Eden versions, links to the case study and bundle files, and the relevant artifact digests. |
-| `Cargo.toml` and `src/lib.rs` | The module crate and exact source. Match the module name and SemVer in `patch.toml`. |
-| `patch.toml` | Advisory, module SemVer, Eden compatibility, protocol and ABI, SDK revision, target, compiler, and build profile. Follow the [existing manifest](../../cve/CVE-2021-44228/http-request-filter/patch.toml). |
+| `Cargo.toml` and `src/lib.rs` | The module crate and exact source. Use the canonical package name and SemVer from `patch.toml` and the underscore form for the Rust library. |
+| `patch.toml` | Patch title, registry package name, advisory, package SemVer, Eden compatibility, protocol and ABI, SDK revision, target, compiler, and build profile. Follow the [existing manifest](../../cve/CVE-2021-44228/http-request-filter/patch.toml). |
 | `deployment.json` | The applicable policy or native declaration, including route and software scope. Use placeholders for deployment-specific values. Label fixture settings. |
 | `api.md` | Prerequisites, parameterized API commands, effective-state readback, verification, revocation, and restore. Use [the Log4j API example](../../cve/CVE-2021-44228/http-request-filter/api.md) and [deployment prerequisites](../deployment.md). |
 
