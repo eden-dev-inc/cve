@@ -139,6 +139,19 @@ The [Apache mod_http2 case study for CVE-2026-119618](CVE_2026_119618.md) record
 | CVE-2026-109158, CVE-2026-114468 | IBM App Connect disclosure through logged errors and administrative HTTP calls from inside the running container |
 | CVE-2026-115788 | IBM App Connect log forging through resource creation |
 | CVE-2026-91868, CVE-2026-91869 | IBM QRadar EDR information disclosure and inadequate TOTP verification rate limiting |
+| CVE-2026-124536, CVE-2026-124539, CVE-2026-124540, CVE-2026-124541, CVE-2026-129113, CVE-2026-129114, CVE-2026-129115 | JSON-XS parser family (incr_parse, decode_hv/tag/str, underflow, FREEZE) — Perl library, decoding after arrival |
+| CVE-2025-71464, CVE-2025-71465 | Angular Editor XSS (toggleEditorMode / refreshView) — victim-browser execution |
+| CVE-2026-110531 | FV Player stored XSS via popup shortcode — victim-browser execution |
+| CVE-2026-116753 | Multi Step for Contact Form 7 stored XSS — victim-browser execution |
+| CVE-2026-120687 | FooBox stored DOM XSS via image alt — victim-browser execution |
+| CVE-2026-127115 | BuddyForms stored XSS in login shortcode — victim-browser execution |
+| CVE-2026-129254 | Opixido OCMS admin-TUI XSS — victim interaction (crafted link) |
+| CVE-2026-129251 | CloudSchool event-description XSS — victim interaction |
+| CVE-2026-129430 | filesharing XSS in bundle description links — victim-browser execution |
+| CVE-2026-129429 | india-payroll — vendor detail not published |
+| CVE-2026-129431, CVE-2026-129432 | Ettercap SOCKS5/NFS dissector memory flaws — passive capture tool, not fronted HTTP |
+| CVE-2011-10042 | memcached HTTP session command injection — binary text-protocol port, not frontable HTTP |
+| CVE-2026-129255 | CoolerMaster MASTERPLUS+ WinRing0x64.sys driver — local Windows driver flaw |
 
 ## Recording status
 
