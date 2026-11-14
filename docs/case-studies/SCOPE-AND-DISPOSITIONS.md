@@ -128,6 +128,19 @@ The [Apache mod_http2 case study for CVE-2026-119618](CVE_2026_119618.md) record
 | CVE-2025-53700 | Johnson Controls iSTAR insecure storage allows file manipulation after local access |
 | CVE-2026-124536, CVE-2026-124539, CVE-2026-124540, CVE-2026-124541, CVE-2026-129113, CVE-2026-129114, CVE-2026-129115 | JSON-XS parser family (incr_parse, decode_hv/tag/str, underflow, FREEZE) — Perl library, decoding after arrival |
 | CVE-2026-129255 | CoolerMaster MASTERPLUS+ WinRing0x64.sys driver — local Windows driver flaw |
+| CVE-2025-57735 | Apache Airflow logout JWT not invalidated — session lifecycle semantics, no request signature |
+| CVE-2026-86473 | Apache Airflow logout bearer not revoked — same logout-semantics family |
+| CVE-2025-66236 | Apache Airflow security-model documentation advisory — deployment guidance, not a specific flaw |
+| CVE-2025-68438 | Apache Airflow rendered-template display of oversized templated fields — display-side, no request signature |
+| CVE-2025-68675 | Apache Airflow Connection proxy-field secret handling — stored-secret display, no request signature |
+| CVE-2026-28779 | Apache Airflow session cookie path=/ scope — Set-Cookie semantics, not request-refusable |
+| CVE-2026-30912 | Apache Airflow stack-trace exposure in API error responses — server-side error handling |
+| CVE-2020-17526 | Apache Airflow session validation cross-site — session semantics |
+| CVE-2026-33264 | Apache Airflow serialized DAG import_string RCE — arrives via scheduler DagBag processing (DAG-author code path), not a frontable HTTP route; control surface is the DAG repo |
+| CVE-2026-45360 | Apache Airflow scheduler deadline-reference decoder — same DAG-author/scheduler path, not frontable HTTP |
+| CVE-2024-39877 | Apache Airflow doc_md code execution in scheduler context — DAG-author code path |
+| CVE-2026-68982 broker note | The direct forged-callback vector for CVE-2026-68982 rides the Redis/RabbitMQ Celery broker wire — a protocol gap; the HTTP callback-queueing surface is remediated in its case study |
+| CVE-2020-11981 broker note | Same broker-wire gap for CVE-2020-11981; the API queueing surface is remediated in its case study |
 | CVE-2026-129261 | Kingston FURY CTRL through 2.0.66.0 exposes a local driver IOCTL with insufficient access control. |
 
 ## Category D — application state, build output, and pending tests
