@@ -130,7 +130,7 @@ Each file uses the advisory ID in its path and the patch title in the source. Th
 | Shipo Login Cookie Guard | [`CVE-2026-19907.rs`](CVE-2026-19907.rs) | [CVE-2026-19907](../CVE_2026_19907.md) | `f4045e1603e0e6634e20379ecd49726b67c7dd24f18cebe45ae82ba2ea239522` |
 | Cisco SD-WAN Administrative Takeover Guard | [`CVE-2026-20182.rs`](CVE-2026-20182.rs) | [CVE-2026-20182](../CVE_2026_20182.md) | `58c739ba27503db44a698a42238b57ea3bf36c0952aed812e107a8523dd4382f` |
 | Splunk PostgreSQL Sidecar File Write Guard | [`CVE-2026-20253.rs`](CVE-2026-20253.rs) | [CVE-2026-20253](../CVE_2026_20253.md) | `d8957a01d0fb606643570cf39a76884c33d0016352ddbb635c039d825a707f24` |
-| FortiClientEMS 7.4.4 SQL Injection Guard | [`CVE-2026-21643.rs`](CVE-2026-21643.rs) | [CVE-2026-21643](../CVE_2026_21643.md) | `14193059153139993160ec5f02175d9bee9e86dfc2894d75e1e2b9c79dd83405` |
+| FortiClientEMS Client Request SQL Guard | [`CVE-2026-21643.rs`](CVE-2026-21643.rs) | [CVE-2026-21643](../CVE_2026_21643.md) | `3808c0a72e7bcf99bfbc20447290e829afceeb74339d909a997c181918ad4900` |
 | XWiki SSX JSX Resource Path Guard | [`CVE-2026-23734.rs`](CVE-2026-23734.rs) | [CVE-2026-23734](../CVE_2026_23734.md) | `a8dca6fc64ada1324efd24d5a79bebe522c912b934f86c755524364364b8a335` |
 | FUXA Scheduler Write Guard | [`CVE-2026-25939.rs`](CVE-2026-25939.rs) | [CVE-2026-25939](../CVE_2026_25939.md) | `166f37b10bb7992af22f8eff83c086cc0ddde54d162858390fbe5ab8ce510ead` |
 | MajorDoMo RC Endpoint Command Guard | [`CVE-2026-27175.rs`](CVE-2026-27175.rs) | [CVE-2026-27175](../CVE_2026_27175.md) | `225db51c2a340cca7ec795e0c1ae3962c57fb4304cc99ebb9b3b89829ec14622` |
