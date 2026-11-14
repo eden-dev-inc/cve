@@ -13,16 +13,23 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2017-7921](CVE_2017_7921.md) — Hikvision unauthenticated sensitive access (CVE-2017-7921)
 - [CVE-2019-7256](CVE_2019_7256.md) — Linear eMerge E3: unauthenticated command injection
 - [CVE-2020-11978](CVE_2020_11978.md) — authenticated command execution via example-DAG parameters (CVE-2020-11978) (CVE-2020-11978)
+- [CVE-2020-11978](CVE_2020_11978.md) — authenticated command execution via example-DAG parameters (CVE-2020-11978) (CVE-2020-11978)
 - [CVE-2020-11981](CVE_2020_11981.md) — broker command injection through the task queue (CVE-2020-11981) (CVE-2020-11981)
+- [CVE-2020-11981](CVE_2020_11981.md) — broker command injection through the task queue (CVE-2020-11981) (CVE-2020-11981)
+- [CVE-2020-13927](CVE_2020_13927.md) — unauthenticated Experimental API access (CVE-2020-13927) (CVE-2020-13927)
 - [CVE-2020-13927](CVE_2020_13927.md) — unauthenticated Experimental API access (CVE-2020-13927) (CVE-2020-13927)
 - [CVE-2020-36847](CVE_2020_36847.md) — rename-to-PHP remote code execution (CVE-2020-36847)
 - [CVE-2021-22204](CVE_2021_22204.md) — DjVu arbitrary code execution on crafted files (CVE-2021-22204)
 - [CVE-2021-38540](CVE_2021_38540.md) — unauthenticated variable import (CVE-2021-38540) (CVE-2021-38540)
+- [CVE-2021-38540](CVE_2021_38540.md) — unauthenticated variable import (CVE-2021-38540) (CVE-2021-38540)
 - [CVE-2021-43798](CVE_2021_43798.md) — Grafana plugin path traversal file read (CVE-2021-43798)
 - [CVE-2021-44228](CVE_2021_44228.md) — Log4j JNDI lookup (CVE-2021-44228) through Eden's API
 - [CVE-2022-24288](CVE_2022_24288.md) — OS command injection from web-UI params (CVE-2022-24288) (CVE-2022-24288)
+- [CVE-2022-24288](CVE_2022_24288.md) — OS command injection from web-UI params (CVE-2022-24288) (CVE-2022-24288)
 - [CVE-2022-25486](CVE_2022_25486.md) — CuppaCMS: local file inclusion via the url parameter
 - [CVE-2022-40127](CVE_2022_40127.md) — arbitrary commands via the run_id trigger parameter (CVE-2022-40127) (CVE-2022-40127)
+- [CVE-2022-40127](CVE_2022_40127.md) — arbitrary commands via the run_id trigger parameter (CVE-2022-40127) (CVE-2022-40127)
+- [CVE-2023-22884](CVE_2023_22884.md) — command injection in the MySQL Provider example DAG (CVE-2023-22884) (CVE-2023-22884)
 - [CVE-2023-22884](CVE_2023_22884.md) — command injection in the MySQL Provider example DAG (CVE-2023-22884) (CVE-2023-22884)
 - [CVE-2023-22894](CVE_2023_22894.md) — Strapi: sensitive-data inference through the admin query filter
 - [CVE-2023-27524](CVE_2023_27524.md) — forged sessions via the default SECRET_KEY (CVE-2023-27524)
@@ -104,10 +111,12 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-40383](CVE_2026_40383.md) — local file inclusion in the HTMLView layout parameter (CVE-2026-40383)
 - [CVE-2026-40933](CVE_2026_40933.md) — Flowise: authenticated RCE via MCP adapters
 - [CVE-2026-41084](CVE_2026_41084.md) — bulk task-instance authorization against the wrong dag (CVE-2026-41084) (CVE-2026-41084)
+- [CVE-2026-41084](CVE_2026_41084.md) — bulk task-instance authorization against the wrong dag (CVE-2026-41084) (CVE-2026-41084)
 - [CVE-2026-41176](CVE_2026_41176.md) — Rclone: unauthenticated options/set enables auth bypass and RCE
 - [CVE-2026-41268](CVE_2026_41268.md) — Flowise: parameter-override bypass to RCE
 - [CVE-2026-41679](CVE_2026_41679.md) — Paperclip: unauthenticated RCE via import payload
 - [CVE-2026-41940](CVE_2026_41940.md) — cPanel and WHM login authentication bypass (CVE-2026-41940)
+- [CVE-2026-42252](CVE_2026_42252.md) — unquoted dag_run.conf template pattern to command injection (CVE-2026-42252) (CVE-2026-42252)
 - [CVE-2026-42252](CVE_2026_42252.md) — unquoted dag_run.conf template pattern to command injection (CVE-2026-42252) (CVE-2026-42252)
 - [CVE-2026-46817](CVE_2026_46817.md) — Oracle EBS: unauthenticated takeover of Oracle Payments file transmission
 - [CVE-2026-48282](CVE_2026_48282.md) — path traversal to code execution (CVE-2026-48282)
@@ -128,9 +137,13 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-64849](CVE_2026_64849.md) — MLflow: unauthenticated SSRF in webhook delivery
 - [CVE-2026-66066](CVE_2026_66066.md) — Rails Active Storage: unsafe libvips image processing
 - [CVE-2026-67260](CVE_2026_67260.md) — scheduler module import via awaiting_input next_kwargs (CVE-2026-67260) (CVE-2026-67260)
+- [CVE-2026-67260](CVE_2026_67260.md) — scheduler module import via awaiting_input next_kwargs (CVE-2026-67260) (CVE-2026-67260)
+- [CVE-2026-67587](CVE_2026_67587.md) — Task SDK callback path module import (CVE-2026-67587) (CVE-2026-67587)
 - [CVE-2026-67587](CVE_2026_67587.md) — Task SDK callback path module import (CVE-2026-67587) (CVE-2026-67587)
 - [CVE-2026-68982](CVE_2026_68982.md) — forged Celery callbacks run code on every worker (CVE-2026-68982) (CVE-2026-68982)
+- [CVE-2026-68982](CVE_2026_68982.md) — forged Celery callbacks run code on every worker (CVE-2026-68982) (CVE-2026-68982)
 - [CVE-2026-71531](CVE_2026_71531.md) — PrestaShop: cross-shop access via Webservice API scope override
+- [CVE-2026-75157](CVE_2026_75157.md) — queued-asset deletion gated on READ instead of EDIT (CVE-2026-75157) (CVE-2026-75157)
 - [CVE-2026-75157](CVE_2026_75157.md) — queued-asset deletion gated on READ instead of EDIT (CVE-2026-75157) (CVE-2026-75157)
 - [CVE-2026-75869](CVE_2026_75869.md) — ManageEngine DDI Central: PowerShell injection via crafted DNS suffix values
 - [CVE-2026-76418](CVE_2026_76418.md) — Cisco ASA and FTD: crafted SSL VPN request reloads the device
@@ -143,6 +156,7 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-82329](CVE_2026_82329.md) — Artifactory: authentication bypass to administrative access
 - [CVE-2026-82504](CVE_2026_82504.md) — VITEC EZ TV: unauthenticated ASPX upload to remote code execution
 - [CVE-2026-85706](CVE_2026_85706.md) — GitLab: unauthenticated file read through the commits API
+- [CVE-2026-86829](CVE_2026_86829.md) — scheduler deserialization of task-written XCom values (CVE-2026-86829) (CVE-2026-86829)
 - [CVE-2026-86829](CVE_2026_86829.md) — scheduler deserialization of task-written XCom values (CVE-2026-86829) (CVE-2026-86829)
 - [CVE-2026-88771](CVE_2026_88771.md) — NetScaler ADC and Gateway: unauthenticated code execution via improper input validation
 - [CVE-2026-88773](CVE_2026_88773.md) — NetScaler: security-control bypass via HTTP request smuggling
