@@ -38,6 +38,7 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2024-5229](CVE_2024_5229.md) — Primary Addon for Elementor stored XSS (CVE-2024-5229)
 - [CVE-2024-5273](CVE_2024_5273.md) — Report-Info path traversal file read (CVE-2024-5273)
 - [CVE-2025-11201](CVE_2025_11201.md) — MLflow artifact path traversal RCE (CVE-2025-11201)
+- [CVE-2025-24016](CVE_2025_24016.md) — RCE via unsafe deserialization in the server API (CVE-2025-24016)
 - [CVE-2025-24813](CVE_2025_24813.md) — Tomcat partial-PUT path traversal (CVE-2025-24813) through Eden's API
 - [CVE-2025-28137](CVE_2025_28137.md) — pre-authentication command injection (CVE-2025-28137)
 - [CVE-2025-29927](CVE_2025_29927.md) — Next.js middleware authentication bypass (CVE-2025-29927) through Eden's API
@@ -55,10 +56,13 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-0300](CVE_2026_0300.md) — PAN-OS: buffer overflow RCE in the GlobalProtect captive portal
 - [CVE-2026-0322](CVE_2026_0322.md) — PAN-OS: management interface root code execution
 - [CVE-2026-3199](CVE_2026_3199.md) — Sonatype Nexus Repository: task component code execution
+- [CVE-2026-3844](CVE_2026_3844.md) — unauthenticated arbitrary file upload (CVE-2026-3844)
 - [CVE-2026-5430](CVE_2026_5430.md) — WSO2: authentication bypass via JWT algorithm confusion
 - [CVE-2026-6483](CVE_2026_6483.md) — Wavlink WL-WN530H4: OS command injection in internet.cgi
 - [CVE-2026-6973](CVE_2026_6973.md) — Ivanti EPMM: administrative input handling to remote code execution
 - [CVE-2026-7273](CVE_2026_7273.md) — Zyxel GS1900: stack overflow in the switch CGI program
+- [CVE-2026-8181](CVE_2026_8181.md) — authentication bypass to admin accounts (CVE-2026-8181)
+- [CVE-2026-8732](CVE_2026_8732.md) — unauthenticated privilege escalation via nopriv AJAX (CVE-2026-8732)
 - [CVE-2026-9440](CVE_2026_9440.md) — Edimax BR-6478AC: OS command injection in formAccept
 - [CVE-2026-9441](CVE_2026_9441.md) — Edimax BR-6478AC: OS command injection in formiNICbasic
 - [CVE-2026-9514](CVE_2026_9514.md) — TOTOLINK CA750-PoE: OS command injection in setNetworkDiag
@@ -80,17 +84,25 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-23734](CVE_2026_23734.md) — XWiki: path traversal via the resources parameter in ssx/jsx
 - [CVE-2026-25939](CVE_2026_25939.md) — FUXA unauthenticated scheduler write (CVE-2026-25939)
 - [CVE-2026-27175](CVE_2026_27175.md) — MajorDoMo: shell command injection in the rc endpoint
+- [CVE-2026-27305](CVE_2026_27305.md) — path traversal to arbitrary file read (CVE-2026-27305)
 - [CVE-2026-27760](CVE_2026_27760.md) — OpenCATS: PHP code injection via installer AJAX endpoint
 - [CVE-2026-28318](CVE_2026_28318.md) — SolarWinds Serv-U: unauthenticated DoS via Content-Encoding: deflate
+- [CVE-2026-34908](CVE_2026_34908.md) — improper access control to unauthorized system changes (CVE-2026-34908)
+- [CVE-2026-34909](CVE_2026_34909.md) — path traversal reads underlying system files (CVE-2026-34909)
+- [CVE-2026-34910](CVE_2026_34910.md) — command injection via improper input validation (CVE-2026-34910)
+- [CVE-2026-35223](CVE_2026_35223.md) — improper access check in com_config webservice (CVE-2026-35223)
 - [CVE-2026-36356](CVE_2026_36356.md) — MeiG FORGE_SLT711: unauthenticated OS command injection via SetRemoteAccess
 - [CVE-2026-39813](CVE_2026_39813.md) — FortiSandbox: path traversal privilege escalation in the JRPC API
 - [CVE-2026-39987](CVE_2026_39987.md) — marimo terminal command execution (CVE-2026-39987)
+- [CVE-2026-40383](CVE_2026_40383.md) — local file inclusion in the HTMLView layout parameter (CVE-2026-40383)
 - [CVE-2026-40933](CVE_2026_40933.md) — Flowise: authenticated RCE via MCP adapters
 - [CVE-2026-41176](CVE_2026_41176.md) — Rclone: unauthenticated options/set enables auth bypass and RCE
 - [CVE-2026-41268](CVE_2026_41268.md) — Flowise: parameter-override bypass to RCE
 - [CVE-2026-41679](CVE_2026_41679.md) — Paperclip: unauthenticated RCE via import payload
 - [CVE-2026-41940](CVE_2026_41940.md) — cPanel and WHM login authentication bypass (CVE-2026-41940)
 - [CVE-2026-46817](CVE_2026_46817.md) — Oracle EBS: unauthenticated takeover of Oracle Payments file transmission
+- [CVE-2026-48282](CVE_2026_48282.md) — path traversal to code execution (CVE-2026-48282)
+- [CVE-2026-48907](CVE_2026_48907.md) — unauthenticated PHP upload to server takeover (CVE-2026-48907)
 - [CVE-2026-48939](CVE_2026_48939.md) — iCagenda: unauthenticated PHP upload to RCE
 - [CVE-2026-42208](CVE_2026_42208.md) — LiteLLM: SQL injection in proxy API key verification
 - [CVE-2026-42271](CVE_2026_42271.md) — LiteLLM: command execution via MCP stdio test endpoints
@@ -98,6 +110,8 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-45434](CVE_2026_45434.md) — OFBiz: authentication bypass via password-change logic flaw
 - [CVE-2026-46442](CVE_2026_46442.md) — Flowise: host RCE via POST /api/v1/node-custom-function
 - [CVE-2026-48908](CVE_2026_48908.md) — SP Page Builder: unauthenticated RCE
+- [CVE-2026-56290](CVE_2026_56290.md) — unauthenticated executable upload (CVE-2026-56290)
+- [CVE-2026-56291](CVE_2026_56291.md) — unauthenticated PHP upload to RCE (CVE-2026-56291)
 - [CVE-2026-59774](CVE_2026_59774.md) — Gitea: server file read and code execution via the Org-mode renderer
 - [CVE-2026-61447](CVE_2026_61447.md) — PraisonAI: RCE via CodeAgent._execute_python
 - [CVE-2026-61511](CVE_2026_61511.md) — vBulletin template eval injection (CVE-2026-61511)

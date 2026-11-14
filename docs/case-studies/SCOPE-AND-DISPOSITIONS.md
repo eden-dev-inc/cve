@@ -152,7 +152,67 @@ The [Apache mod_http2 case study for CVE-2026-119618](CVE_2026_119618.md) record
 | CVE-2026-109158, CVE-2026-114468 | IBM App Connect disclosure through logged errors and administrative HTTP calls from inside the running container |
 | CVE-2026-115788 | IBM App Connect log forging through resource creation |
 | CVE-2026-91868, CVE-2026-91869 | IBM QRadar EDR information disclosure and inadequate TOTP verification rate limiting |
-| CVE-2026-129429 | Frappe india-payroll tax-regime methods lack employee-level authorization. No fixture comparison was recorded. |
+| CVE-2026-124536, CVE-2026-124539, CVE-2026-124540, CVE-2026-124541, CVE-2026-129113, CVE-2026-129114, CVE-2026-129115 | JSON-XS parser family (incr_parse, decode_hv/tag/str, underflow, FREEZE) — Perl library, decoding after arrival |
+| CVE-2025-71464, CVE-2025-71465 | Angular Editor XSS (toggleEditorMode / refreshView) — victim-browser execution |
+| CVE-2026-110531 | FV Player stored XSS via popup shortcode — victim-browser execution |
+| CVE-2026-116753 | Multi Step for Contact Form 7 stored XSS — victim-browser execution |
+| CVE-2026-120687 | FooBox stored DOM XSS via image alt — victim-browser execution |
+| CVE-2026-127115 | BuddyForms stored XSS in login shortcode — victim-browser execution |
+| CVE-2026-129254 | Opixido OCMS admin-TUI XSS — victim interaction (crafted link) |
+| CVE-2026-129251 | CloudSchool event-description XSS — victim interaction |
+| CVE-2026-129430 | filesharing XSS in bundle description links — victim-browser execution |
+| CVE-2026-129429 | india-payroll — vendor detail not published |
+| CVE-2026-129431, CVE-2026-129432 | Ettercap SOCKS5/NFS dissector memory flaws — passive capture tool, not fronted HTTP |
+| CVE-2011-10042 | memcached HTTP session command injection — binary text-protocol port, not frontable HTTP |
+| CVE-2026-129255 | CoolerMaster MASTERPLUS+ WinRing0x64.sys driver — local Windows driver flaw |
+| CVE-2026-17176 | TP-Link Deco BE11000 / M9 Plus TDDP module — binary device protocol, not frontable HTTP |
+| CVE-2026-86218 | N-able N-central RMM unauthenticated RCE — vendor route not published; revisit when disclosed |
+| CVE-2026-81578 | PaperCut MF/NG web auth bypass — vendor bypass conditions not published; revisit when disclosed |
+| CVE-2026-19490 | NetScaler ADC/Gateway delivery-controller flaw — vendor bulletin without HTTP mechanics |
+| CVE-2026-73570 | Zimbra SNMP monitoring RCE — SNMP wire protocol, not frontable HTTP |
+| CVE-2026-71362 | Adobe Commerce ACL privilege escalation — vendor route not published |
+| CVE-2026-18577 | N-able N-central admin takeover — vendor route not published; revisit when disclosed |
+| CVE-2026-20316 | Cisco Secure FMC hardcoded account — credential issue, no generic request signature |
+| CVE-2026-63077 | JetBrains TeamCity agent-polling RCE — custom binary protocol on agent port |
+| CVE-2026-16232 | Check Point SmartConsole auth bypass via app token — vendor mechanics not published |
+| CVE-2026-15410 | SonicWall SMA1000 AMC post-auth code execution — vendor route not published |
+| CVE-2026-55040, CVE-2026-58644, CVE-2026-45484, CVE-2026-45659, CVE-2026-33112, CVE-2026-32201, CVE-2026-20945 | Microsoft SharePoint family — server-side .NET/deserialization flaws without published HTTP routes; client-server wire internals |
+| CVE-2026-45502 | Microsoft Exchange SSRF — authenticated server-side path, route not published |
+| CVE-2026-43825 | Apache OpenNLP LibSVM deserialization — JVM library, decoding after arrival |
+| CVE-2026-50656 | Microsoft Defender MMPE — local engine flaw |
+| CVE-2026-20262 | Cisco SD-WAN Manager arbitrary file write — vendor route not published |
+| CVE-2026-48558 | SimpleHelp OIDC JWT signature verification — token semantics inside the flow, not request-visible |
+| CVE-2026-44492 | Axios shouldBypassProxy IPv4-mapped IPv6 — client library logic |
+| CVE-2026-35273 | Oracle PeopleSoft Updates Environment Management — vendor route not published |
+| CVE-2026-20251 | Splunk Enterprise deserialization RCE — vendor component route not published |
+| CVE-2026-53435 | Jenkins core deserialization — build data path, not fronted HTTP |
+| CVE-2026-49160, CVE-2026-47291 | Microsoft HTTP.sys DoS / RCE — kernel driver, wire internals |
+| CVE-2026-50508 | Windows NTLM spoofing — authentication protocol internals |
+| CVE-2026-45657 | Windows 11 kernel RCE — local kernel |
+| CVE-2026-10727, CVE-2026-25089, CVE-2026-10523, CVE-2026-10520 | Ivanti EPMM / Sentry / FortiSandbox — vendor routes not published; revisit when disclosed |
+| CVE-2026-50751 | Check Point VPN IKEv1 authentication bypass — VPN key-exchange protocol |
+| CVE-2026-20245 | Cisco SD-WAN Controller CLI privilege escalation — authenticated local CLI |
+| CVE-2026-20230 | Cisco UC Manager SSRF — vendor route not published |
+| CVE-2026-0826 | Poly Voice device remote control — binary device protocol |
+| CVE-2026-49373 | JetBrains TeamCity Perforce settings RCE — vendor route not published |
+| CVE-2026-34650, CVE-2026-34648, CVE-2026-34649 | Adobe Commerce resource consumption — no CVE-specific request signature |
+| CVE-2026-41089 | Windows Netlogon RCE — SMB/netlogon wire protocol |
+| CVE-2026-43500 | Linux kernel rxrpc — local kernel |
+| CVE-2026-44338 | PraisonAI legacy API server — generated per-deployment, no stable route |
+| CVE-2026-44127 | LFI and arbitrary file deletion — vendor not published |
+| CVE-2026-7864 | SEPPmail info exposure — vendor route not published |
+| CVE-2026-25874 | Hugging Face LeRobot gRPC inference deserialization — gRPC wire protocol |
+| CVE-2026-31431 | Linux kernel algif_aead — local kernel |
+| CVE-2026-40372 | ASP.NET Core signing — framework internals, route not published |
+| CVE-2026-33824 | Windows IKE service RCE — IKE wire protocol |
+| CVE-2026-9256, CVE-2026-42945 | NGINX ngx_http_rewrite_module heap overflow — parser internals below the request view |
+| CVE-2026-23918 | Apache HTTP Server http2 double free — HTTP/2 framing, wire internals |
+| CVE-2026-48172 | LiteSpeed cPanel plugin local Redis file — local privilege path |
+| CVE-2026-47323 | Apache Camel CXF/Knative header injection — framework integration internals |
+| CVE-2026-41948 | Dify plugin daemon traversal — tenant-path semantics inside the daemon API |
+| CVE-2026-2652 | mlflow FastAPI auth bypass — server startup configuration, no request signature |
+| CVE-2026-42897 | Microsoft Exchange XSS — victim interaction |
+| CVE-2026-0257 | PAN-OS GlobalProtect auth bypass — VPN protocol flow |
 
 ## Recording status
 
