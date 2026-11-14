@@ -1,14 +1,25 @@
-# Eden CVE remediation
+# Eden Sphinx CVE patches
 
-This repository contains 97 versioned Eden remediation module bundles and 165
-Project Gabriel case studies. The case studies describe the observed lab
-results, test scope, and known limitations.
+Browse virtual patches for published CVEs, with Rust module source, deployment
+configuration, API examples and case studies that explain the observed
+behavior and where coverage ends.
 
-- [Browse the CVE module bundles](cve/README.md)
-- [Browse the case studies](docs/case-studies/README.md)
-- [Browse 55 additional module sources](docs/case-studies/modules/README.md)
-- [Build and deployment prerequisites](docs/deployment.md)
+- [CVE patch bundles](cve/README.md)
+- [Case study catalogue](docs/case-studies/README.md)
+- [Additional case-study module sources](docs/case-studies/modules/README.md)
+- [Contribute a patch or improvement](CONTRIBUTING.md)
+- [Implement, test and apply a patch with Eden Sphinx](docs/sphinx-remediation.md)
 
-Each bundle includes Rust source, version and compatibility metadata, a fixture
-deployment configuration, and an Eden API example. Use the case study and the
-vendor advisory to assess coverage for your application.
+Get started with the [Log4j JNDI Lookup Guard](cve/CVE-2021-44228/README.md).
+Its bundle links the implementation, deployment declaration, API example and
+the evidence for its test scope.
+
+## Skills
+
+- [CVE packaging](skills/cve-packaging/SKILL.md) explains the repository layout,
+  patch titles, versions and what belongs in a bundle.
+- [Eden Sphinx remediation](skills/eden-sphinx-remediation/SKILL.md) covers
+  authoring, testing, packaging and applying a virtual patch.
+
+The [contributor check](CONTRIBUTING.md#run-the-public-check) runs in a fresh
+fork. Native builds require the compatible Eden SDK identified in the bundle.
