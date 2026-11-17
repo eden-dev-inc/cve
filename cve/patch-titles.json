@@ -283,5 +283,6 @@
   "xwiki-ssx-jsx-resource-path-guard": "CVE-2026-23734",
   "zoho-manageengine-key-manager-plus-command-guard": "CVE-2026-77690",
   "zte-scp-sql-injection-guard": "CVE-2026-9668",
-  "zyxel-gs1900-cgi-request-guard": "CVE-2026-7273"
+  "zyxel-gs1900-cgi-request-guard": "CVE-2026-7273",
+  "java4shell-base64-tail-guard": "CVE-2026-114938"
 }

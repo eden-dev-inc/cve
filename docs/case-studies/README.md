@@ -210,6 +210,7 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-114509](CVE_2026_114509.md) — Laravel TokenGuard: authentication bypass via crafted non-string credentials
 - [CVE-2026-114604](CVE_2026_114604.md) — graphql-tools mergeIncrementalResult prototype pollution (CVE-2026-114604)
 - [CVE-2026-114625](CVE_2026_114625.md) — VeloCloud Orchestrator operator escalation (CVE-2026-114625)
+- [CVE-2026-114938](CVE_2026_114938.md) — Java4Shell: memory corruption in the OpenJDK Base64 decoder (CVE-2026-114938)
 - [CVE-2026-116241](CVE_2026_116241.md) — pgAdmin 4: OS command execution through COPY TO PROGRAM in query export
 - [CVE-2026-116468](CVE_2026_116468.md) — WildFly deployment-handler RBAC bypass (CVE-2026-116468)
 - [CVE-2026-116606](CVE_2026_116606.md) — Barracuda ESG unauthenticated backup-restore auth bypass (CVE-2026-116606)

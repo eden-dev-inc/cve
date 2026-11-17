@@ -80,6 +80,7 @@ Use the [CVE case study and bundle template](../docs/case-studies/TEMPLATE.md) f
 | [CVE-2026-114509](CVE-2026-114509/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-114604](CVE-2026-114604/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-114625](CVE-2026-114625/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-114938](CVE-2026-114938/README.md) | `1.0.0` | Affected product observed (real heap corruption reproduced on 19 affected runtimes; 20 runtimes protected) |
 | [CVE-2026-116468](CVE-2026-116468/README.md) | `1.0.0` | Lab comparison recorded. CVE attribution unverified |
 | [CVE-2026-116606](CVE-2026-116606/README.md) | `1.0.0` | Tier 2 withdrawn after a bypass |
 | [CVE-2026-118527](CVE-2026-118527/README.md) | `1.0.0` | Lab comparison recorded |
