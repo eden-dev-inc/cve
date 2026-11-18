@@ -72,6 +72,7 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-3199](CVE_2026_3199.md) — Sonatype Nexus Repository: task component code execution
 - [CVE-2026-3844](CVE_2026_3844.md) — unauthenticated arbitrary file upload (CVE-2026-3844)
 - [CVE-2026-5430](CVE_2026_5430.md) — WSO2: authentication bypass via JWT algorithm confusion
+- [CVE-2026-5765](CVE_2026_5765.md) — PHP object injection in saved-search storage (CVE-2026-5765) (CVE-2026-5765)
 - [CVE-2026-6483](CVE_2026_6483.md) — Wavlink WL-WN530H4: OS command injection in internet.cgi
 - [CVE-2026-6973](CVE_2026_6973.md) — Ivanti EPMM: administrative input handling to remote code execution
 - [CVE-2026-7273](CVE_2026_7273.md) — Zyxel GS1900: stack overflow in the switch CGI program
@@ -158,6 +159,7 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-85706](CVE_2026_85706.md) — GitLab: unauthenticated file read through the commits API
 - [CVE-2026-86829](CVE_2026_86829.md) — scheduler deserialization of task-written XCom values (CVE-2026-86829) (CVE-2026-86829)
 - [CVE-2026-86829](CVE_2026_86829.md) — scheduler deserialization of task-written XCom values (CVE-2026-86829) (CVE-2026-86829)
+- [CVE-2026-88711](CVE_2026_88711.md) — root command execution via cross-site induced requests (CVE-2026-88711) (CVE-2026-88711)
 - [CVE-2026-88771](CVE_2026_88771.md) — NetScaler ADC and Gateway: unauthenticated code execution via improper input validation
 - [CVE-2026-88773](CVE_2026_88773.md) — NetScaler: security-control bypass via HTTP request smuggling
 - [CVE-2026-89037](CVE_2026_89037.md) — Dolibarr: ticket API exposes other companies' attachments
@@ -192,6 +194,7 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-107415](CVE_2026_107415.md) — NetScaler ADC and Gateway: memory overflow DoS in Email OTP authentication
 - [CVE-2026-107656](CVE_2026_107656.md) — FortiSandbox: authentication bypass through an alternate path
 - [CVE-2026-107718](CVE_2026_107718.md) — AdonisJS: open redirect via unencoded route parameters (CVE-2026-107718)
+- [CVE-2026-107950](CVE_2026_107950.md) — XML external entity in the Storefront REST API (CVE-2026-107950) (CVE-2026-107950)
 - [CVE-2026-109163](CVE_2026_109163.md) — Apache HTTP Server: mod_vhost_alias 1-byte stack buffer overwrite (CVE-2026-109163)
 - [CVE-2026-109618](CVE_2026_109618.md) — PHP request-shutdown memory defect (CVE-2026-109618) through Eden's API
 - [CVE-2026-109619](CVE_2026_109619.md) — PHP cross-request state confusion (CVE-2026-109619) through Eden's API

@@ -38,6 +38,7 @@ Each file uses the advisory ID in its path and the patch title in the source. Th
 | FUXA Referer Authentication Guard | [`CVE-2025-69985.rs`](CVE-2025-69985.rs) | [CVE-2025-69985](../CVE_2025_69985.md) | `5441554e949734d40a9456de2750973d00f8f58afd8c5d9c4fd350e5104de55a` |
 | PAN-OS GlobalProtect Captive Portal Guard | [`CVE-2026-0300.rs`](CVE-2026-0300.rs) | [CVE-2026-0300](../CVE_2026_0300.md) | `ac62a806b0855c8c51d1f1982e3335d6ba1b04d38872f8565fcb375995ed5168` |
 | PAN-OS Management Interface Root Code Execution Guard | [`CVE-2026-0322.rs`](CVE-2026-0322.rs) | [CVE-2026-0322](../CVE_2026_0322.md) | `f4d4f6096e93857c0be340273bee318a16e2f124f42da108a5c05942ced4ab51` |
+| [CVE-2026-5765.rs](CVE-2026-5765.rs) | [CVE-2026-5765](../CVE_2026_5765.md) | `107f281f894b9974d48dcb35eb8b77625b51dcf461d84f7c53102f9eb5be216a` |
 | [CVE-2026-41084.rs](CVE-2026-41084.rs) | [CVE-2026-41084](../CVE_2026_41084.md) | `f0fd1c19ac75f024f24e3eadc4668b1f83b969bd3cc9eeb53f2b357883604b6d` |
 | [CVE-2026-42252.rs](CVE-2026-42252.rs) | [CVE-2026-42252](../CVE_2026_42252.md) | `25121e69e554b2675f938c4d975087136801a8c9293b84b95dbd01ff91e5a471` |
 | [CVE-2026-67260.rs](CVE-2026-67260.rs) | [CVE-2026-67260](../CVE_2026_67260.md) | `16e86fdea85f70cbaea6383d21c8fc9511ed1a54256de4cff4e8117e4d903a45` |
@@ -45,6 +46,7 @@ Each file uses the advisory ID in its path and the patch title in the source. Th
 | [CVE-2026-68982.rs](CVE-2026-68982.rs) | [CVE-2026-68982](../CVE_2026_68982.md) | `e2d699766e8bec0d7fb926e57c51884b64b6b56d422fe7af28ff80e140ebb90d` |
 | [CVE-2026-75157.rs](CVE-2026-75157.rs) | [CVE-2026-75157](../CVE_2026_75157.md) | `ddda9c4e2055e1983b1ca55ff243def7c473a5eacde35514de52a0cf9d0f4a79` |
 | [CVE-2026-86829.rs](CVE-2026-86829.rs) | [CVE-2026-86829](../CVE_2026_86829.md) | `6f8b8097547f9a51f3980ca2a8512d963e55f3c5021e08f366e7d3584a60957e` |
+| [CVE-2026-88711.rs](CVE-2026-88711.rs) | [CVE-2026-88711](../CVE_2026_88711.md) | `3ffeef6d0bc8c61a938f31b52cfdca04cdd99059fe060a98b66f699e4ad72cfc` |
 | Ideon IPv6 Transition Address Guard | [`CVE-2026-103980.rs`](CVE-2026-103980.rs) | [CVE-2026-103980](../CVE_2026_103980.md) | `05521fb9e8e5409dd471240fb7026507714b0dd2ba0ed355dbe3dcee614cc215` |
 | AdonisJS ReDoS via Uncontrolled Regex Complexity Guard | [`CVE-2026-104150.rs`](CVE-2026-104150.rs) | [CVE-2026-104150](../CVE_2026_104150.md) | `4f88bf5a0628e54acfb9a4051f74e64761b3a24d0d58d387aae1d22dd791d7e1` |
 | FortiMail File Write via Web Request Traversal Guard | [`CVE-2026-104286.rs`](CVE-2026-104286.rs) | [CVE-2026-104286](../CVE_2026_104286.md) | `cef35386609b0db6b5e0b7bdc3db03f267845e91ab1b68828cf6eb51aea29e53` |
@@ -57,6 +59,7 @@ Each file uses the advisory ID in its path and the patch title in the source. Th
 | NetScaler Email OTP Request Guard | [`CVE-2026-107415.rs`](CVE-2026-107415.rs) | [CVE-2026-107415](../CVE_2026_107415.md) | `f854e47a87f1ca550fc3e6667b8710a083aa4ff27aedccc27cd7dbf50861183f` |
 | FortiSandbox Alternate Route Authentication Guard | [`CVE-2026-107656.rs`](CVE-2026-107656.rs) | [CVE-2026-107656](../CVE_2026_107656.md) | `f06f186db0fae8f90d3ae47c777771558e79214c72e101816223fa51a8f255ae` |
 | AdonisJS Route Redirect Guard | [`CVE-2026-107718.rs`](CVE-2026-107718.rs) | [CVE-2026-107718](../CVE_2026_107718.md) | `11110a82de8a48a8e445953376649298ad501bd201b76a2049dd65a252dc8dc6` |
+| [CVE-2026-107950.rs](CVE-2026-107950.rs) | [CVE-2026-107950](../CVE_2026_107950.md) | `056b575a3d68c469a690334383a3e4ea5f295df1708451e742b5ca15644add1f` |
 | ContextForge Public Tool Ownership Guard | [`CVE-2026-110178.rs`](CVE-2026-110178.rs) | [CVE-2026-110178](../CVE_2026_110178.md) | `244bcb43f395d3a78c52ef55f338382599f59098402cf43958bbed6fec540746` |
 | ContextForge Tool URL Guard | [`CVE-2026-110194.rs`](CVE-2026-110194.rs) | [CVE-2026-110194](../CVE_2026_110194.md) | `51e44189fcd68d638c9c3dfbbe5eb9b1b3f74619546c7e7f0d5bbfc5861a2cda` |
 | GitLab Regex Compiler Input Guard | [`CVE-2026-110264.rs`](CVE-2026-110264.rs) | [CVE-2026-110264](../CVE_2026_110264.md) | `562688b9a7eddd33abe1722262d6a4637b7edf781078cfdf7f74f01371904752` |

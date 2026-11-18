@@ -43,6 +43,7 @@ Use the [CVE case study and bundle template](../docs/case-studies/TEMPLATE.md) f
 | [CVE-2025-24016](CVE-2025-24016/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-0300](CVE-2026-0300/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-0322](CVE-2026-0322/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-5765](CVE-2026-5765/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-41084](CVE-2026-41084/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-42252](CVE-2026-42252/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-67260](CVE-2026-67260/README.md) | `1.0.0` | Lab comparison recorded |
@@ -50,6 +51,7 @@ Use the [CVE case study and bundle template](../docs/case-studies/TEMPLATE.md) f
 | [CVE-2026-68982](CVE-2026-68982/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-75157](CVE-2026-75157/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-86829](CVE-2026-86829/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-88711](CVE-2026-88711/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-100109](CVE-2026-100109/README.md) | `1.0.0` | Tier 2 import failed |
 | [CVE-2026-102657](CVE-2026-102657/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-102764](CVE-2026-102764/README.md) | `1.0.0` | Lab comparison recorded |
@@ -65,6 +67,7 @@ Use the [CVE case study and bundle template](../docs/case-studies/TEMPLATE.md) f
 | [CVE-2026-107412](CVE-2026-107412/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-107415](CVE-2026-107415/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-107656](CVE-2026-107656/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-107950](CVE-2026-107950/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-109163](CVE-2026-109163/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-110178](CVE-2026-110178/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-110194](CVE-2026-110194/README.md) | `1.0.0` | Lab comparison recorded |

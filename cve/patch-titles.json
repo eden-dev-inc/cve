@@ -37,6 +37,7 @@
   "apache-nifi-h2-connection-url-code-injection-guard": "CVE-2023-34468",
   "arris-vap2500-command-injection-guard": "CVE-2024-5196",
   "artifactory-administrative-access-guard": "CVE-2026-82329",
+  "asus-router-cross-site-command-injection-guard": "CVE-2026-88711",
   "asus-rt-ax55-command-injection-via-start-apply-guard": "CVE-2023-39780",
   "atlassian-data-center-root-directory-file-access-guard": "CVE-2026-21589",
   "balbooa-forms-executable-upload-guard": "CVE-2026-56291",
@@ -76,6 +77,7 @@
   "edimax-br-6478ac-forminicbasic-command-guard": "CVE-2026-9441",
   "edimax-br6478acv2-pptp-username-guard": "CVE-2026-129250",
   "esm-sh-encoded-path-guard": "CVE-2026-102657",
+  "essential-real-estate-saved-search-object-injection-guard": "CVE-2026-5765",
   "exiftool-djvu-input-guard": "CVE-2021-22204",
   "extplorer-login-bypass-and-php-upload-guard": "CVE-2023-54335",
   "f5-big-ip-apm-oauth-access-guard": "CVE-2026-94127",
@@ -116,6 +118,7 @@
   "gpustack-source-ip-header-guard": "CVE-2026-102895",
   "grafana-plugin-path-traversal-file-read-guard": "CVE-2021-43798",
   "graphql-tools-incremental-result-merge-guard": "CVE-2026-114604",
+  "hcl-commerce-storefront-xxe-guard": "CVE-2026-107950",
   "hikvision-securityserver-access-guard": "CVE-2017-7921",
   "hitachi-rtu500-file-upload-traversal-guard": "CVE-2026-9852",
   "hmailserver-json-reader-complexity-dos-guard": "CVE-2026-126623",
@@ -132,6 +135,7 @@
   "ivanti-csa-missing-authentication-guard": "CVE-2026-121683",
   "ivanti-epm-core-api-sql-guard": "CVE-2026-121653",
   "ivanti-epmm-administrative-input-guard": "CVE-2026-6973",
+  "java4shell-base64-tail-guard": "CVE-2026-114938",
   "jce-executable-upload-guard": "CVE-2026-48907",
   "jenkins-cli-file-read-guard": "CVE-2024-23897",
   "jfrog-artifactory-token-scope-confusion-guard": "CVE-2026-42016",
@@ -283,6 +287,5 @@
   "xwiki-ssx-jsx-resource-path-guard": "CVE-2026-23734",
   "zoho-manageengine-key-manager-plus-command-guard": "CVE-2026-77690",
   "zte-scp-sql-injection-guard": "CVE-2026-9668",
-  "zyxel-gs1900-cgi-request-guard": "CVE-2026-7273",
-  "java4shell-base64-tail-guard": "CVE-2026-114938"
+  "zyxel-gs1900-cgi-request-guard": "CVE-2026-7273"
 }
