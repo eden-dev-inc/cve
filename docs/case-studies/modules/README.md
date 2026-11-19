@@ -284,3 +284,4 @@ Each file uses the advisory ID in its path and the patch title in the source. Th
 | [Ruby2Shell Case Conversion Overflow Guard](GHSA-34m4-m9fh-gqp5.rs) | [GHSA-34m4-m9fh-gqp5](../GHSA_34m4_m9fh_gqp5.md) | `d74ff3358cd70a35df8a12b2dbd59cda693428c083203d032082534913c9ec0f` |
 | [php2shell Session Upload Progress Guard](CVE-2026-115560.rs) | [CVE-2026-115560](../CVE_2026_115560.md) | `1e4cc1ce45d2428656c87875f359fcfd3c66088dc79fc0be1b7340bcc23ddc91` |
 | [phpAfterShell Session Upload Progress Guard](CVE-2026-126714.rs) | [CVE-2026-126714](../CVE_2026_126714.md) | `bbffe8475666f65e51a35b58a49da38bf417c307089ff39a03870faba3e719c7` |
+| [Dolibarr USF SQL Filters Guard](CVE-2026-133476.rs) | [CVE-2026-133476](../CVE_2026_133476.md) | `f5c994bbb683dfabd6276e8783915ca2f70bf58af26472296dd13615dc9c21f3` |

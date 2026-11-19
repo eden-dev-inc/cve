@@ -302,3 +302,4 @@ Use the [CVE case study and bundle template](../docs/case-studies/TEMPLATE.md) f
 | [CVE-2026-41940](CVE-2026-41940/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-61511](CVE-2026-61511/README.md) | `1.0.0` | Lab comparison recorded |
 | [GHSA-34m4-m9fh-gqp5](GHSA-34m4-m9fh-gqp5/README.md) | `1.0.0` | Affected product observed |
+| [CVE-2026-133476](CVE-2026-133476/README.md) | `1.0.0` | Lab comparison recorded |

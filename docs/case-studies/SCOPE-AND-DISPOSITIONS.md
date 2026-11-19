@@ -2,7 +2,7 @@
 
 This document records advisories triaged against the current Eden HTTP remediation profile and the reason each remains outside the recorded case studies. It follows the portfolio's assessment rule: state the exact stage reached rather than relabeling a gap as coverage. As of 2026-11-13 the qualified profile is the 1.103.0 single-node HTTP/1 native MVP — a request/response interlay whose declarative policies and native modules see the HTTP method, target, headers, and body of traffic they front.
 
-The 30-day review closed on November 13, 2026. The review recorded dispositions for 292 distinct advisories. Waves 31 and 32 added 19 more. Wave 36 recorded 22 additional dispositions, bringing this annex to 333. Wave 37 recorded 62 additional dispositions, bringing this annex to 395. The 2026-11-18 cve.now critical-feed review added 15 more, bringing this annex to 410. The 2026-11-18 cve.now newest-list review (high/critical page 2) added 15 more, bringing this annex to 425. The 2026-11-19 Ruby release review (ruby2shell and siblings) added 6 more, bringing this annex to 431. The 2026-11-19 php2shell incident rollup review added 6 more (CVE-2026-126714 is patched separately), bringing this annex to 437. The 2026-11-19 cve.now critical-feed recheck added 12 more; CVE-2026-95643 and CVE-2026-95645 were subsequently patched in wave 43 (the vendor advisories disclose the exact input shapes — see their bundles), leaving 447 recorded dispositions. The 2026-11-19 cve.now newest-feed review (25 advisories beyond the patched pREST/RepoManager-delete/log-viewer/Paymenter entries) added 25 more, bringing this annex to 472.
+The 30-day review closed on November 13, 2026. The review recorded dispositions for 292 distinct advisories. Waves 31 and 32 added 19 more. Wave 36 recorded 22 additional dispositions, bringing this annex to 333. Wave 37 recorded 62 additional dispositions, bringing this annex to 395. The 2026-11-18 cve.now critical-feed review added 15 more, bringing this annex to 410. The 2026-11-18 cve.now newest-list review (high/critical page 2) added 15 more, bringing this annex to 425. The 2026-11-19 Ruby release review (ruby2shell and siblings) added 6 more, bringing this annex to 431. The 2026-11-19 php2shell incident rollup review added 6 more (CVE-2026-126714 is patched separately), bringing this annex to 437. The 2026-11-19 cve.now critical-feed recheck added 12 more; CVE-2026-95643 and CVE-2026-95645 were subsequently patched in wave 43 (the vendor advisories disclose the exact input shapes — see their bundles), leaving 447 recorded dispositions. The 2026-11-19 cve.now newest-feed review (25 advisories beyond the patched pREST/RepoManager-delete/log-viewer/Paymenter entries) added 25 more, bringing this annex to 472. The 2026-11-19 late feed refresh added 29 more (Dolibarr CVE-2026-133476 is patched separately in wave 46), bringing this annex to 501.
 
 ## Why these advisories have no recorded remediation
 
@@ -55,6 +55,7 @@ The 30-day review closed on November 13, 2026. The review recorded dispositions 
 
 | Advisory | Protocol / surface |
 | --- | --- |
+| CVE-2026-61827, CVE-2026-63124, CVE-2026-61798, CVE-2026-61799 | Netty incubator OHTTP binary codec — varint/known-length parser limits, loop and overflow crashes, and key bytes leaked through toString()/exception messages (binary wire protocol inside the OHTTP relay, below the HTTP request boundary Eden fronts) |
 | CVE-2026-129923, CVE-2026-129934, CVE-2026-129935 | Authentication identity confusion via NUL-byte injection in SASL PLAIN credentials (wire-protocol parsing inside the authentication mechanism; NUL-byte framing, not HTTP request structure) |
 | CVE-2026-129928, CVE-2026-129930, CVE-2026-129939 | Credential exposure via unmasked option values / connection strings in driver parse-error messages (client-side Go/Node/PHP/C driver output; the secret leaks into client-side error text, not through the HTTP request boundary) |
 | CVE-2026-129289 | PHP-FPM request smuggling through an unread `php://input` body on reused persistent FastCGI connections (front-end dependent — nginx `fastcgi_keep_conn`, Apache `enablereuse=on`; requires the app to open `php://input` without reading it) — the smuggled request crosses the FastCGI wire protocol, not an HTTP request boundary |
@@ -103,6 +104,14 @@ The [Apache mod_http2 case study for CVE-2026-119618](CVE_2026_119618.md) record
 
 | Advisory | Component |
 | --- | --- |
+| CVE-2026-130235, CVE-2026-130233 | Okta .NET SDK abstractions library — URL validation and synchronization flaws in the client library (no server request boundary) |
+| CVE-2026-130234 | Okta Swift Management SDK path-parameter encoding (client library) |
+| CVE-2026-130179 | Okta .NET SDK credential overwriting (client library) |
+| CVE-2026-130153 | Okta Python client SDK front-channel parameter handling (client library) |
+| CVE-2026-130151 | Okta Privileged Access Gateway FreeRDP smartcard-redirection memory handling (local RDP client surface) |
+| CVE-2026-83631 | Okta Verify for macOS symlink resolution (local desktop app) |
+| CVE-2026-133217 | OSGeo shapelib dbfopen.c null dereference (DBF file-format parser, local file input) |
+| CVE-2026-132607 | AWS S3 Encryption Client for PHP GCM tag-length downgrade (client crypto library — the downgrade happens below the transport) |
 | CVE-2021-4034 | polkit pkexec (local) |
 | CVE-2026-130644 | Red Hat ansible-galaxy collection install path traversal (victim runs the installer on a malicious artifact) |
 | CVE-2026-131871 | WLA DX wlalink stack overflow parsing local object files |
@@ -164,6 +173,17 @@ The [Apache mod_http2 case study for CVE-2026-119618](CVE_2026_119618.md) record
 
 | Advisory | Where the advisory applies |
 | --- | --- |
+| CVE-2026-118028 | Apache Tomcat RewriteValve [F]/[G]/[R] rule matches do not stop processing — internal rewrite-engine state machine; **no fixed release listed and no request shape published; revisit on disclosure** |
+| CVE-2026-117517 | Apache Tomcat incomplete fix of CVE-2026-25854 (request-smuggling family) — **no fixed release listed and no shape published; revisit on disclosure** |
+| CVE-2026-116830 | Apache Tomcat HTTP/2 checks frame type before size (DoS) — HTTP/2 framing below the HTTP request line; **no fixed release listed; revisit on disclosure** (Eden terminates TLS and can see HTTP/2 frames if a discriminator emerges) |
+| CVE-2026-116600 | Apache Tomcat memory leak with OWB integration (DoS) — server-internal lifecycle, no request shape |
+| CVE-2026-116561 | Apache Tomcat Jakarta Authentication secureResponse AuthException unprotected 200 — internal authentication pipeline, no request shape |
+| CVE-2026-106012 | Apache Tomcat incorrect security-role-ref with RequestDispatcher.forward() — internal servlet plumbing, no request shape |
+| CVE-2026-95517 | Apache Tomcat EncryptInterceptor multiple vulnerabilities — internal cluster encryption, no request shape |
+| CVE-2026-16319 | IBM API Connect authorization bypass through user-controlled key (10.0.8.0–10.0.8.13, no fixed version listed, no shapes published) — the boundary cannot evaluate the product's authorization logic; **revisit on disclosure** |
+| CVE-2026-130236 | Auth0 Authorization Extension API access with a disabled/absent access-control rule — SaaS-side extension; requires an authenticated tenant session AND a misconfigured rule (no boundary discriminator for tenant-side misconfiguration) |
+| CVE-2026-14879, CVE-2026-14880, CVE-2026-14885, CVE-2026-75801, CVE-2026-92906, CVE-2026-92907 | IBM watsonx.data multiple-vulnerability advisories — SaaS-side; no routes, parameters, or technical detail published; **revisit when IBM discloses** |
+| CVE-2026-82339 | IBM Guardium Data Protection missing authentication — appliance service, no request shape published |
 | CVE-2026-130157 | RepoManager command injection via an unsanitized RPM package filename when mirroring a repository — the payload arrives through the server-initiated mirror fetch of an attacker-controlled upstream repo, not through the HTTP request boundary Eden fronts (revisit if a proxy-mirroring interlay ships) |
 | CVE-2026-115565 | storyblok-backup path traversal via a component name planted in the source Storyblok SaaS CMS (the payload triggers at local backup time on the developer machine, not on any web request the deployment fronts) |
 | CVE-2026-81499 | Incus project-scoped network address-set write from a restricted client — container-daemon API surface, not an HTTP request boundary |

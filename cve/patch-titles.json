@@ -75,6 +75,7 @@
   "django-rest-charset-guard": "CVE-2026-114136",
   "dokploy-backup-service-name-guard": "CVE-2026-129433",
   "dolibarr-ticket-attachment-access-guard": "CVE-2026-89037",
+  "dolibarr-usf-sql-filters-guard": "CVE-2026-133476",
   "edimax-br-6478ac-formaccept-command-guard": "CVE-2026-9440",
   "edimax-br-6478ac-forminicbasic-command-guard": "CVE-2026-9441",
   "edimax-br6478acv2-pptp-username-guard": "CVE-2026-129250",

@@ -386,3 +386,4 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-129428](CVE_2026_129428.md) — Pulse: authorization bypass in the AI approval API
 - [CVE-2026-129433](CVE_2026_129433.md) — Dokploy: OS command injection in Compose backup serviceName
 - [GHSA-34m4-m9fh-gqp5](GHSA_34m4_m9fh_gqp5.md) — Ruby2Shell: one-byte heap overflow in Ruby case conversion (GHSA-34m4-m9fh-gqp5; CVE pending)
+- [CVE-2026-133476](CVE_2026_133476.md) — Dolibarr USF SQL filters injection (CVE-2026-133476)
