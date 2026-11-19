@@ -52,6 +52,8 @@ Use the [CVE case study and bundle template](../docs/case-studies/TEMPLATE.md) f
 | [CVE-2026-75157](CVE-2026-75157/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-86829](CVE-2026-86829/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-88711](CVE-2026-88711/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-95643](CVE-2026-95643/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-95645](CVE-2026-95645/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-100109](CVE-2026-100109/README.md) | `1.0.0` | Tier 2 import failed |
 | [CVE-2026-102657](CVE-2026-102657/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-102764](CVE-2026-102764/README.md) | `1.0.0` | Lab comparison recorded |

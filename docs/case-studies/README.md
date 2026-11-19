@@ -172,6 +172,8 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-76504](CVE_2026_76504.md) — Cisco SD-WAN Manager: authentication bypass to admin API access
 - [CVE-2026-88772](CVE_2026_88772.md) — NetScaler ADC and Gateway: memory overflow to code execution
 - [CVE-2026-88779](CVE_2026_88779.md) — NetScaler ADC and Gateway: denial of service
+- [CVE-2026-95643](CVE_2026_95643.md) — DDI Central Telnet IPv6 Scope Injection (CVE-2026-95643)
+- [CVE-2026-95645](CVE_2026_95645.md) — DDI Agent Blocked Domain Command Injection (CVE-2026-95645)
 - [CVE-2026-96654](CVE_2026_96654.md) — Plex Media Server: URL injection into plugin function calls via searchOne
 - [CVE-2026-96655](CVE_2026_96655.md) — Plex Media Server SSRF and the timeline fixture
 - [CVE-2026-96656](CVE_2026_96656.md) — Plex Media Server: arbitrary file write via TranscoderH264Options

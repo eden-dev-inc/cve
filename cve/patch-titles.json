@@ -70,6 +70,8 @@
   "cwp-authorization-bypass-in-the-remote-api-guard": "CVE-2026-124021",
   "cwp-password-reset-host-header-guard": "CVE-2026-124020",
   "datastage-connector-url-guard": "CVE-2026-82102",
+  "ddi-agent-blocked-domain-command-injection-guard": "CVE-2026-95645",
+  "ddi-central-telnet-ipv6-scope-injection-guard": "CVE-2026-95643",
   "django-rest-charset-guard": "CVE-2026-114136",
   "dokploy-backup-service-name-guard": "CVE-2026-129433",
   "dolibarr-ticket-attachment-access-guard": "CVE-2026-89037",

@@ -59,6 +59,8 @@ Each file uses the advisory ID in its path and the patch title in the source. Th
 | NetScaler Email OTP Request Guard | [`CVE-2026-107415.rs`](CVE-2026-107415.rs) | [CVE-2026-107415](../CVE_2026_107415.md) | `f854e47a87f1ca550fc3e6667b8710a083aa4ff27aedccc27cd7dbf50861183f` |
 | FortiSandbox Alternate Route Authentication Guard | [`CVE-2026-107656.rs`](CVE-2026-107656.rs) | [CVE-2026-107656](../CVE_2026_107656.md) | `f06f186db0fae8f90d3ae47c777771558e79214c72e101816223fa51a8f255ae` |
 | AdonisJS Route Redirect Guard | [`CVE-2026-107718.rs`](CVE-2026-107718.rs) | [CVE-2026-107718](../CVE_2026_107718.md) | `11110a82de8a48a8e445953376649298ad501bd201b76a2049dd65a252dc8dc6` |
+| [DDI Central Telnet IPv6 Scope Injection Guard](CVE-2026-95643.rs) | [CVE-2026-95643](../CVE_2026_95643.md) | `f9bc2212a1dfe562d93ffa1af5225dd2748d227caaf8e03f35c6af4afddebc9c` |
+| [DDI Agent Blocked Domain Command Injection Guard](CVE-2026-95645.rs) | [CVE-2026-95645](../CVE_2026_95645.md) | `f10ae0544e0a784e5a49a7e449176f8b92242f69556ed771bc5a9b03841daa2d` |
 | [CVE-2026-107950.rs](CVE-2026-107950.rs) | [CVE-2026-107950](../CVE_2026_107950.md) | `056b575a3d68c469a690334383a3e4ea5f295df1708451e742b5ca15644add1f` |
 | ContextForge Public Tool Ownership Guard | [`CVE-2026-110178.rs`](CVE-2026-110178.rs) | [CVE-2026-110178](../CVE_2026_110178.md) | `244bcb43f395d3a78c52ef55f338382599f59098402cf43958bbed6fec540746` |
 | ContextForge Tool URL Guard | [`CVE-2026-110194.rs`](CVE-2026-110194.rs) | [CVE-2026-110194](../CVE_2026_110194.md) | `51e44189fcd68d638c9c3dfbbe5eb9b1b3f74619546c7e7f0d5bbfc5861a2cda` |
