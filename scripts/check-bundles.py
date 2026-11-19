@@ -9,7 +9,7 @@ import subprocess
 import tomllib
 
 ROOT = Path(__file__).resolve().parent.parent
-CVE = r"CVE-\d{4}-\d{4,}"
+CVE = r"(?:CVE-\d{4}-\d{4,}|GHSA-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4})"
 SHARED_FILES = {
     ".github/workflows/bundle-check.yml",
     "cve/README.md",
@@ -71,7 +71,7 @@ def check_adapter(adapter, cve, reservations):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("cve", metavar="CVE-ID", nargs="*")
+    parser.add_argument("cve", metavar="ADVISORY-ID", nargs="*")
     parser.add_argument("--base", help="Check bundles changed between this Git ref and HEAD")
     args = parser.parse_args()
     if args.base and args.cve:

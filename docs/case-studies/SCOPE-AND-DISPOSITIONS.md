@@ -2,7 +2,7 @@
 
 This document records advisories triaged against the current Eden HTTP remediation profile and the reason each remains outside the recorded case studies. It follows the portfolio's assessment rule: state the exact stage reached rather than relabeling a gap as coverage. As of 2026-11-13 the qualified profile is the 1.103.0 single-node HTTP/1 native MVP — a request/response interlay whose declarative policies and native modules see the HTTP method, target, headers, and body of traffic they front.
 
-The 30-day review closed on November 13, 2026. The review recorded dispositions for 292 distinct advisories. Waves 31 and 32 added 19 more. Wave 36 recorded 22 additional dispositions, bringing this annex to 333. Wave 37 recorded 62 additional dispositions, bringing this annex to 395. The 2026-11-18 cve.now critical-feed review added 15 more, bringing this annex to 410. The 2026-11-18 cve.now newest-list review (high/critical page 2) added 15 more, bringing this annex to 425.
+The 30-day review closed on November 13, 2026. The review recorded dispositions for 292 distinct advisories. Waves 31 and 32 added 19 more. Wave 36 recorded 22 additional dispositions, bringing this annex to 333. Wave 37 recorded 62 additional dispositions, bringing this annex to 395. The 2026-11-18 cve.now critical-feed review added 15 more, bringing this annex to 410. The 2026-11-18 cve.now newest-list review (high/critical page 2) added 15 more, bringing this annex to 425. The 2026-11-19 Ruby release review (ruby2shell and siblings) added 6 more, bringing this annex to 431.
 
 ## Why these advisories have no recorded remediation
 
@@ -160,6 +160,12 @@ The [Apache mod_http2 case study for CVE-2026-119618](CVE_2026_119618.md) record
 | Advisory | Where the advisory applies |
 | --- | --- |
 | CVE-2026-128118 | SvelteKit build guard lets server-only imports enter the browser bundle |
+| GHSA-87fm-7w84-j2px | Ruby case-conversion **integer overflow** (same release as ruby2shell). Giant-value trigger; no boundary discriminator at HTTP sizes, and the sharp-s module does not cap sizes. Revisit with the vendor PoC. |
+| GHSA-7x2q-68qv-6p8x | Ruby Regexp compilation **double free** — triggered by compiling a crafted pattern; pattern compilation is application-controlled, no general request-boundary discriminator. Revisit when a default-config vector is published. |
+| GHSA-3p8q-wmhx-vm2w | Ruby Regexp compilation **heap buffer overflow** — same application-controlled-pattern precondition as GHSA-7x2q. Revisit when a default-config vector is published. |
+| GHSA-wpqw-5qxg-m68r | Ruby **out-of-bounds read** in case-insensitive regexp matching — attacker-crafted pattern or crafted match subject; no general request-boundary discriminator. Revisit when a default-config vector is published. |
+| GHSA-7whj-cfh7-xgm4 | Ruby `Regexp#to_s` **heap buffer overflow** — converting a crafted pattern to a string; application-controlled pattern again. Revisit when a default-config vector is published. |
+| GHSA-pvgc-g7gj-pv6h | Ruby **out-of-bounds read** in case-insensitive backreference matching — matching a crafted string; no general request-boundary discriminator. Revisit when a default-config vector is published. |
 | CVE-2026-128121 | SvelteKit prerender crawler emits unescaped paths into generated routing rules |
 | CVE-2026-128122 | SvelteKit prerender crawler can inject rules into generated Cloudflare redirects |
 | CVE-2026-128117, CVE-2026-128123 | SvelteKit adapter-node crashes during route decoding or request handling. No fixture comparison was recorded. |
