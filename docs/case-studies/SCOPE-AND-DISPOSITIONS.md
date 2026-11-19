@@ -2,7 +2,7 @@
 
 This document records advisories triaged against the current Eden HTTP remediation profile and the reason each remains outside the recorded case studies. It follows the portfolio's assessment rule: state the exact stage reached rather than relabeling a gap as coverage. As of 2026-11-13 the qualified profile is the 1.103.0 single-node HTTP/1 native MVP — a request/response interlay whose declarative policies and native modules see the HTTP method, target, headers, and body of traffic they front.
 
-The 30-day review closed on November 13, 2026. The review recorded dispositions for 292 distinct advisories. Waves 31 and 32 added 19 more. Wave 36 recorded 22 additional dispositions, bringing this annex to 333. Wave 37 recorded 62 additional dispositions, bringing this annex to 395. The 2026-11-18 cve.now critical-feed review added 15 more, bringing this annex to 410. The 2026-11-18 cve.now newest-list review (high/critical page 2) added 15 more, bringing this annex to 425. The 2026-11-19 Ruby release review (ruby2shell and siblings) added 6 more, bringing this annex to 431. The 2026-11-19 php2shell incident rollup review added 6 more (CVE-2026-126714 is patched separately), bringing this annex to 437. The 2026-11-19 cve.now critical-feed recheck added 12 more; CVE-2026-95643 and CVE-2026-95645 were subsequently patched in wave 43 (the vendor advisories disclose the exact input shapes — see their bundles), leaving 447 recorded dispositions.
+The 30-day review closed on November 13, 2026. The review recorded dispositions for 292 distinct advisories. Waves 31 and 32 added 19 more. Wave 36 recorded 22 additional dispositions, bringing this annex to 333. Wave 37 recorded 62 additional dispositions, bringing this annex to 395. The 2026-11-18 cve.now critical-feed review added 15 more, bringing this annex to 410. The 2026-11-18 cve.now newest-list review (high/critical page 2) added 15 more, bringing this annex to 425. The 2026-11-19 Ruby release review (ruby2shell and siblings) added 6 more, bringing this annex to 431. The 2026-11-19 php2shell incident rollup review added 6 more (CVE-2026-126714 is patched separately), bringing this annex to 437. The 2026-11-19 cve.now critical-feed recheck added 12 more; CVE-2026-95643 and CVE-2026-95645 were subsequently patched in wave 43 (the vendor advisories disclose the exact input shapes — see their bundles), leaving 447 recorded dispositions. The 2026-11-19 cve.now newest-feed review (25 advisories beyond the patched pREST/RepoManager-delete/log-viewer/Paymenter entries) added 25 more, bringing this annex to 472.
 
 ## Why these advisories have no recorded remediation
 
@@ -16,6 +16,7 @@ The 30-day review closed on November 13, 2026. The review recorded dispositions 
 
 | Advisory | Component |
 | --- | --- |
+| CVE-2026-130158 | RepoManager stored XSS via host-reported package metadata (requires an administrator to browse the host inventory — the malicious DOM executes in the admin's browser; no HTTP request-boundary rule) |
 | CVE-2018-4200, CVE-2023-41974, CVE-2024-27834, CVE-2025-43520, CVE-2026-65400, CVE-2026-120808 | Apple platform components |
 | CVE-2018-4878 | Adobe Flash Player |
 | CVE-2018-4990, CVE-2020-9715, CVE-2021-21017, CVE-2021-28550, CVE-2023-21608, CVE-2023-26369, CVE-2026-34621 | Adobe Acrobat / Reader |
@@ -54,6 +55,8 @@ The 30-day review closed on November 13, 2026. The review recorded dispositions 
 
 | Advisory | Protocol / surface |
 | --- | --- |
+| CVE-2026-129923, CVE-2026-129934, CVE-2026-129935 | Authentication identity confusion via NUL-byte injection in SASL PLAIN credentials (wire-protocol parsing inside the authentication mechanism; NUL-byte framing, not HTTP request structure) |
+| CVE-2026-129928, CVE-2026-129930, CVE-2026-129939 | Credential exposure via unmasked option values / connection strings in driver parse-error messages (client-side Go/Node/PHP/C driver output; the secret leaks into client-side error text, not through the HTTP request boundary) |
 | CVE-2026-129289 | PHP-FPM request smuggling through an unread `php://input` body on reused persistent FastCGI connections (front-end dependent — nginx `fastcgi_keep_conn`, Apache `enablereuse=on`; requires the app to open `php://input` without reading it) — the smuggled request crosses the FastCGI wire protocol, not an HTTP request boundary |
 | CVE-2020-1350 | Windows DNS (SIGRED) |
 | CVE-2026-107407, CVE-2026-107408, CVE-2026-107409, CVE-2026-107410, CVE-2026-120868 | Citrix NetScaler SMPP / DNS / DoH / Push / packet-processing |
@@ -161,6 +164,23 @@ The [Apache mod_http2 case study for CVE-2026-119618](CVE_2026_119618.md) record
 
 | Advisory | Where the advisory applies |
 | --- | --- |
+| CVE-2026-130157 | RepoManager command injection via an unsanitized RPM package filename when mirroring a repository — the payload arrives through the server-initiated mirror fetch of an attacker-controlled upstream repo, not through the HTTP request boundary Eden fronts (revisit if a proxy-mirroring interlay ships) |
+| CVE-2026-115565 | storyblok-backup path traversal via a component name planted in the source Storyblok SaaS CMS (the payload triggers at local backup time on the developer machine, not on any web request the deployment fronts) |
+| CVE-2026-81499 | Incus project-scoped network address-set write from a restricted client — container-daemon API surface, not an HTTP request boundary |
+| CVE-2026-86130 | WatchGuard Dimension improper authentication in the log collection service (unauthenticated SQL→RCE; PSIRT publishes no route or parameter shapes — revisit when disclosed) |
+| CVE-2026-103579 | WatchGuard Dimension CRLF injection in email-server configuration (RCE; requires high-privilege login and an outgoing-mail configuration path — no published request shape) |
+| CVE-2026-103580 | WatchGuard Dimension OS command injection in package update (root; requires high-privilege login and the updater path — no published request shape) |
+| CVE-2026-126037 | WatchGuard Dimension broken access control in the device summary (authenticated disclosure of data the caller is not authorized to read — the boundary cannot evaluate the device authorization model) |
+| CVE-2026-84322, CVE-2026-86094 | WatchGuard Dimension session-token exposure in diagnostics/management API logs (log-content disclosure — no HTTP request-boundary discriminator) |
+| CVE-2026-86126 | WatchGuard Dimension CSRF in user management allowing super-admin account creation (the vendor documents no token-carrying route shapes; an Origin/Referer gate would false-positive on the legitimate UI) |
+| CVE-2026-81434 | WatchGuard Dimension reflected XSS in the device configuration history page (requires an administrator to visit a crafted link — client-side execution) |
+| CVE-2026-81430 | WatchGuard Dimension arbitrary file write in the system upgrade path (no published request shape; upgrade-image validation is server-side) |
+| CVE-2026-93911 | WatchGuard Dimension SQL injection in the log collector (RCE; authenticated management surface, no published parameter shapes) |
+| CVE-2026-93912 | WatchGuard Dimension command injection in log-notification processing (RCE; authenticated notification configuration — no published shapes) |
+| CVE-2026-93914 | WatchGuard Dimension root code execution via database-snapshot restore (requires admin-driven restore flow; no published request shapes) |
+| CVE-2026-93915 | WatchGuard Dimension missing authorization in the system-settings endpoint (RCE; the boundary cannot evaluate the settings authorization model) |
+| CVE-2026-93916 | WatchGuard Dimension insufficient session expiration (server-side session lifecycle, not an HTTP request-boundary property) |
+| CVE-2026-93917 | WatchGuard Dimension managed-device takeover via improper authorization in device registration (registration API shapes unpublished — revisit when disclosed) |
 | CVE-2026-129481 | PHP use-after-free after interrupted session shutdown (php 8.3–8.5 before 8.3.37/8.4.28/8.5.13; same php2shell release) — needs a session-cleanup callback to fail fatally (e.g. user stream-wrapper `stream_close`) with the script filename in request memory (OPcache off), then a same-worker later request; worker memory lifecycle, no HTTP request-boundary discriminator |
 | CVE-2026-129474 | PHP magic-method backtrace use-after-free (php 8.5.x before 8.5.13) — needs off-default fatal-error backtraces with exception args kept, and the application to reach `__call`/`__callStatic` while a fatal error (e.g. memory_limit) lands; the UAF is in the worker's fatal handling, and a size-triggered refusal would blanket every large request — no surgical request-boundary discriminator |
 | CVE-2026-129182 | PHP `last_fatal_error_backtrace` use-after-free after shutdown (php 8.5.x before 8.5.13) — needs per-path `max_memory_limit` or conflicting `zlib.output_compression`/output_handler settings and a same-worker diagnostic before executor init; same-worker lifecycle, not an HTTP request boundary |
