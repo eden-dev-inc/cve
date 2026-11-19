@@ -183,6 +183,7 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-102764](CVE_2026_102764.md) — BeyondTrust unvalidated message origin file operations (CVE-2026-102764)
 - [CVE-2026-102895](CVE_2026_102895.md) — GPUStack loopback trust via forged source-IP header (CVE-2026-102895)
 - [CVE-2026-103980](CVE_2026_103980.md) — ideon SSRF protection bypass via IPv6 transition addresses (CVE-2026-103980)
+- [CVE-2026-104129](CVE_2026_104129.md) — pREST `_groupby` SQL injection (CVE-2026-104129)
 - [CVE-2026-104150](CVE_2026_104150.md) — AdonisJS: ReDoS via uncontrolled regex complexity (CVE-2026-104150)
 - [CVE-2026-104286](CVE_2026_104286.md) — FortiMail: unauthenticated file write via web request traversal
 - [CVE-2026-104935](CVE_2026_104935.md) — Ivanti Connect Secure: authentication bypass via certificate spoofing

@@ -58,6 +58,7 @@ Use the [CVE case study and bundle template](../docs/case-studies/TEMPLATE.md) f
 | [CVE-2026-102657](CVE-2026-102657/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-102764](CVE-2026-102764/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-102895](CVE-2026-102895/README.md) | `1.0.0` | Lab comparison recorded |
+| [CVE-2026-104129](CVE-2026-104129/README.md) | `1.0.0` | Affected product observed |
 | [CVE-2026-104286](CVE-2026-104286/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-104935](CVE-2026-104935/README.md) | `1.0.0` | Lab comparison recorded |
 | [CVE-2026-105133](CVE-2026-105133/README.md) | `1.0.0` | Lab comparison recorded |

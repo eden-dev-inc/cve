@@ -205,6 +205,7 @@
   "post-to-google-my-business-fetch-url-guard": "CVE-2026-127217",
   "postx-xss-via-file-upload-guard": "CVE-2024-5223",
   "praisonai-rce-via-codeagent-execute-python-guard": "CVE-2026-61447",
+  "prest-groupby-sql-injection-guard": "CVE-2026-104129",
   "prestashop-webservice-customer-records-guard": "CVE-2026-71519",
   "prestashop-webservice-scope-override-guard": "CVE-2026-71531",
   "primary-addon-for-elementor-stored-xss-guard": "CVE-2024-5229",
