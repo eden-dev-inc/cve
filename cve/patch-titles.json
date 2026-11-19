@@ -193,6 +193,7 @@
   "pfsense-qinq-interface-name-guard": "CVE-2026-111214",
   "pgadmin-query-export-command-guard": "CVE-2026-116241",
   "pgadmin-webserver-identity-header-guard": "CVE-2026-86863",
+  "phpaftershell-session-upload-progress-guard": "CVE-2026-126714",
   "plex-media-server-url-parameter-traversal-guard": "CVE-2026-96651",
   "plex-plugin-search-url-guard": "CVE-2026-96654",
   "plex-timeline-request-guard": "CVE-2026-96655",

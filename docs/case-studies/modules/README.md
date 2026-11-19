@@ -276,3 +276,4 @@ Each file uses the advisory ID in its path and the patch title in the source. Th
 | Airflow Queued-Event Edit Guard | [`CVE-2026-75157.rs`](CVE-2026-75157.rs) | [CVE-2026-75157](../CVE_2026_75157.md) | `4c11b00fe816cc3f5fbb0f28045d4ee0322f267583494615269c130595c5e80d` |
 | Airflow XCom Deserialization Guard | [`CVE-2026-86829.rs`](CVE-2026-86829.rs) | [CVE-2026-86829](../CVE_2026_86829.md) | `4c108011fc1d2f47242a89b2b3b3feaa9364fb224a5da159bb252ca896c864c3` |
 | [Ruby2Shell Case Conversion Overflow Guard](GHSA-34m4-m9fh-gqp5.rs) | [GHSA-34m4-m9fh-gqp5](../GHSA_34m4_m9fh_gqp5.md) | `d74ff3358cd70a35df8a12b2dbd59cda693428c083203d032082534913c9ec0f` |
+| [phpAfterShell Session Upload Progress Guard](CVE-2026-126714.rs) | [CVE-2026-126714](../CVE_2026_126714.md) | `bbffe8475666f65e51a35b58a49da38bf417c307089ff39a03870faba3e719c7` |

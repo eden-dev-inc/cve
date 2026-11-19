@@ -267,6 +267,7 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-126263](CVE_2026_126263.md) — FortiMail: authenticated SQL injection can lead to code execution
 - [CVE-2026-126613](CVE_2026_126613.md) — hMailServer REST unbounded JSON allocation (CVE-2026-126613)
 - [CVE-2026-126623](CVE_2026_126623.md) — hMailServer JSON-reader complexity DoS (CVE-2026-126623)
+- [CVE-2026-126714](CVE_2026_126714.md) — phpAfterShell: interrupted session writes to remote code execution (CVE-2026-126714)
 - [CVE-2026-126768](CVE_2026_126768.md) — OpsTree REMS authentication bypass on the reports API (CVE-2026-126768)
 - [CVE-2026-126769](CVE_2026_126769.md) — OpsTree REMS missing authentication on the config API (CVE-2026-126769)
 - [CVE-2026-126777](CVE_2026_126777.md) — Traccar authentication bypass via crafted email parameter (CVE-2026-126777)
