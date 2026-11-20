@@ -61,6 +61,7 @@ Each file uses the advisory ID in its path and the patch title in the source. Th
 | AdonisJS Route Redirect Guard | [`CVE-2026-107718.rs`](CVE-2026-107718.rs) | [CVE-2026-107718](../CVE_2026_107718.md) | `11110a82de8a48a8e445953376649298ad501bd201b76a2049dd65a252dc8dc6` |
 | [DDI Central Telnet IPv6 Scope Injection Guard](CVE-2026-95643.rs) | [CVE-2026-95643](../CVE_2026_95643.md) | `f9bc2212a1dfe562d93ffa1af5225dd2748d227caaf8e03f35c6af4afddebc9c` |
 | [DDI Agent Blocked Domain Command Injection Guard](CVE-2026-95645.rs) | [CVE-2026-95645](../CVE_2026_95645.md) | `f10ae0544e0a784e5a49a7e449176f8b92242f69556ed771bc5a9b03841daa2d` |
+| [ReviewX Storefront SVG XXE Guard](CVE-2026-129015.rs) | [CVE-2026-129015](../CVE_2026_129015.md) | `297a9154133031a39bb27e93d2e72547a9d7c9b477b94871a400b36964a50163` |
 | [RepoManager GPG Delete Injection Guard](CVE-2026-130160.rs) | [CVE-2026-130160](../CVE_2026_130160.md) | `7e41d75373933d81ac481ac22dfd834a9002aca7957f6756cb602d069140381f` |
 | [RepoManager Logfile Path Traversal Guard](CVE-2026-130159.rs) | [CVE-2026-130159](../CVE_2026_130159.md) | `aa1b370d1c6521ed39fdd21832cd407529c1d76c66452f338b0e4490134c29af` |
 | [Paymenter Livewire Confirmed Action Guard](CVE-2026-103026.rs) | [CVE-2026-103026](../CVE_2026_103026.md) | `d35a0514e33cad0422474c6aa1ff62887ce53a325ce6c7a5a91e32707ff81815` |

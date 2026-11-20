@@ -182,6 +182,7 @@ are dispositioned in [Enforcement scope and recorded dispositions](SCOPE-AND-DIS
 - [CVE-2026-102657](CVE_2026_102657.md) — esm.sh web.NewHandler encoded dot-segment traversal (CVE-2026-102657)
 - [CVE-2026-102764](CVE_2026_102764.md) — BeyondTrust unvalidated message origin file operations (CVE-2026-102764)
 - [CVE-2026-102895](CVE_2026_102895.md) — GPUStack loopback trust via forged source-IP header (CVE-2026-102895)
+- [CVE-2026-129015](CVE_2026_129015.md) — ReviewX storefront SVG XXE (CVE-2026-129015)
 - [CVE-2026-130160](CVE_2026_130160.md) — RepoManager GPG Delete Injection (CVE-2026-130160)
 - [CVE-2026-130159](CVE_2026_130159.md) — RepoManager Logfile Path Traversal (CVE-2026-130159)
 - [CVE-2026-103026](CVE_2026_103026.md) — Paymenter Livewire Confirmed Action (CVE-2026-103026)

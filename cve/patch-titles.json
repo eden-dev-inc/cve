@@ -226,6 +226,7 @@
   "repomanager-logfile-path-traversal-guard": "CVE-2026-130159",
   "report-info-path-traversal-file-read-guard": "CVE-2024-5273",
   "reviews-rating-xss-via-upload-guard": "CVE-2024-5218",
+  "reviewx-storefront-svg-xxe-guard": "CVE-2026-129015",
   "ruby2shell-case-conversion-overflow-guard": "GHSA-34m4-m9fh-gqp5",
   "seadoc-absolute-path-traversal-guard": "CVE-2026-129167",
   "security-for-woocommerce-unauth-admin-creation-guard": "CVE-2026-100109",
