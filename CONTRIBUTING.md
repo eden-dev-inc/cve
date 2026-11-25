@@ -73,3 +73,6 @@ The diff shows what publication would change relative to GitHub. Validate any
 changed behavior in staging, then use the registry's release process for changed
 package bytes. After publication, verify the source diff and the registry's
 source commit, version and archive digest.
+Follow the [signed .epatch release workflow](docs/sphinx-epatch.md) for proof
+and source verification, and record the immutable Registry result in the
+[migration inventory](docs/epatch-migration.csv).
