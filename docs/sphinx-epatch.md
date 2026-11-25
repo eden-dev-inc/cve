@@ -8,9 +8,11 @@ pins, and the build and replay instructions.
 The [migration inventory](epatch-migration.csv) covers all 300 advisory
 directories at [the pinned source revision](https://github.com/eden-dev-inc/cve/tree/62797e6726bdf2deeb73c74a8d9e3abb21c74e27/cve).
 A row stays pending until its public source and proof inputs are qualified and
-the signed Registry release can be downloaded and verified. The Registry
-version UUID identifies that immutable release. Package or source changes
-require a new version and matching qualification.
+the signed Registry release can be downloaded and verified. Record the public
+source commit, package version, Registry version UUID, and SHA-256 values for
+the Runtime TAR, proof, and .epatch. Use the qualification note to record
+unresolved identity or coverage gaps. Package or source changes require a new
+version and matching qualification.
 
 ## Prepare release inputs
 
