@@ -1,76 +1,96 @@
 # Publish a signed .epatch with the Eden CLI
 
-The Registry release includes a signed file manifest, the exact Runtime TAR,
-the signed Lean proof envelope, and the build inputs used to reproduce the
-binary. The build inputs include Rust and Lean source, dependency and toolchain
-pins, and the build and replay instructions.
+A Registry release contains the original Runtime TAR, a signed Lean proof,
+the patch's source and reproducible build inputs, and a signed manifest that
+binds the exact bytes. The patch-only profile uses a separately distributed
+compiled ABI SDK. Replay needs only the patch bundle and the trusted kit.
+Eden implementation source and protected application source stay private.
 
-The [migration inventory](epatch-migration.csv) covers all 300 advisory
-directories at [the pinned source revision](https://github.com/eden-dev-inc/cve/tree/62797e6726bdf2deeb73c74a8d9e3abb21c74e27/cve).
-A row stays pending until its public source and proof inputs are qualified and
-the signed Registry release can be downloaded and verified. Record the public
-source commit, package version, Registry version UUID, and SHA-256 values for
-the Runtime TAR, proof, and .epatch. Use the qualification note to record
-unresolved identity or coverage gaps. Package or source changes require a new
-version and matching qualification.
+## 1. Select a patch and verify its inputs
 
-## Set up a publishing session
+Choose an advisory from the [migration inventory](epatch-migration.csv). Each
+row identifies the original source directory by Git commit and tree SHA. Record
+the new release source commit separately after reviewing the migrated package.
+Identify the exact software and advisory records for `targets.json`.
 
-Install the Eden CLI on Linux and sign in. Approve the terminal in your browser,
-select the publishing workspace, and check the publisher and namespace before
-publishing a batch. Reuse the session while it remains active. Enroll the
-workspace's Ed25519 publisher key before its first release, and obtain the
-proof issuer's public key through its trusted distribution channel.
+Use a Runtime TAR already qualified for the exact V1 ABI and ELF, its signed
+`proof.json`, and the corresponding Lean solution export. The signed member
+inventory covers `proof/solution-leanexport-v3.1.0.ndjson` and
+`proof/abi-sdk-v1.sha256` in `build-inputs`. The SDK pin contains exactly 64
+lowercase hexadecimal characters followed by one line feed. Use the digest
+from the independent kit for the release's ABI and theorem profile. Use the
+canonical build-input layout supplied with the qualification handoff, with
+only redistributable patch sources, Lean inputs and build files.
+
+The Runtime manifest, proof and bundle statement must agree on the release
+version and `org/<organization UUID>` namespace. For this public catalogue the
+qualified manifest sets `visibility` to `public` and `tenant_id` to null.
+The CLI's `--public` flag confirms that audience at publication.
+
+Install the CLI on Linux x86-64 GNU. Use a release that supports patch-only
+replay, starting with 2.6.0. Replay needs Python 3.12 or later and a root-owned
+`/usr/bin/bwrap` with unprivileged user and network namespaces and
+`--disable-userns` support. Obtain the approved verifier kit and the P-256
+proof public key in SPKI DER from your release authority. Verify the kit
+against its independently distributed SHA-256. The trusted kit supplies
+`replay-kit/trust.json`, the pinned compiler and ABI SDK, and the approved
+theorem reference. [CLI release notes](https://eden.dev/changelog/cli)
 
 ```sh
 curl -fsSL https://eden.dev/eden/install.sh | sh
-eden patch login
-eden patch whoami --public
+eden --version
 ```
 
-## Prepare the signed inputs for a release
+## 2. Assemble and replay the release
 
-Use a qualified Runtime TAR, its signed Lean proof, and the matching build
-inputs cleared for public distribution. Check that the public commit contains
-the source covered by the proof. The Runtime qualification workflow checks the
-behavior of the release candidate. The CLI verifies signatures and artifact
-identities during packaging and download.
-
-If the issuer provides the prepared `build-inputs.tar` and signed `bundle.json`,
-use those exact files. Otherwise prepare the inputs and send
-`epatch-inputs/bundle-statement.json` to the approved proof signer.
+Use the exact `build-inputs.tar` and signed `bundle.json` supplied by the
+proof authority. If you received a build-input directory, use the CLI to
+prepare the TAR and send the resulting canonical statement to the approved
+proof signer. If the signer returns a detached DER signature, seal it with
+the trusted public key.
 
 ```sh
 eden patch bundle prepare runtime.tar \
   --proof proof.json --build-inputs build-inputs --output epatch-inputs
-```
-
-Use the issuer's signed `bundle.json` when available. If the issuer sends a DER
-signature, seal it into the envelope with the trusted public key.
-
-```sh
 eden patch bundle seal --statement epatch-inputs/bundle-statement.json \
   --signature bundle-signature.der --proof-public-key proof-public-key.der \
   --output bundle.json
 ```
 
-Keep the verified `release.epatch` supplied with the qualified release for the
-download comparison. If you have the signed inputs and need a local copy,
-assemble it with the CLI.
+Use the supplied or prepared TAR at `epatch-inputs/build-inputs.tar`.
+Pack the exact inputs as `release.epatch` and replay it offline. Use new paths
+for the generated outputs, including the preparation and verification
+directories.
 
 ```sh
 eden patch bundle pack runtime.tar --proof proof.json \
   --build-inputs epatch-inputs/build-inputs.tar --bundle-signature bundle.json \
   --proof-public-key proof-public-key.der --output release.epatch
+eden patch bundle replay release.epatch \
+  --proof-public-key proof-public-key.der \
+  --trust replay-kit/trust.json --output verified-local
 ```
 
-## Sign, publish, and read back
+Replay checks the authorized theorem and rebuilds the exact ELF. The proof
+covers the patch's stated behavior within the declared ABI and model. Sphinx
+applies its own Runtime admission checks to the original Runtime TAR.
 
-Set `SOURCE_COMMIT_URL` to the full public GitHub commit URL and `PACKAGE_NAME`
-to the Runtime manifest's name. Put the verified Registry software and
-advisory IDs in `targets.json`. Use the enrolled publisher key UUID and the
-owner-only local key file. Use the same prepared build-input archive as the
-publisher source when it contains the reviewed source for this release.
+## 3. Publish as Eden Development Inc.
+
+Approve the terminal in your browser and select **Eden Development Inc.**
+Confirm the expected organization UUID and namespace. You can reuse this
+browser-approved session for additional qualified releases while it is active.
+Use the enrolled Ed25519 publisher key UUID and an owner-only local key file.
+
+```sh
+eden patch login
+eden patch whoami --public
+```
+
+Set `SOURCE_COMMIT_URL` to the full GitHub commit URL for the exact
+redistributable patch source. Set `PACKAGE_NAME` to the Runtime manifest's
+name. Use a publisher statement for the exact TAR, commit and source
+archive. Create it with the CLI if a matching statement was not supplied.
 
 ```sh
 eden patch sign runtime.tar --source epatch-inputs/build-inputs.tar \
@@ -83,18 +103,33 @@ eden patch publish runtime.tar --package "$PACKAGE_NAME" --public \
   --publisher-source epatch-inputs/build-inputs.tar
 ```
 
-If the release already has a matching publisher statement, use it for the
-publish command. To retry an interrupted upload, rerun the same publish
-command with the original files and arguments.
+For an interrupted upload, retry with the same inputs and arguments. A change
+to a published package or its source needs a new version and matching
+qualification.
 
-Use the returned Registry version UUID for the pull. Compare the exact
-download to the verified local bundle. For organization releases, verify the
-returned attribution and countersignature using the organization's trusted
-public key. Record the exact version, organization attribution and digests in
-the inventory after those checks.
+## 4. Verify the Registry copy and record the release
+
+Set `REGISTRY_VERSION_UUID` to `release.version_id` in the publication response.
+The CLI downloads the exact signed bundle, checks its proof and rebuilds the
+ELF in one operation.
 
 ```sh
 eden patch pull "$REGISTRY_VERSION_UUID" --bundle \
-  --proof-public-key proof-public-key.der --output downloaded.epatch
-cmp release.epatch downloaded.epatch
+  --proof-public-key proof-public-key.der \
+  --verify replay-kit/trust.json --output verified-registry
+cmp release.epatch verified-registry/release.epatch
 ```
+
+Check the publication response's organization attribution and countersignature
+separately from the CLI replay receipt. Resolve the countersignature's
+`key_id` against the independently trusted P-256 organization key. Verify
+the DER ECDSA signature over the SHA-256 of its canonical JSON statement.
+Compare its release identity and digests against the original Runtime TAR
+and the detached publisher statement and source archive. Record the exact
+version, publisher namespace and digests of the Runtime TAR, compiled ELF,
+proof, build inputs, compiled ABI SDK, whole bundle and
+`verified-registry/receipt.json` in the inventory. Set the row to `published`
+after verifying the organization receipt and completing the exact Registry
+readback and replay.
+Use `blocked` for a known missing input and record it in the qualification
+note. `pending` indicates that release qualification is still open.
