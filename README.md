@@ -5,6 +5,8 @@ configuration, API examples and case studies that explain the observed
 behavior and where coverage ends.
 
 - [CVE patch bundles](cve/README.md)
+- [Build and publish signed .epatch releases](docs/sphinx-epatch.md)
+- [Registry migration inventory](docs/epatch-migration.csv)
 - [Case study catalogue](docs/case-studies/README.md)
 - [Additional case-study module sources](docs/case-studies/modules/README.md)
 - [Contribute a patch or improvement](CONTRIBUTING.md)
