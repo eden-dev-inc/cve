@@ -39,7 +39,7 @@ CVE-2024-5229,cve/CVE-2024-5229,62797e6726bdf2deeb73c74a8d9e3abb21c74e27,16bea69
 CVE-2024-5273,cve/CVE-2024-5273,62797e6726bdf2deeb73c74a8d9e3abb21c74e27,b76c53dd9091e928789590c2bd3d5d753aeec75a,pending,,,,,,,,,,,,
 CVE-2025-11201,cve/CVE-2025-11201,62797e6726bdf2deeb73c74a8d9e3abb21c74e27,132555c8ca04d23d5b88544db9f4bed20511a367,pending,,,,,,,,,,,,
 CVE-2025-24016,cve/CVE-2025-24016,62797e6726bdf2deeb73c74a8d9e3abb21c74e27,e806c2bdea0a7e5ac5d57338ef4f94a82da304b2,pending,,,,,,,,,,,,
-CVE-2025-24813,cve/CVE-2025-24813,62797e6726bdf2deeb73c74a8d9e3abb21c74e27,fe131f49e1c1aefc696d6772d08af85fc254526f,blocked,,,,,,,,,,,,Exact Lean export exceeds the 2 MiB build-input archive limit. A compatible release format and independently approved verifier inputs are pending.
+CVE-2025-24813,cve/CVE-2025-24813,62797e6726bdf2deeb73c74a8d9e3abb21c74e27,fe131f49e1c1aefc696d6772d08af85fc254526f,blocked,,,,,,,,,,,,The compressed proof passed replay and rebuilt the qualified ELF. Matching public source and approved verifier-kit delivery are pending.
 CVE-2025-28137,cve/CVE-2025-28137,62797e6726bdf2deeb73c74a8d9e3abb21c74e27,f0c6fa7d0cf8f153896b5fe789447ab1335bd230,pending,,,,,,,,,,,,
 CVE-2025-29927,cve/CVE-2025-29927,62797e6726bdf2deeb73c74a8d9e3abb21c74e27,8715b68c102b562bc065367f429b5815650a183c,pending,,,,,,,,,,,,
 CVE-2025-31161,cve/CVE-2025-31161,62797e6726bdf2deeb73c74a8d9e3abb21c74e27,1e1f4456c6adecb77bd4765a75805b5be5e25c69,pending,,,,,,,,,,,,

@@ -15,7 +15,9 @@ Identify the exact software and advisory records for `targets.json`.
 
 Use a Runtime TAR already qualified for the exact V1 ABI and ELF, its signed
 `proof.json`, and the corresponding Lean solution export. The signed member
-inventory covers `proof/solution-leanexport-v3.1.0.ndjson` and
+inventory covers the raw `proof/solution-leanexport-v3.1.0.ndjson` or the
+compressed pair `proof/solution-leanexport-v3.1.0.ndjson.gz` and
+`proof/solution-leanexport-v3.1.0.gzip.json`. It also covers
 `proof/abi-sdk-v1.sha256` in `build-inputs`. The SDK pin contains exactly 64
 lowercase hexadecimal characters followed by one line feed. Use the digest
 from the independent kit for the release's ABI and theorem profile. Use the
@@ -27,8 +29,8 @@ version and `org/<organization UUID>` namespace. For this public catalogue the
 qualified manifest sets `visibility` to `public` and `tenant_id` to null.
 The CLI's `--public` flag confirms that audience at publication.
 
-Install the CLI on Linux x86-64 GNU. Use a release that supports patch-only
-replay, starting with 2.6.0. Replay needs Python 3.12 or later and a root-owned
+Install Eden CLI 2.7.0 or later on Linux x86-64 GNU for patch-only replay
+with compressed proof exports. Replay needs Python 3.12 or later and a root-owned
 `/usr/bin/bwrap` with unprivileged user and network namespaces and
 `--disable-userns` support. Obtain the approved verifier kit and the P-256
 proof public key in SPKI DER from your release authority. Verify the kit
@@ -89,18 +91,20 @@ eden patch whoami --public
 
 Set `SOURCE_COMMIT_URL` to the full GitHub commit URL for the exact
 redistributable patch source. Set `PACKAGE_NAME` to the Runtime manifest's
-name. Use a publisher statement for the exact TAR, commit and source
-archive. Create it with the CLI if a matching statement was not supplied.
+name. Use the approved public archive as `publisher-source.tar`. Its SHA-256
+and the source commit must match `proof/source-closure.json` in the build
+inputs. Create the detached publisher statement with the CLI if a matching
+statement was not supplied.
 
 ```sh
-eden patch sign runtime.tar --source epatch-inputs/build-inputs.tar \
+eden patch sign runtime.tar --source publisher-source.tar \
   --key-id "$PUBLISHER_KEY_ID" --key "$PUBLISHER_KEY_FILE" \
   --source-commit "$SOURCE_COMMIT_URL" --output publisher-statement.json
 eden patch publish runtime.tar --package "$PACKAGE_NAME" --public \
   --targets targets.json --source-commit "$SOURCE_COMMIT_URL" \
   --proof proof.json --build-inputs epatch-inputs/build-inputs.tar \
   --bundle-signature bundle.json --publisher-statement publisher-statement.json \
-  --publisher-source epatch-inputs/build-inputs.tar
+  --publisher-source publisher-source.tar
 ```
 
 For an interrupted upload, retry with the same inputs and arguments. A change
