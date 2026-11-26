@@ -23,7 +23,7 @@ That rebuild uses Bubblewrap, Linux user namespaces, and a GNU C linker.
 
 ## Prepare a package with the Eden CLI
 
-Install or update the [Eden CLI](https://eden.dev/eden/install.sh). CLI 2.8.0 uses a local SDK checkout for compilation and packages the compiled output. For a native module project, put the schema-2 `epatch.toml` and `README.md` at the project root and the compiled artifact at `patches/patch.bin`. From the project directory, run:
+Install or update the [Eden CLI](https://eden.dev/eden/install.sh). Compile the module with the SDK, then use CLI 2.8.0 to package the compiled output. For a native module project, put the schema-2 `epatch.toml` and `README.md` at the project root and the compiled artifact at `patches/patch.bin`. From the project directory, run:
 
 ```sh
 eden patch build . --output runtime.tar
